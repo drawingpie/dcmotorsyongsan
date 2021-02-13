@@ -274,6 +274,7 @@ body {
   top: 0px;
   position: relative;
   opacity:1;
+  overflow: visible;
 }
 
 .gallery-top .swiper-slide {
