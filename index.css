@@ -9,7 +9,12 @@ body {
   height: 4900px;
   overflow: hidden auto;
 }
-
+@font-face {
+  font-family: 'Noto Sans CJK KR';
+  src: url(https://fonts.googleapis.com/earlyaccess/notosanskr.css);
+  font-weight: normal;
+  font-style: normal;
+}
 .youtubevideowrapperdiv16-9blind {
   position: absolute;
   width: 1920px;
