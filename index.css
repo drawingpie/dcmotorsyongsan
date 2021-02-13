@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap');
 
 html {
   scroll-behavior: smooth;
@@ -175,7 +175,7 @@ body {
   text-align: center;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 39px;
   color: rgba(242, 242, 242, 1);
   opacity:1;
@@ -193,7 +193,7 @@ body {
   text-align: center;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 500;
   font-size: 25px;
   color: rgba(242, 242, 242, 1);
 }
@@ -227,7 +227,7 @@ body {
   text-align: center;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 900;
   font-size: 123px;
   color: rgba(242, 242, 242, 0.7);
 }
@@ -244,7 +244,7 @@ body {
   text-align: center;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 900;
   font-size: 123px;
   color: rgba(242, 242, 242, 0.7);
 }
@@ -321,7 +321,7 @@ body {
   line-height: 46px;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
-  font-weight: 1000;
+  font-weight: 900;
   font-size: 40px;
   color: rgba(13, 13, 13, 1);
   z-index: -9;
@@ -336,7 +336,7 @@ body {
   text-align: left;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 23px;
   color: rgba(13, 13, 13, 1);
   z-index: -9;
@@ -385,7 +385,7 @@ body {
   text-align: center;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 500;
   font-size: 18px;
   color: #0D0D0D;
 }
@@ -419,7 +419,7 @@ body {
   text-align: center;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 500;
   font-size: 21px;
   background-color: transparent;
 }
@@ -455,7 +455,7 @@ body {
   text-align: center;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 500;
   font-size: 18px;
   color: #0D0D0D;
 }
@@ -555,7 +555,7 @@ body {
 label {
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 24px;
   display: block;
 }
@@ -588,7 +588,7 @@ input[type=submit] {
   text-align: center;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 500;
   font-size: 21px;
   outline: none;
   left: 569px;
@@ -676,7 +676,7 @@ input[type=submit]:hover {
   text-align: left;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 30px;
   color: rgba(13, 13, 13, 1);
 }
@@ -709,7 +709,7 @@ input[type=submit]:hover {
   text-align: left;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 500;
   font-size: 24px;
   color: rgba(13, 13, 13, 1);
 }
@@ -724,7 +724,7 @@ input[type=submit]:hover {
   text-align: left;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 500;
   font-size: 24px;
   color: rgba(13, 13, 13, 1);
 }
@@ -739,7 +739,7 @@ input[type=submit]:hover {
   text-align: left;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 500;
   font-size: 24px;
   color: rgba(13, 13, 13, 1);
 }
@@ -754,7 +754,7 @@ input[type=submit]:hover {
   text-align: left;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 500;
   font-size: 24px;
   color: rgba(13, 13, 13, 1);
 }
@@ -769,7 +769,7 @@ input[type=submit]:hover {
   text-align: left;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 500;
   font-size: 24px;
   color: rgba(13, 13, 13, 1);
 }
@@ -784,7 +784,7 @@ input[type=submit]:hover {
   text-align: left;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 500;
   font-size: 24px;
   color: rgba(13, 13, 13, 1);
 }
@@ -799,7 +799,7 @@ input[type=submit]:hover {
   text-align: left;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 500;
   font-size: 24px;
   color: rgba(13, 13, 13, 1);
 }
@@ -814,7 +814,7 @@ input[type=submit]:hover {
   text-align: left;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 500;
   font-size: 24px;
   color: rgba(13, 13, 13, 1);
 }
@@ -929,7 +929,7 @@ input[type=submit]:hover {
   text-align: left;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 500;
   font-size: 16px;
   color: rgba(242, 242, 242, 1);
 }
@@ -945,7 +945,7 @@ input[type=submit]:hover {
   text-align: left;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 500;
   font-size: 16px;
   color: rgba(242, 242, 242, 1);
 }
@@ -961,7 +961,7 @@ input[type=submit]:hover {
   text-align: left;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 500;
   font-size: 16px;
   color: rgba(242, 242, 242, 1);
 }
