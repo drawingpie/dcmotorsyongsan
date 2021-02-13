@@ -196,6 +196,7 @@ body {
   font-weight: 500;
   font-size: 25px;
   color: rgba(242, 242, 242, 1);
+  opacity:1;
 }
 
 #speed {
@@ -206,7 +207,6 @@ body {
   position: absolute;
   overflow: visible;
   width: 391px;
-  white-space: nowrap;
   text-align: center;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
@@ -223,7 +223,6 @@ body {
   position: absolute;
   overflow: visible;
   width: 405px;
-  white-space: nowrap;
   text-align: center;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
@@ -240,7 +239,6 @@ body {
   position: absolute;
   overflow: visible;
   width: 536px;
-  white-space: nowrap;
   text-align: center;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
@@ -300,6 +298,7 @@ body {
   position: absolute;
   overflow: visible;
   z-index: -9;
+  opacity:1;
 }
 
 .gallery-top {
@@ -325,6 +324,7 @@ body {
   font-size: 40px;
   color: rgba(13, 13, 13, 1);
   z-index: -9;
+  opacity:1;
 }
 
 .txt-car-info {
@@ -340,6 +340,7 @@ body {
   font-size: 23px;
   color: rgba(13, 13, 13, 1);
   z-index: -9;
+  opacity:1;
 }
 
 .mask {
@@ -422,6 +423,7 @@ body {
   font-weight: 500;
   font-size: 21px;
   background-color: transparent;
+  opacity:1;
 }
 
 .gallery-thumbs {
@@ -444,6 +446,7 @@ body {
   position: relative;
   display: flex;
   padding-right: 150px;
+  opacity:1;
 }
 
 .gallery-thumbs span {
