@@ -145,7 +145,7 @@ body {
   left: -1%;
   top: 961px;
   overflow: visible;
-  background: url('aboutbg.png')
+  background: url('aboutbg.png');
 }
 
 #aboutus {
@@ -176,7 +176,6 @@ body {
   font-weight: 700;
   font-size: 39px;
   color: rgba(242, 242, 242, 1);
-  opacity:1;
 }
 
 #welcomebody {
@@ -194,7 +193,6 @@ body {
   font-weight: 500;
   font-size: 25px;
   color: rgba(242, 242, 242, 1);
-  opacity:1;
 }
 
 #speed {
