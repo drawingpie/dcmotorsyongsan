@@ -426,7 +426,7 @@ body {
   top: 755px;
   height: 183px;
   background-color: #D9D9D9;
-  z-index: 99;
+  z-index: 9;
 }
 
 .gallery-thumbs .swiper-slide {
@@ -440,6 +440,7 @@ body {
   position: relative;
   display: flex;
   padding-right: 150px;
+  z-index: 99;
 }
 
 .gallery-thumbs span {
