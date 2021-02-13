@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500;700;900&display=swap');
+
 html {
   scroll-behavior: smooth;
 }
@@ -9,10 +12,7 @@ body {
   height: 4900px;
   overflow: hidden auto;
 }
-@font-face {
-  font-family: 'Noto Sans CJK KR';
-  src: url('https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap');
-}
+
 .youtubevideowrapperdiv16-9blind {
   position: absolute;
   width: 1920px;
@@ -87,7 +87,7 @@ body {
   position: relative;
   overflow: visible;
   left: 715px;
-  font-family: 'Noto Sans CJK KR';
+
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
@@ -121,9 +121,9 @@ body {
   position: absolute;
   overflow: visible;
   text-align: left;
-  font-family: 'Noto Sans CJK KR';
+  font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 500;
   font-size: 13px;
   color: #fff;
   letter-spacing: 1px;
@@ -156,7 +156,7 @@ body {
   width: 159px;
   white-space: nowrap;
   text-align: center;
-  font-family: 'Noto Sans CJK KR';
+  font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 25px;
@@ -173,11 +173,12 @@ body {
   line-height: 59px;
   margin-top: -10px;
   text-align: center;
-  font-family: 'Noto Sans CJK KR';
+  font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 500;
   font-size: 39px;
   color: rgba(242, 242, 242, 1);
+  opacity:1;
 }
 
 #welcomebody {
@@ -190,7 +191,7 @@ body {
   line-height: 45px;
   margin-top: -10px;
   text-align: center;
-  font-family: 'Noto Sans CJK KR';
+  font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 25px;
@@ -207,9 +208,9 @@ body {
   width: 391px;
   white-space: nowrap;
   text-align: center;
-  font-family: 'Noto Sans CJK KR';
+  font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 900;
   font-size: 123px;
   color: rgba(242, 242, 242, 0.7);
 }
@@ -224,7 +225,7 @@ body {
   width: 405px;
   white-space: nowrap;
   text-align: center;
-  font-family: 'Noto Sans CJK KR';
+  font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 123px;
@@ -241,7 +242,7 @@ body {
   width: 536px;
   white-space: nowrap;
   text-align: center;
-  font-family: 'Noto Sans CJK KR';
+  font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 123px;
@@ -264,7 +265,7 @@ body {
   position: relative;
   overflow: visible;
   text-align: center;
-  font-family: 'Noto Sans CJK KR';
+  font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 25px;
@@ -318,7 +319,7 @@ body {
   width: 379px;
   height: 348px;
   line-height: 46px;
-  font-family: 'Noto Sans CJK KR';
+  font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 1000;
   font-size: 40px;
@@ -333,7 +334,7 @@ body {
   position: relative;
   overflow: visible;
   text-align: left;
-  font-family: 'Noto Sans CJK KR';
+  font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 23px;
@@ -382,7 +383,7 @@ body {
   padding-top: 50px;
   white-space: nowrap;
   text-align: center;
-  font-family: 'Noto Sans CJK KR';
+  font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -416,7 +417,7 @@ body {
   overflow: visible;
   cursor: pointer;
   text-align: center;
-  font-family: 'Noto Sans CJK KR';
+  font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 21px;
@@ -452,7 +453,7 @@ body {
   overflow: visible;
   white-space: nowrap;
   text-align: center;
-  font-family: 'Noto Sans CJK KR';
+  font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -504,7 +505,7 @@ body {
   overflow: visible;
   white-space: nowrap;
   text-align: center;
-  font-family: 'Noto Sans CJK KR';
+  font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 25px;
@@ -552,7 +553,7 @@ body {
 }
 
 label {
-  font-family: 'Noto Sans CJK KR';
+  font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -585,7 +586,7 @@ input[type=submit] {
   height: 56px;
   overflow: visible;
   text-align: center;
-  font-family: 'Noto Sans CJK KR';
+  font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 21px;
@@ -638,7 +639,7 @@ input[type=submit]:hover {
   width: 159px;
   white-space: nowrap;
   text-align: center;
-  font-family: 'Noto Sans CJK KR';
+  font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 25px;
@@ -673,7 +674,7 @@ input[type=submit]:hover {
   width: 370px;
   white-space: nowrap;
   text-align: left;
-  font-family: 'Noto Sans CJK KR';
+  font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 30px;
@@ -706,7 +707,7 @@ input[type=submit]:hover {
   width: 96px;
   white-space: nowrap;
   text-align: left;
-  font-family: 'Noto Sans CJK KR';
+  font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
@@ -721,7 +722,7 @@ input[type=submit]:hover {
   width: 96px;
   white-space: nowrap;
   text-align: left;
-  font-family: 'Noto Sans CJK KR';
+  font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
@@ -736,7 +737,7 @@ input[type=submit]:hover {
   width: 96px;
   white-space: nowrap;
   text-align: left;
-  font-family: 'Noto Sans CJK KR';
+  font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
@@ -751,7 +752,7 @@ input[type=submit]:hover {
   width: 96px;
   white-space: nowrap;
   text-align: left;
-  font-family: 'Noto Sans CJK KR';
+  font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
@@ -766,7 +767,7 @@ input[type=submit]:hover {
   width: 507px;
   white-space: nowrap;
   text-align: left;
-  font-family: 'Noto Sans CJK KR';
+  font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
@@ -781,7 +782,7 @@ input[type=submit]:hover {
   width: 507px;
   white-space: nowrap;
   text-align: left;
-  font-family: 'Noto Sans CJK KR';
+  font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
@@ -796,7 +797,7 @@ input[type=submit]:hover {
   width: 507px;
   white-space: nowrap;
   text-align: left;
-  font-family: 'Noto Sans CJK KR';
+  font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
@@ -811,7 +812,7 @@ input[type=submit]:hover {
   width: 507px;
   white-space: nowrap;
   text-align: left;
-  font-family: 'Noto Sans CJK KR';
+  font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
@@ -926,7 +927,7 @@ input[type=submit]:hover {
   width: 589px;
   white-space: nowrap;
   text-align: left;
-  font-family: 'Noto Sans CJK KR';
+  font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -942,7 +943,7 @@ input[type=submit]:hover {
   width: 614px;
   white-space: nowrap;
   text-align: left;
-  font-family: 'Noto Sans CJK KR';
+  font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -958,7 +959,7 @@ input[type=submit]:hover {
   width: 541px;
   white-space: nowrap;
   text-align: left;
-  font-family: 'Noto Sans CJK KR';
+  font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
