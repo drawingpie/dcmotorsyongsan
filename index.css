@@ -307,6 +307,35 @@ body {
   top: 0px;
 }
 
+.swiper-button-prev {
+  position: absolute;
+  width: auto;
+  height: auto;
+  left: 140px;
+  top: 457px;
+  overflow: visible;
+  background-repeat: no-repeat;
+  outline: none;
+  color: #000;
+}
+.swiper-button-prev:hover {
+  color: #99C8F2;
+}
+.swiper-button-next {
+  position: absolute;
+  width: auto;
+  height: auto;
+  left: 1700px;
+  top: 457px;
+  overflow: visible;
+  outline: none;
+  background-repeat: no-repeat;
+  color: #000;
+}
+.swiper-button-next:hover {
+  color: #99C8F2;
+}
+
 .type01 {
   left: 307px;
   top: 224px;
@@ -457,34 +486,6 @@ body {
   color: #0D0D0D;
 }
 
-.swiper-button-prev {
-  position: absolute;
-  width: auto;
-  height: auto;
-  left: 140px;
-  top: 457px;
-  overflow: visible;
-  background-repeat: no-repeat;
-  outline: none;
-  color: #000;
-}
-.swiper-button-prev:hover {
-  color: #99C8F2;
-}
-.swiper-button-next {
-  position: absolute;
-  width: auto;
-  height: auto;
-  left: 1700px;
-  top: 457px;
-  overflow: visible;
-  outline: none;
-  background-repeat: no-repeat;
-  color: #000;
-}
-.swiper-button-next:hover {
-  color: #99C8F2;
-}
 #service {
   overflow: visible;
   position: absolute;
