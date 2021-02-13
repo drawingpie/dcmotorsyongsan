@@ -1,0 +1,981 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  position: relative;
+  max-width: 1920px;
+  height: 4900px;
+  overflow: hidden auto;
+}
+
+.youtubevideowrapperdiv16-9blind {
+  position: absolute;
+  width: 1920px;
+  height: 1080px;
+  top: -120px;
+  left: 0%;
+  overflow: visible;
+}
+
+.youtubevideowrapperdiv iframe {
+  position: absolute;
+  top: 0px;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0%;
+  width: 100%;
+  /*스크롤 전 헤더 배경색*/
+  z-index: 999;
+  height: 80px;
+  /*메뉴영역 세로사이즈*/
+  overflow: hidden;
+  line-height: 80px;
+  -webkit-transition: height 0.3s;
+  -moz-transition: height 0.3s;
+  transition: height 0.3s;
+  filter: drop-shadow(0px 9px 30px rgba(0, 0, 0, 0.141));
+
+}
+
+.header.scroll {
+  height: 80px;
+  /*스크롤 후 헤더 사이즈(세로)*/
+  line-height: 80px;
+  /*스크롤 후 헤더 배경색*/
+  z-index: 9999;
+}
+
+.header .navi {
+  width: 1920px;
+  /*메뉴영역 가로사이즈*/
+  margin: 0 auto;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.header.scroll .navi {
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.navi ul {
+  margin: 0 auto;
+  padding-right: 715px;
+  list-style: none;
+}
+
+.navi ul li {
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navi ul li a {
+  position: relative;
+  overflow: visible;
+  left: 715px;
+  font-family: Noto Sans CJK KR;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  height: 80px;
+  display: block;
+  padding-right: 106px;
+  text-decoration: none;
+  color: #fff;
+}
+
+/*스크롤 전*/
+.header .scroll .navi ul li a {
+  height: 80px;
+  overflow: visible;
+  z-index: 9999;
+}
+
+/* 스크롤 후*/
+.dclogo {
+  position: absolute;
+  width: 99.249px;
+  height: 31.956px;
+  left: 346px;
+  top: 25px;
+  overflow: visible;
+}
+
+#yongsan {
+  left: 450px;
+  top: 10px;
+  position: absolute;
+  overflow: visible;
+  text-align: left;
+  font-family: Noto Sans CJK KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.danigologo {
+  position: absolute;
+  width: 96.677px;
+  height: 52.344px;
+  left: 1690.223px;
+  top: 17.192px;
+  overflow: visible;
+}
+
+#chainabout {
+  position: absolute;
+  width: 1921px;
+  height: 938px;
+  left: -1%;
+  top: 961px;
+  overflow: visible;
+  background: url('aboutbg.png')
+}
+
+#aboutus {
+  left: 881px;
+  top: 150px;
+  position: absolute;
+  overflow: visible;
+  width: 159px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Noto Sans CJK KR;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  color: rgba(242, 242, 242, 1);
+}
+
+#welcome {
+  left: 671px;
+  top: 250px;
+  position: absolute;
+  overflow: visible;
+  width: 580px;
+  height: 116px;
+  line-height: 59px;
+  margin-top: -10px;
+  text-align: center;
+  font-family: Noto Sans CJK KR;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 39px;
+  color: rgba(242, 242, 242, 1);
+}
+
+#welcomebody {
+  left: 607px;
+  top: 429px;
+  position: absolute;
+  overflow: visible;
+  width: 734px;
+  height: 183px;
+  line-height: 45px;
+  margin-top: -10px;
+  text-align: center;
+  font-family: Noto Sans CJK KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  color: rgba(242, 242, 242, 1);
+}
+
+#Speed {
+  opacity: 0.5;
+  mix-blend-mode: screen;
+  left: 140px;
+  top: 703px;
+  position: absolute;
+  overflow: visible;
+  width: 391px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Noto Sans CJK KR;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 123px;
+  color: rgba(242, 242, 242, 0.7);
+}
+
+#Smart {
+  opacity: 0.5;
+  mix-blend-mode: screen;
+  left: 686px;
+  top: 703px;
+  position: absolute;
+  overflow: visible;
+  width: 405px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Noto Sans CJK KR;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 123px;
+  color: rgba(242, 242, 242, 0.7);
+}
+
+#Synergy {
+  opacity: 0.5;
+  mix-blend-mode: screen;
+  left: 1245px;
+  top: 703px;
+  position: absolute;
+  overflow: visible;
+  width: 536px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Noto Sans CJK KR;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 123px;
+  color: rgba(242, 242, 242, 0.7);
+}
+
+#product {
+  width: 1920px;
+  height: 938px;
+  left: 0px;
+  top: 1897px;
+  position: absolute;
+  overflow: visible;
+}
+
+#products {
+  width: 160px;
+  left: 849px;
+  top: 109px;
+  position: relative;
+  overflow: visible;
+  text-align: center;
+  font-family: Noto Sans CJK KR;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  color: #0D0D0D;
+  z-index: 9;
+}
+
+.swiper-container {
+  width: 1920px;
+  height: 938px;
+  left: 0px;
+  top: 0px;
+  position: relative;
+}
+
+.gallery-top .swiper-slide {
+  background-image: url("productbg.png");
+  background-repeat: no-repeat;
+  width: 1920px;
+  height: 936px;
+  left: 0px;
+  top: 0px;
+  position: relative;
+  overflow: visible;
+}
+
+.gallery-top .bigimg {
+  max-width: 755px;
+  max-height: 500px;
+  left: 747px;
+  top: 200px;
+  position: absolute;
+  overflow: visible;
+  z-index: -9;
+}
+
+.gallery-top {
+  height: 675px;
+  width: 100%;
+  position: absolute;
+  overflow: visible;
+  left: 0px;
+  top: 0px;
+}
+
+.type01 {
+  left: 307px;
+  top: 224px;
+  position: absolute;
+  overflow: visible;
+  width: 379px;
+  height: 348px;
+  line-height: 46px;
+  font-family: Noto Sans CJK KR;
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 40px;
+  color: rgba(13, 13, 13, 1);
+  z-index: -9;
+}
+
+.txt-car-info {
+  left: 307px;
+  top: 357px;
+  width: 320px;
+  position: relative;
+  overflow: visible;
+  text-align: left;
+  font-family: Noto Sans CJK KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  color: rgba(13, 13, 13, 1);
+  z-index: -9;
+}
+
+.mask {
+  z-index: 999;
+  display: none;
+  padding-top: 100px;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0%;
+  top: 0%;
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.modlacontent01, .modlacontent02, .modlacontent03 {
+  margin: auto;
+  background-color: #fff;
+  position: absolute;
+  width: 1005px;
+  height: 699px;
+  display: none;
+  z-index: 999;
+  left: 458px;
+  top: 92px;
+  overflow: auto;
+}
+
+.spec011, .spec021, .spec031 {
+  width: 50%;
+  background: contain;
+  display: block;
+  margin: auto;
+}
+
+.modlacontent01 span, .modlacontent02 span, .modlacontent03 span {
+  text-align: center;
+  display: block;
+  margin: auto;
+  padding-top: 50px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Noto Sans CJK KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: #0D0D0D;
+}
+
+/*닫기버튼
+.close {
+  position: fixed;
+  color: #aaaaaa;
+  left: 75%;
+  top: 10%;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+*/
+.open01, .open02, .open03 {
+  border: 2px solid #000;
+  position: absolute;
+  width: 252px;
+  height: 56px;
+  left: 0px;
+  top: 170px;
+  overflow: visible;
+  cursor: pointer;
+  text-align: center;
+  font-family: Noto Sans CJK KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  background-color: transparent;
+}
+
+.gallery-thumbs {
+  position: absolute;
+  left: 0px;
+  top: 755px;
+  height: 183px;
+  background-color: #D9D9D9;
+  z-index: 99;
+}
+
+.gallery-thumbs .swiper-slide {
+  left: 579px;
+  top: 18px;
+  width: auto;
+  height: auto;
+  max-width: 110px;
+  max-height: 110px;
+  background-size: contain;
+  position: relative;
+  display: flex;
+  padding-right: 150px;
+}
+
+.gallery-thumbs span {
+  left: -157px;
+  top: 113px;
+  position: relative;
+  overflow: visible;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Noto Sans CJK KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: #0D0D0D;
+}
+
+.swiper-button-prev {
+  position: absolute;
+  width: auto;
+  height: auto;
+  left: 140px;
+  top: 457px;
+  overflow: visible;
+  background-repeat: no-repeat;
+  outline: none;
+  color: #000;
+}
+.swiper-button-prev:hover {
+  color: #99C8F2;
+}
+.swiper-button-next {
+  position: absolute;
+  width: auto;
+  height: auto;
+  left: 1700px;
+  top: 457px;
+  overflow: visible;
+  outline: none;
+  background-repeat: no-repeat;
+  color: #000;
+}
+.swiper-button-next:hover {
+  color: #99C8F2;
+}
+#service {
+  overflow: visible;
+  position: absolute;
+  width: 1920px;
+  height: 938px;
+  left: 0px;
+  top: 2812px;
+  background-color: #F2F2F2;
+}
+
+#service span {
+  left: 881px;
+  top: 104px;
+  position: absolute;
+  overflow: visible;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Noto Sans CJK KR;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  color: rgba(0, 0, 0, 1);
+}
+
+#line01 {
+  fill: transparent;
+  stroke: rgba(217, 217, 217, 1);
+  stroke-width: 1px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+
+.line01 {
+  overflow: visible;
+  position: absolute;
+  width: 1404px;
+  height: 1px;
+  left: 265.5px;
+  top: 330px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#line02 {
+  fill: transparent;
+  stroke: rgba(217, 217, 217, 1);
+  stroke-width: 1px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+
+.line02 {
+  overflow: visible;
+  position: absolute;
+  width: 1404px;
+  height: 1px;
+  left: 265.5px;
+  top: 512px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+label {
+  font-family: Noto Sans CJK KR;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  display: block;
+}
+
+input[type=text], textarea {
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 0px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  filter: drop-shadow(0px 1px 20px rgba(0, 0, 0, 0.071));
+  outline: none;
+  margin-right: 60px;
+  margin-bottom: 80px;
+}
+
+input[type=submit] {
+  background-color: #99C8F2;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 0px;
+  cursor: pointer;
+  width: 252px;
+  height: 56px;
+  overflow: visible;
+  text-align: center;
+  font-family: Noto Sans CJK KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  outline: none;
+  left: 569px;
+  top: 650px;
+  position: absolute;
+}
+
+input[type=submit]:hover {
+  background-color: #67A9E5;
+}
+
+.container {
+  left: 264.5px;
+  top: 182px;
+  position: absolute;
+  overflow: visible;
+}
+
+.line {
+  display: flex;
+  float: right;
+}
+
+#contact {
+  position: absolute;
+  overflow: visible;
+  width: 1920px;
+  height: 938px;
+  left: 0px;
+  top: 3743px;
+}
+
+#contactbg {
+  position: absolute;
+  overflow: visible;
+  width: 1920px;
+  height: 858px;
+  left: 0px;
+  top: 0px;
+  background-color: #fff;
+}
+
+#contacthead span {
+  left: 881px;
+  top: 117px;
+  position: absolute;
+  overflow: visible;
+  width: 159px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Noto Sans CJK KR;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  color: rgba(13, 13, 13, 1);
+}
+
+#line03 {
+  fill: transparent;
+  stroke: rgba(13, 13, 13, 1);
+  stroke-width: 2px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+
+.line03 {
+  overflow: visible;
+  position: absolute;
+  width: 1404px;
+  height: 2px;
+  left: 258.5px;
+  top: 285px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#chain {
+  left: 258px;
+  top: 217px;
+  position: absolute;
+  overflow: visible;
+  width: 370px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Noto Sans CJK KR;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  color: rgba(13, 13, 13, 1);
+}
+
+#map {
+  position: absolute;
+  width: 702px;
+  height: 532px;
+  left: 258px;
+  top: 321px;
+  overflow: visible;
+}
+
+#naver_map {
+  position: absolute;
+  width: 702px;
+  height: 532px;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+
+#add {
+  left: 1025px;
+  top: 388px;
+  position: absolute;
+  overflow: visible;
+  width: 96px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Noto Sans CJK KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  color: rgba(13, 13, 13, 1);
+}
+
+#tel {
+  left: 1025px;
+  top: 510px;
+  position: absolute;
+  overflow: visible;
+  width: 96px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Noto Sans CJK KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  color: rgba(13, 13, 13, 1);
+}
+
+#fax {
+  left: 1025px;
+  top: 627px;
+  position: absolute;
+  overflow: visible;
+  width: 96px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Noto Sans CJK KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  color: rgba(13, 13, 13, 1);
+}
+
+#hour {
+  left: 1025px;
+  top: 746px;
+  position: absolute;
+  overflow: visible;
+  width: 96px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Noto Sans CJK KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  color: rgba(13, 13, 13, 1);
+}
+
+#addbody {
+  left: 1156px;
+  top: 388px;
+  position: absolute;
+  overflow: visible;
+  width: 507px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Noto Sans CJK KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  color: rgba(13, 13, 13, 1);
+}
+
+#telnumber {
+  left: 1156px;
+  top: 510px;
+  position: absolute;
+  overflow: visible;
+  width: 507px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Noto Sans CJK KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  color: rgba(13, 13, 13, 1);
+}
+
+#faxnumber {
+  left: 1156px;
+  top: 627px;
+  position: absolute;
+  overflow: visible;
+  width: 507px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Noto Sans CJK KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  color: rgba(13, 13, 13, 1);
+}
+
+#hourbody {
+  left: 1156px;
+  top: 746px;
+  position: absolute;
+  overflow: visible;
+  width: 507px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Noto Sans CJK KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  color: rgba(13, 13, 13, 1);
+}
+
+#line04 {
+  fill: transparent;
+  stroke: rgba(217, 217, 217, 1);
+  stroke-width: 1px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+
+.line04 {
+  overflow: visible;
+  position: absolute;
+  width: 637px;
+  height: 1px;
+  left: 1025.5px;
+  top: 475px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#line05 {
+  fill: transparent;
+  stroke: rgba(217, 217, 217, 1);
+  stroke-width: 1px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+
+.line05 {
+  overflow: visible;
+  position: absolute;
+  width: 637px;
+  height: 1px;
+  left: 1025.5px;
+  top: 587px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#line06 {
+  fill: transparent;
+  stroke: rgba(217, 217, 217, 1);
+  stroke-width: 1px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+
+.line06 {
+  overflow: visible;
+  position: absolute;
+  width: 637px;
+  height: 1px;
+  left: 1025.5px;
+  top: 706px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#line07 {
+  fill: transparent;
+  stroke: rgba(217, 217, 217, 1);
+  stroke-width: 1px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+
+.line07 {
+  overflow: visible;
+  position: absolute;
+  width: 637px;
+  height: 1px;
+  left: 1025.5px;
+  top: 853px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#footer {
+  position: absolute;
+  overflow: visible;
+  width: 1920px;
+  height: 215px;
+  left: 0px;
+  top: 4685px;
+}
+
+#footerbg {
+  position: absolute;
+  overflow: visible;
+  width: 1920px;
+  height: 215px;
+  left: 0px;
+  top: 0px;
+  background: #0D0D0D;
+}
+
+#footercontents01 {
+  opacity: 0.32;
+  left: 556px;
+  top: 59px;
+  position: absolute;
+  overflow: visible;
+  width: 589px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Noto Sans CJK KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: rgba(242, 242, 242, 1);
+}
+
+#footercontents02 {
+  opacity: 0.32;
+  left: 556px;
+  top: 90px;
+  position: absolute;
+  overflow: visible;
+  width: 614px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Noto Sans CJK KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: rgba(242, 242, 242, 1);
+}
+
+#Copyright {
+  opacity: 0.32;
+  left: 556px;
+  top: 141px;
+  position: absolute;
+  overflow: visible;
+  width: 541px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Noto Sans CJK KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: rgba(242, 242, 242, 1);
+}
+
+#topbtn {
+  position: absolute;
+  width: 82px;
+  height: 81px;
+  left: 1694px;
+  top: 60px;
+  overflow: visible;
+}
+
+#footerlogo {
+  position: absolute;
+  width: 205.019px;
+  height: 50.754px;
+  left: 302px;
+  top: 52px;
+  overflow: visible;
+}
