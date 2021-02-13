@@ -361,7 +361,7 @@ body {
   display: none;
   z-index: 999;
   left: 458px;
-  top: 92px;
+  padding-top: 92px;
   overflow: auto;
 }
 
