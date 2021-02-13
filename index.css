@@ -194,7 +194,7 @@ body {
   color: rgba(242, 242, 242, 1);
 }
 
-#Speed {
+#speed {
   opacity: 0.5;
   mix-blend-mode: screen;
   left: 140px;
@@ -211,7 +211,7 @@ body {
   color: rgba(242, 242, 242, 0.7);
 }
 
-#Smart {
+#smart {
   opacity: 0.5;
   mix-blend-mode: screen;
   left: 686px;
@@ -228,7 +228,7 @@ body {
   color: rgba(242, 242, 242, 0.7);
 }
 
-#Synergy {
+#synergy {
   opacity: 0.5;
   mix-blend-mode: screen;
   left: 1245px;
