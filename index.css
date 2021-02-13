@@ -177,7 +177,6 @@ body {
   font-size: 39px;
   color: rgba(242, 242, 242, 1);
   opacity:1;
-  transform: scale(1);
 }
 
 #welcomebody {
@@ -196,7 +195,6 @@ body {
   font-size: 25px;
   color: rgba(242, 242, 242, 1);
   opacity:1;
-  transform: scale(1);
 }
 
 #speed {
