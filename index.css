@@ -271,7 +271,7 @@ body {
   width: 1920px;
   height: 938px;
   left: 0px;
-  top: 0px!important;
+  top: 0px;
   position: relative;
   overflow: visible;
   z-index: -99;
@@ -283,7 +283,7 @@ body {
   width: 1920px;
   height: 936px;
   left: 0px;
-  top: 0px!important;
+  top: 0px;
   position: relative;
   overflow: visible;
 }
@@ -301,10 +301,10 @@ body {
 .gallery-top {
   height: 675px;
   width: 100%;
-  position: absolute;
+  position: absolute!important;
   overflow: visible;
   left: 0px;
-  top: 0px!important;
+  top: 0px;
 }
 
 .swiper-button-prev {
