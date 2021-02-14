@@ -1,43 +1,74 @@
 
-
-   <!DOCTYPE html>
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>메일테스트</title>
-<style type="text/css">
-body {margin:0;padding:0;text-align:center;color:#333;font-size:12px;line-height:40px;}
-
-</style>
-</head>
-
-<body>
-<h2>메일이가는지 테스트합니다</h2>
+<meta charset="utf-8">
 <?php
-   $name_01=$_POST['name'];
-   $phone_02=$_POST['phone'];
-   $email_03=$_POST['email'];
-   $title_04=$_POST['title'];
-   $subject_05=$_POST['subject'];
-
-   $to='lje2003@naver.com';
-   $subject='메일보내기실험중입니다';
-   $msg="보낸사람:$name_01\n".
-        "연락처:$phone_02\n".
-        "이메일:$email_03\n".
-        "제목:$title_04\n".
-        "내용:$title_05\n".
-  $mail_ready=file_exists("/var/run/sendmail.pid");
+if(isset($_POST['email'])) {
 
 
-   echo '이름:'.$name_01.'<br />';
-   echo '이메일:'.$mail_02.'<br />';
-   echo '연락처:'.$msg_03.'<br />';
-   echo '제목:'.$msg_03.'<br />';
-   echo '내용:'.$msg_03.'<br />';
+ $email_to = "제 메일주소 입력";
+ $email_subject = "[폼메일] 문의사항입니다.";
+ $email_subject = '=?UTF-8?B?'.base64_encode($email_subject).'?=';
 
-   echo '메일이 성공적으로 전송되었습니다<br />';
 
+ function died($error) {
+     // your error code can go here
+     echo "<script> alert('$error');"; << 수정
+     echo "history.go(-1);";
+     echo "</script>";
+     die();
+ }
+
+    // validation expected data exists
+    if(!isset($_POST['first_name']) ||
+        !isset($_POST['email']) ||
+        !isset($_POST['telephone']) ||
+        !isset($_POST['comments'])) {
+        died('We are sorry, but there appears to be a problem with the form you submitted.');
+    }
+
+    $first_name = $_POST['first_name']; // required
+    $email_from = $_POST['email']; // required
+    $telephone = $_POST['telephone']; // not required
+    $comments = $_POST['comments']; // required
+
+    $error_message = "";
+    $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+.[A-Za-z]{2,4}$/';
+  if(!preg_match($email_exp,$email_from)) {
+    $error_message .= 'The Email Address you entered does not appear to be valid.<br />';
+  }
+
+  if(strlen($comments) < 2) {
+    $error_message .= 'The Comments you entered do not appear to be valid.<br />';
+  }
+  if(strlen($error_message) > 0) {
+    died($error_message);
+  }
+    $email_message = "";
+
+    function clean_string($string) {
+      $bad = array("content-type","bcc:","to:","cc:","href");
+      return str_replace($bad,"",$string);
+    }
+
+    $email_message .= "이름 : ".clean_string($first_name)."\n\n";
+    $email_message .= "연락처 : ".clean_string($telephone)."\n\n";
+    $email_message .= "이메일 : ".clean_string($email_from)."\n\n";
+    $email_message .= "문의사항 : ".clean_string($comments)."\n\n";
+
+
+// create email headers
+$headers = 'From: '.$email_from;
+// 제목이 깨질경우 아래 캐릭터셋 적용
+
+@mail($email_to, $email_subject, $email_message, $headers);
 ?>
-</body>
-</html>
+
+<!-- include your own success html here -->
+
+<script>
+alert ("메일이 발송되었습니다.\n빠른 시일안에 답변드리겠습니다.");
+location.href='../';
+</script>
+
+<?php
+}
+?>
