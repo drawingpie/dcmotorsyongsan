@@ -311,8 +311,8 @@ body {
   position: absolute!important;
   width: auto;
   height: auto;
-  left: 140px;
-  top: 457px;
+  left: 140px!important;
+  top: 457px!important;
   overflow: visible;
   background-repeat: no-repeat;
   outline: none;
@@ -324,8 +324,8 @@ body {
   position: absolute!important;
   width: auto;
   height: auto;
-  left: 1700px;
-  top: 457px;
+  left: 1700px!important;
+  top: 457px!important;
   overflow: visible;
   outline: none;
   background-repeat: no-repeat;
