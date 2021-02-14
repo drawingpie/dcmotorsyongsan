@@ -334,7 +334,7 @@ body {
 }
 .swiper-button-prev:hover,
 .swiper-button-next:hover {
-  color: #99C8F2;
+  color: #99C8F2!important;
 }
 .type01 {
   left: 307px;
