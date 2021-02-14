@@ -365,6 +365,22 @@ body {
   z-index: 9;
 }
 
+#open01, #open02, #open03 {
+  border: 2px solid #000;
+  position: absolute;
+  width: 252px;
+  height: 56px;
+  left: 0px;
+  top: 170px;
+  overflow: visible;
+  cursor: pointer;
+  text-align: center;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  background-color: transparent;
+}
 .mask {
   z-index: 999;
   display: none;
@@ -430,22 +446,7 @@ body {
   cursor: pointer;
 }
 */
-#open01, #open02, #open03 {
-  border: 2px solid #000;
-  position: absolute;
-  width: 252px;
-  height: 56px;
-  left: 0px;
-  top: 170px;
-  overflow: visible;
-  cursor: pointer;
-  text-align: center;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 21px;
-  background-color: transparent;
-}
+
 
 .gallery-thumbs {
   position: absolute;
