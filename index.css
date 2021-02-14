@@ -317,7 +317,7 @@ body {
   background-repeat: no-repeat;
   outline: none;
   color: #000;
-  z-index: 9;
+  z-index: 9!important;
 }
 
 .swiper-button-next {
@@ -330,7 +330,7 @@ body {
   outline: none;
   background-repeat: no-repeat;
   color: #000;
-  z-index: 9;
+  z-index: 9!important;
 }
 .swiper-button-prev:hover,
 .swiper-button-next:hover {
