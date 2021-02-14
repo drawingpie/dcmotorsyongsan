@@ -316,8 +316,8 @@ body {
   overflow: visible;
   background-repeat: no-repeat;
   outline: none;
-  color: #000;
-  z-index: 9;
+  color: #000!important;
+  z-index: 9!important;
 }
 
 .swiper-button-next {
@@ -329,7 +329,7 @@ body {
   overflow: visible;
   outline: none;
   background-repeat: no-repeat;
-  color: #000;
+  color: #000!important;
   z-index: 9!important;
 }
 .swiper-button-prev:hover,
