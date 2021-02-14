@@ -319,10 +319,7 @@ body {
   color: #000;
   z-index: 9;
 }
-.swiper-button-prev:hover,
-.swiper-button-next:hover {
-  color: #99C8F2;
-}
+
 .swiper-button-next {
   position: absolute;
   width: auto;
@@ -335,7 +332,10 @@ body {
   color: #000;
   z-index: 9;
 }
-
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  color: #99C8F2;
+}
 .type01 {
   left: 307px;
   top: 224px;
