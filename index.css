@@ -430,7 +430,7 @@ body {
   cursor: pointer;
 }
 */
-.open01, .open02, .open03 {
+#open01, #open02, #open03 {
   border: 2px solid #000;
   position: absolute;
   width: 252px;
