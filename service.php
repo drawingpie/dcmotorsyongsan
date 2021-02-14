@@ -26,19 +26,18 @@ body {margin:0;padding:0;text-align:center;color:#333;font-size:12px;line-height
         "연락처:$phone_02\n".
         "이메일:$email_03\n".
         "제목:$title_04\n".
-        "내용:$subject_05\n".
+        "내용:$title_05\n".
+  $mail_ready=file_exists("/var/run/sendmail.pid");
 
-   mail($to,$subject,$msg,'보낸사람메일주소:'.$email_03);
 
    echo '이름:'.$name_01.'<br />';
    echo '이메일:'.$mail_02.'<br />';
    echo '연락처:'.$msg_03.'<br />';
-   echo '제목:'.$title_04.'<br />';
-   echo '내용:'.$subject_05.'<br />';
+   echo '제목:'.$msg_03.'<br />';
+   echo '내용:'.$msg_03.'<br />';
 
    echo '메일이 성공적으로 전송되었습니다<br />';
 
 ?>
-
 </body>
 </html>
