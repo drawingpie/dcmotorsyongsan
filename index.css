@@ -285,7 +285,7 @@ body {
   left: 0px;
   top: 0px;
   position: relative;
-  overflow: visible;
+  overflow: visible!important;
 }
 
 .gallery-top .bigimg {
@@ -308,11 +308,11 @@ body {
 }
 
 .swiper-button-prev {
-  position: absolute;
+  position: absolute!important;
   width: auto;
   height: auto;
-  left: 140px!important;
-  top: 457px!important;
+  left: 140px;
+  top: 457px;
   overflow: visible;
   background-repeat: no-repeat;
   outline: none;
@@ -321,11 +321,11 @@ body {
 }
 
 .swiper-button-next {
-  position: absolute;
+  position: absolute!important;
   width: auto;
   height: auto;
-  left: 1700px!important;
-  top: 457px!important;
+  left: 1700px;
+  top: 457px;
   overflow: visible;
   outline: none;
   background-repeat: no-repeat;
@@ -458,12 +458,12 @@ body {
 
 
 .gallery-thumbs {
-  position: absolute;
+  position: absolute!important;
   left: 0px;
-  top: 755px!important;
+  top: 755px;
   height: 183px;
   background-color: #D9D9D9;
-  z-index: 9;
+  z-index: 9!important;
 }
 
 .gallery-thumbs .swiper-slide {
