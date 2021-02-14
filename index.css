@@ -318,7 +318,8 @@ body {
   outline: none;
   color: #000;
 }
-.swiper-button-prev:hover {
+.swiper-button-prev:after,
+.swiper-button-next:after {
   color: #99C8F2;
 }
 .swiper-button-next {
@@ -331,9 +332,6 @@ body {
   outline: none;
   background-repeat: no-repeat;
   color: #000;
-}
-.swiper-button-next:hover {
-  color: #99C8F2;
 }
 
 .type01 {
