@@ -368,6 +368,7 @@ body {
 }
 
 .open01, .open02, .open03 {
+  color: rgba(13, 13, 13, 1);
   border: 2px solid #000;
   position: absolute;
   width: 252px;
@@ -386,7 +387,10 @@ body {
 }
 .open01:hover, .open02:hover, .open03:hover {
   border: 2px solid #99C8F2;
+  background-color: #99C8F2;
+  color: #fff;
 }
+
 .mask {
   z-index: 999;
   display: none;
