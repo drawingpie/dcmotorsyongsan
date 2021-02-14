@@ -239,6 +239,69 @@
 	</div>
 
 	<script type="text/javascript">
+
+			//슬라이드//
+			var galleryThumbs = new Swiper('.gallery-thumbs', {
+				spaceBetween: 10,
+				slidesPerView: 4,
+				freeMode: true,
+				watchSlidesVisibility: true,
+				watchSlidesProgress: true,
+			});
+			var galleryTop = new Swiper('.gallery-top', {
+				effect: 'fade',
+				spaceBetween: 10,
+				navigation: {
+					nextEl: '.swiper-button-next',
+					prevEl: '.swiper-button-prev',
+				},
+				thumbs: {
+					swiper: galleryThumbs
+				}
+			});
+
+			//모달창//
+			$(function() {
+
+				$("button.open01").click(function() {
+					$('.modlacontent01').show();
+					$(".mask").fadeIn();
+				});
+
+				$(".mask").click(function() {
+					$('.modlacontent01').hide();
+					$(".mask").fadeOut();
+
+				});
+			});
+			$(function() {
+
+				$("button.open02").click(function() {
+					$('.modlacontent02').show();
+					$(".mask").fadeIn();
+				});
+
+				$(".mask").click(function() {
+					$('.modlacontent02').hide();
+					$(".mask").fadeOut();
+
+				});
+			});
+			$(function() {
+
+				$("button.open03").click(function() {
+					$('.modlacontent03').show();
+					$(".mask").fadeIn();
+				});
+
+				$(".mask").click(function() {
+					$('.modlacontent03').hide();
+					$(".mask").fadeOut();
+
+				});
+			});
+
+
 		//네비게이션//
 		$(function() {
 			var rollHeader = 100;
@@ -258,68 +321,6 @@
 			function getCurrentScroll() {
 				return window.pageYOffset || document.documentElement.scrollTop;
 			}
-		});
-
-
-		//슬라이드//
-		var galleryThumbs = new Swiper('.gallery-thumbs', {
-			spaceBetween: 10,
-			slidesPerView: 4,
-			freeMode: true,
-			watchSlidesVisibility: true,
-			watchSlidesProgress: true,
-		});
-		var galleryTop = new Swiper('.gallery-top', {
-			effect: 'fade',
-			spaceBetween: 10,
-			navigation: {
-				nextEl: '.swiper-button-next',
-				prevEl: '.swiper-button-prev',
-			},
-			thumbs: {
-				swiper: galleryThumbs
-			}
-		});
-
-		//모달창//
-		$(function() {
-
-			$("button.open01").click(function() {
-				$('.modlacontent01').show();
-				$(".mask").fadeIn();
-			});
-
-			$(".mask").click(function() {
-				$('.modlacontent01').hide();
-				$(".mask").fadeOut();
-
-			});
-		});
-		$(function() {
-
-			$("button.open02").click(function() {
-				$('.modlacontent02').show();
-				$(".mask").fadeIn();
-			});
-
-			$(".mask").click(function() {
-				$('.modlacontent02').hide();
-				$(".mask").fadeOut();
-
-			});
-		});
-		$(function() {
-
-			$("button.open03").click(function() {
-				$('.modlacontent03').show();
-				$(".mask").fadeIn();
-			});
-
-			$(".mask").click(function() {
-				$('.modlacontent03').hide();
-				$(".mask").fadeOut();
-
-			});
 		});
 
 //스크롤 애니메이션//
