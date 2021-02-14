@@ -1,7 +1,10 @@
-$('#contact-form').submit(funtion(e) {
-  var name = document.getElementById('inputName'),
-  var email= document.getElementById('inputEmail'),
-  var message= document.getElementById('inputMessage');
+$('#serviceform').submit(function(e) {
+
+  var name = document.getElementById('name'),
+      phone = document.getElementById('phone'),
+      email = document.getElementById('email'),
+      title = document.getElementById('title'),
+      subject = document.getElementById('subject');
 
   if (!name.value | | !email.value | | !message.value) {
    alertify.error('please check your entries')
@@ -15,4 +18,4 @@ $('#contact-form').submit(funtion(e) {
   e.preventDefault()
   $(this).get(0).reset()alertify.success('Message sent')
 }
-})
+});
