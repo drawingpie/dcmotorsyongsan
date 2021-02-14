@@ -317,6 +317,7 @@ body {
   background-repeat: no-repeat;
   outline: none;
   color: #000;
+  z-index: 9;
 }
 .swiper-button-prev:hover,
 .swiper-button-next:hover {
@@ -332,6 +333,7 @@ body {
   outline: none;
   background-repeat: no-repeat;
   color: #000;
+  z-index: 9;
 }
 
 .type01 {
@@ -380,7 +382,7 @@ body {
   font-weight: 500;
   font-size: 21px;
   background-color: transparent;
-  z-index: 9
+  z-index: 99;
 }
 .mask {
   z-index: 999;
