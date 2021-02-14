@@ -271,7 +271,7 @@ body {
   width: 1920px;
   height: 938px;
   left: 0px;
-  top: 0px;
+  top: 0px!important;
   position: relative;
   overflow: visible;
   z-index: -99;
@@ -304,7 +304,7 @@ body {
   position: absolute;
   overflow: visible;
   left: 0px;
-  top: 0px;
+  top: 0px!important;
 }
 
 .swiper-button-prev {
