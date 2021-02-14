@@ -367,7 +367,7 @@ body {
   z-index: 9;
 }
 
-#open01, #open02, #open03 {
+button#open01, button#open02, button#open03 {
   border: 2px solid #000;
   position: absolute;
   width: 252px;
