@@ -152,12 +152,13 @@
   justify-content: center;
   color: var(--swiper-navigation-color, var(--swiper-theme-color));
 }
+/*
 .swiper-button-prev.swiper-button-disabled,
 .swiper-button-next.swiper-button-disabled {
   opacity: 0.35;
   cursor: auto;
   pointer-events: none;
-}
+}*/
 .swiper-button-prev:after,
 .swiper-button-next:after {
   font-family: swiper-icons;
