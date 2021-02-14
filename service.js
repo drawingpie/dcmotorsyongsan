@@ -1,4 +1,4 @@
-$('#serviceform').submit(function(e) {
+/*$('#serviceform').submit(function(e) {
 
   var name = document.getElementById('name'),
       phone = document.getElementById('phone'),
@@ -18,4 +18,4 @@ $('#serviceform').submit(function(e) {
   e.preventDefault()
   $(this).get(0).reset()alertify.success('Message sent')
 }
-});
+});*/
