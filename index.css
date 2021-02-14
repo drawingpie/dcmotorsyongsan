@@ -460,7 +460,7 @@ body {
 .gallery-thumbs {
   position: absolute!important;
   left: 0px;
-  top: 755px;
+  top: 755px!important;
   height: 183px;
   background-color: #D9D9D9;
   z-index: 9!important;
