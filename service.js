@@ -7,10 +7,10 @@ $('#contact-form').submit(funtion(e) {
    alertify.error('please check your entries')
 } else {
   $.ajax({
-    url: "https://formspree.io/you@email.com",
+    url: "https://formspree.io/lje2003@naver.com",
     method: "POST",
     data: $(this).serialize(),
-dataType: "json"
+    dataType: "json"
 });
   e.preventDefault()
   $(this).get(0).reset()alertify.success('Message sent')
