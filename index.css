@@ -506,6 +506,7 @@ body {
   display: flex;
   padding-right: 150px;
   z-index: 99;
+  cursor: pointer;
 }
 
 .gallery-thumbs span {
