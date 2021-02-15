@@ -568,6 +568,10 @@ label {
   font-size: 24px;
   display: block;
 }
+label:after  {
+  content: "* ";
+  color:red;
+}
 
 input[type=text], textarea {
   width: 100%;
