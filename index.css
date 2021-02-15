@@ -397,7 +397,7 @@ body {
 .txt-car-info button::before,
 .txt-car-info button::after {
   background: #99C8F2;
-  border: 2px solid #99C8F2;
+  border: none;
   content: '';
   position: absolute;
   z-index: -1;
