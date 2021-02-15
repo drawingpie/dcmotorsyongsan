@@ -420,13 +420,14 @@ body {
 .txt-car-info button::before,
 .txt-car-info button::after {
   background: #99C8F2;
-  border: none;
   content: '';
   position: absolute;
   z-index: -1;
 }
 .txt-car-info button:hover {
   color: #fff;
+  border-color: #99C8F2;
+
 }
 .open01::after, .open02::after, .open03::after {
   height: 100%;
