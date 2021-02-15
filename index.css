@@ -369,8 +369,14 @@ body {
   color: rgba(13, 13, 13, 1);
   z-index: 9;
 }
-
-.open01, .open02, .open03 {
+.txt-car-info button,
+.txt-car-info button::after {
+  -webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.txt-car-info button {
   color: #0D0D0D;
   border: 2px solid #0D0D0D;
   position: relative;
@@ -387,35 +393,27 @@ body {
   font-size: 21px;
   background-color: transparent;
   z-index: 99;
-  letter-spacing: 0;
-  -webkit-transition: all .28s ease-in-out;
-  transition: all .28s ease-in-out;
 }
-.open01:hover,
-.open01:focus,
-.open01:active {
-  letter-spacing: 3px;
+.txt-car-info button::before,
+.txt-car-info button::after {
+  background: #fff;
+  content: '';
+  position: absolute;
+  z-index: -1;
 }
-.open01:after,
-.open01:before {
-  border: 2px solid #99C8F2;
-  position: relative;
-  -webkit-transition: all .28s ease-in-out;
-  transition: all .28s ease-in-out;
+.txt-car-info button:hover {
+  color: #2ecc71;
+}
+.open01::after {
+  height: 100%;
+  left: 0;
+  top: 0;
   width: 0;
 }
-.open01:hover:after,
-.open01:hover:before {
-  border-color: #99C8F2;
-  -webkit-transition: width 350ms ease-in-out;
-  transition: width 350ms ease-in-out;
+
+.open01:hover:after {
   width: 100%;
 }
-.open01:hover:before {
-  bottom: auto;
-  top: 0;
-}
-
 
 .mask {
   z-index: 999;
