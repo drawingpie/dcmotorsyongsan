@@ -568,7 +568,7 @@ label {
   font-size: 24px;
   display: block;
 }
-.star {
+label.star {
   color: red;
 }
 
