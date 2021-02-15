@@ -389,37 +389,29 @@ body {
   z-index: 99;
 }
 .open01:hover, .open02:hover, .open03:hover {
-  border: 2px solid #99C8F2;
-  color: #99C8F2;
-  animation: borderRadial var(--d) linear infinite forwards;
+  background-color: #fff;
+	border-color: #59b1eb;
+	color: #59b1eb;
 }
-@keyframes borderRadial {
-  20% {
-    --gradX: 100%;
-    --gradY: 50%;
-  }
-  40% {
-    --gradX: 100%;
-    --gradY: 100%;
-  }
-  60% {
-    --gradX: 50%;
-    --gradY: 100%;
-  }
-  80% {
-    --gradX: 0%;
-    --gradY: 50%;
-  }
-  100% {
-    --gradX: 50%;
-    --gradY: 0%;
-  }
+.button::before,
+.button::after {
+	top: 0;
+	width: 50%;
+	height: 100%;
+	background-color: #333;
 }
-.open01:after, .open02:after, .open03:after {
-  border: 2px solid #99C8F2;
-  background-color: #99C8F2;
-  color: #fff;
+.button::before {
+	right: 0;
 }
+.button::after {
+	left: 0;
+}
+.button:hover::before,
+.button:hover::after {
+	width: 0;
+	background-color: #59b1eb;
+}
+
 
 .mask {
   z-index: 999;
