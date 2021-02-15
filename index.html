@@ -12,6 +12,13 @@
 	<script src="swiper.js"></script>
 	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<script>
+		$(function() {
+			$("html, body").animate({
+				scrollTop: 0
+			}, "slow");
+		});
+	</script>
 </head>
 
 <body>
@@ -183,7 +190,7 @@
 						<textarea name="subject" id="subject" placeholder="내용을 입력하세요" style="width:1388px; height:163px;"></textarea>
 					</div>
 
-					<input type="submit" value="제출하기" id="submitbtn" onclick="location.reload(true)";>
+					<input type="submit" value="제출하기" id="submitbtn" onclick="location.reload(true)" ;>
 				</form>
 			</div>
 		</div>
@@ -330,8 +337,6 @@
 				to: "lje2003@naver.com"
 			});
 		})
-
-
 	</script>
 
 </body>
