@@ -13,6 +13,11 @@
 	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+	<script>
+		setTimeout(function() {
+			location.reload();
+		}, 3000); // 3000밀리초 = 3초
+	</script>
 </head>
 
 <body>
@@ -163,7 +168,7 @@
 				<form action="https://formspree.io/f/xwkwjllz" method="POST">
 					<div class="line">
 						<div class="cal">
-							성명<span class="star">*</span>
+							<label for="name">성명<span class="star">*</span></label>
 							<input type="text" id="name" name="name" placeholder="성명을 입력하세요" style="width:420px">
 						</div>
 						<div class="cal">
@@ -240,67 +245,66 @@
 	</div>
 
 	<script type="text/javascript">
+		//슬라이드//
+		var galleryThumbs = new Swiper('.gallery-thumbs', {
+			spaceBetween: 10,
+			slidesPerView: 4,
+			freeMode: true,
+			watchSlidesVisibility: true,
+			watchSlidesProgress: true,
+		});
+		var galleryTop = new Swiper('.gallery-top', {
+			effect: 'fade',
+			spaceBetween: 10,
+			navigation: {
+				nextEl: '.swiper-button-next',
+				prevEl: '.swiper-button-prev',
+			},
+			thumbs: {
+				swiper: galleryThumbs
+			}
+		});
 
-			//슬라이드//
-			var galleryThumbs = new Swiper('.gallery-thumbs', {
-				spaceBetween: 10,
-				slidesPerView: 4,
-				freeMode: true,
-				watchSlidesVisibility: true,
-				watchSlidesProgress: true,
+		//모달창//
+		$(function() {
+
+			$(".open01").click(function() {
+				$('.modlacontent01').show();
+				$(".mask").fadeIn();
 			});
-			var galleryTop = new Swiper('.gallery-top', {
-				effect: 'fade',
-				spaceBetween: 10,
-				navigation: {
-					nextEl: '.swiper-button-next',
-					prevEl: '.swiper-button-prev',
-				},
-				thumbs: {
-					swiper: galleryThumbs
-				}
+
+			$(".mask").click(function() {
+				$('.modlacontent01').hide();
+				$(".mask").fadeOut();
+
+			});
+		});
+		$(function() {
+
+			$(".open02").click(function() {
+				$('.modlacontent02').show();
+				$(".mask").fadeIn();
 			});
 
-			//모달창//
-			$(function() {
+			$(".mask").click(function() {
+				$('.modlacontent02').hide();
+				$(".mask").fadeOut();
 
-				$(".open01").click(function() {
-					$('.modlacontent01').show();
-					$(".mask").fadeIn();
-				});
-
-				$(".mask").click(function() {
-					$('.modlacontent01').hide();
-					$(".mask").fadeOut();
-
-				});
 			});
-			$(function() {
+		});
+		$(function() {
 
-				$(".open02").click(function() {
-					$('.modlacontent02').show();
-					$(".mask").fadeIn();
-				});
-
-				$(".mask").click(function() {
-					$('.modlacontent02').hide();
-					$(".mask").fadeOut();
-
-				});
+			$(".open03").click(function() {
+				$('.modlacontent03').show();
+				$(".mask").fadeIn();
 			});
-			$(function() {
 
-				$(".open03").click(function() {
-					$('.modlacontent03').show();
-					$(".mask").fadeIn();
-				});
+			$(".mask").click(function() {
+				$('.modlacontent03').hide();
+				$(".mask").fadeOut();
 
-				$(".mask").click(function() {
-					$('.modlacontent03').hide();
-					$(".mask").fadeOut();
-
-				});
 			});
+		});
 
 
 		//네비게이션//
@@ -324,12 +328,14 @@
 			}
 		});
 
-//스크롤 애니메이션//
-AOS.init();
-//폼 양식//
-$(function(){
-		$("#serviceform").EasyFormMail({to:"lje2003@naver.com"});
-})
+		//스크롤 애니메이션//
+		AOS.init();
+		//폼 양식//
+		$(function() {
+			$("#serviceform").EasyFormMail({
+				to: "lje2003@naver.com"
+			});
+		})
 	</script>
 
 </body>
