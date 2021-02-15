@@ -392,12 +392,36 @@ body {
   border: 2px solid #99C8F2;
   background-color: #99C8F2;
   color: #fff;
+  animation: borderRadial var(--d) linear infinite forwards;
+}
+@keyframes borderRadial {
+  20% {
+    --gradX: 100%;
+    --gradY: 50%;
+  }
+  40% {
+    --gradX: 100%;
+    --gradY: 100%;
+  }
+  60% {
+    --gradX: 50%;
+    --gradY: 100%;
+  }
+  80% {
+    --gradX: 0%;
+    --gradY: 50%;
+  }
+  100% {
+    --gradX: 50%;
+    --gradY: 0%;
+  }
 }
 .open01:after, .open02:after, .open03:after {
   border: 2px solid #99C8F2;
   background-color: #99C8F2;
   color: #fff;
 }
+
 .mask {
   z-index: 999;
   display: none;
