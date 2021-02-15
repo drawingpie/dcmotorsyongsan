@@ -390,8 +390,7 @@ body {
 }
 .open01:hover, .open02:hover, .open03:hover {
   border: 2px solid #99C8F2;
-  background-color: #99C8F2;
-  color: #fff;
+  color: #99C8F2;
   animation: borderRadial var(--d) linear infinite forwards;
 }
 @keyframes borderRadial {
