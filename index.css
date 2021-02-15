@@ -393,24 +393,6 @@ body {
 	border-color: #59b1eb;
 	color: #59b1eb;
 }
-.open01::before, .open02::before, .open03::before,
-.open01::after, .open02::after, .open03::after {
-	top: 0;
-	width: 50%;
-	height: 100%;
-	background-color: #333;
-}
-.open01::before, .open02::before, .open03::before, {
-	right: 0;
-}
-.open01::after, .open02::after, .open03::after {
-	left: 0;
-}
-.open01:hover::before, .open02:hover::before, .open03:hover::before,
-.open01:hover::after, .open02:hover::after, .open03:hover::after {
-	width: 0;
-	background-color: #59b1eb;
-}
 
 .mask {
   z-index: 999;
