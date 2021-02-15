@@ -569,7 +569,7 @@ label {
   display: block;
 }
 label:after  {
-  content: "* ";
+  content: "*";
   color:red;
 }
 
