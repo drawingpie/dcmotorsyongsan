@@ -336,27 +336,8 @@ body {
   z-index: 9!important;
 }
 
-.swiper-button-next,
-.swiper-button-next::after {
-  -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
-  -o-transition: all 0.2s;
-  transition: all 0.2s;
-}
-.swiper-button-next::before {
-  color: #99C8F2;
-  position: absolute;
-  }
-.swiper-button-next::after {
-  height: 0;
-  left: 0;
-  top: 0;
-  width: 100%;
-}
+.swiper-button-prev:hover,
 .swiper-button-next:hover {
-  color: #99C8F2;
-}
-.swiper-button-next:hover:after {
   color: #99C8F2;
 }
 
