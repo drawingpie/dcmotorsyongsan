@@ -408,10 +408,9 @@ body {
 }
 .open01:hover::before, .open02:hover::before, .open03:hover::before,
 .open01:hover::after, .open02:hover::after, .open03:hover::after {
-	width: 0;s
+	width: 0;
 	background-color: #59b1eb;
 }
-
 
 .mask {
   z-index: 999;
