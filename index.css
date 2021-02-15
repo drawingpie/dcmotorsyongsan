@@ -335,10 +335,33 @@ body {
   color: #000!important;
   z-index: 9!important;
 }
-.swiper-button-prev:hover,
-.swiper-button-next:hover {
-  color: #99C8F2!important;
+
+.swiper-button-next,
+.swiper-button-next::after {
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
 }
+.swiper-button-next::before,
+.swiper-button-next::after {
+  color: #99C8F2;
+  position: absolute;
+  }
+.swiper-button-next::after {
+  height: 100%;
+  left: 0;
+  top: 0;
+  width: 0;
+}
+.swiper-button-next:hover {
+  color: #99C8F2;
+}
+
+.swiper-button-next:hover:after {
+  color: #99C8F2;
+}
+
 .type01 {
   left: 307px;
   top: 224px;
@@ -398,6 +421,7 @@ body {
 .txt-car-info button::after {
   background: #99C8F2;
   border: none;
+  content: '';
   position: absolute;
   z-index: -1;
 }
