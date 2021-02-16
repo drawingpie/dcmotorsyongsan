@@ -521,19 +521,7 @@ body {
   font-size: 18px;
   color: #0D0D0D;
 }
-.gallery-thumbs .swiper-slide:hover {
-  left: 579px;
-  top: 18px;
-  width: auto;
-  height: auto;
-  max-width: 110px;
-  max-height: 110px;
-  background-size: contain;
-  position: relative;
-  display: flex;
-  padding-right: 150px;
-  z-index: 99;
-  cursor: pointer;
+.smallimg:hover {
   animation: vibrate-1 .3s linear infinite both
 }
 @keyframes vibrate-1{
