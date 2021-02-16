@@ -507,6 +507,7 @@ body {
   padding-right: 150px;
   z-index: 99;
   cursor: pointer;
+  color: #0D0D0D;
 }
 .gallery-thumbs span {
   left: -157px;
@@ -521,7 +522,7 @@ body {
   font-size: 18px;
   color: #0D0D0D;
 }
-.gallery-thumbs span:hover {
+.gallery-thumbs .swiper-slide:hover {
   color: #BF9E80;
 }
 #service {
