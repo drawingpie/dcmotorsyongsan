@@ -494,7 +494,7 @@ body {
   z-index: 9!important;
 }
 
-.gallery-thumbs .swiper-slide {
+.gallery-thumbs.smallimg {
   left: 579px;
   top: 18px;
   width: auto;
@@ -508,7 +508,7 @@ body {
   z-index: 99;
   cursor: pointer;
 }
-.gallery-thumbs .swiper-slide:hover {
+.gallery-thumbs.smallimg:hover {
   transform: scale(1.5);
 }
 .gallery-thumbs span {
