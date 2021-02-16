@@ -494,21 +494,23 @@ body {
   z-index: 9!important;
 }
 
-.smallimg {
+.gallery-thumbs .swiper-slide {
   left: 579px;
   top: 18px;
-  max-width: 200px;
+  width: auto;
+  height: auto;
+  max-width: 110px;
+  max-height: 110px;
+  background-size: contain;
   position: relative;
   display: flex;
+  padding-right: 150px;
   z-index: 99;
   cursor: pointer;
 }
-.smallimg:hover {
-  transform: scale(1.5);
-}
 .gallery-thumbs span {
-  left: 0px;
-  top: 20px;
+  left: -157px;
+  top: 113px;
   position: relative;
   overflow: visible;
   white-space: nowrap;
@@ -519,7 +521,9 @@ body {
   font-size: 18px;
   color: #0D0D0D;
 }
-
+.gallery-thumbs span:hover {
+  color: #BF9E80;
+}
 #service {
   overflow: visible;
   position: absolute;
