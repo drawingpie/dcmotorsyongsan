@@ -160,7 +160,7 @@
 			</svg>
 
 			<div class="container">
-				<form action="https://formspree.io/f/xwkwjllz" method="POST">
+				<form id="my-form" action="https://formspree.io/f/xwkwjllz" method="POST">
 					<div class="line">
 						<div class="cal">
 							<label for="name">성명</label>
@@ -172,7 +172,7 @@
 						</div>
 						<div class="cal">
 							<label for="email">이메일</label>
-							<input type="text" id="email" name="email" placeholder="이메일을 입력하세요" style="width:420px">
+							<input type="email" id="email" name="email" placeholder="이메일을 입력하세요" style="width:420px">
 						</div>
 					</div>
 
@@ -181,10 +181,11 @@
 						<input type="text" id="title" name="title" placeholder="제목을 입력하세요" style="width:1388px">
 
 						<label for="subject">내용</label>
-						<textarea name="subject" id="subject" placeholder="내용을 입력하세요" style="width:1388px; height:163px;"></textarea>
+						<textarea  type="text" name="subject" id="subject" placeholder="내용을 입력하세요" style="width:1388px; height:163px;"></textarea>
 					</div>
 
-					<input type="submit" value="제출하기" id="submitbtn">
+					<input type="submit" value="제출하기" id="my-form-button">
+					<p id="my-form-status"></p>
 				</form>
 			</div>
 		</div>
