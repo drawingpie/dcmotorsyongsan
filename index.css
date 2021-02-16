@@ -614,7 +614,7 @@ input[type=text], input[type=email], textarea {
   margin-bottom: 80px;
 }
 
-input[type=submit] {
+#my-form-button {
   background-color: #99C8F2;
   color: white;
   padding: 12px 20px;
@@ -635,7 +635,7 @@ input[type=submit] {
   position: absolute;
 }
 
-input[type=submit]:hover {
+#my-form-button:hover {
   background-color: #67A9E5;
 }
 
