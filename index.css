@@ -590,8 +590,8 @@ body {
 label {
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
+  font-weight: 400;
+  font-size: 20px;
   display: block;
 }
 label:after  {
