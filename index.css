@@ -509,7 +509,7 @@ body {
   cursor: pointer;
 }
 .gallery-thumbs .swiper-slide:hover {
-  transform: scale(2);
+  transform: scale(1.5);
 }
 .gallery-thumbs span {
   left: -157px;
