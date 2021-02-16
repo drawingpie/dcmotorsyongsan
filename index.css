@@ -494,21 +494,16 @@ body {
   z-index: 9!important;
 }
 
-.swiper-slide.smallimg {
+.smallimg {
   left: 579px;
   top: 18px;
-  width: auto;
-  height: auto;
-  max-width: 110px;
-  max-height: 110px;
-  background-size: contain;
+  max-width: 200px;
   position: relative;
   display: flex;
-  padding-right: 150px;
   z-index: 99;
   cursor: pointer;
 }
-.swiper-slide.smallimg:hover {
+.smallimg:hover {
   transform: scale(1.5);
 }
 .gallery-thumbs span {
