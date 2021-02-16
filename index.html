@@ -328,7 +328,16 @@
 		AOS.init();
 
 		//새로고침//
-
+		function myFunction() {
+		   if (x.style.display === 'block') {
+		       x.style.display = 'block';
+		   } else {
+		       x.style.display = 'block';
+		   }
+		   $("html, body").animate({ scrollTop: 0 }, "slow", function(){
+		      window.location.reload()
+		   });
+		}
 	//폼 ajax수정//
 		window.addEventListener("DOMContentLoaded", function() {
 
