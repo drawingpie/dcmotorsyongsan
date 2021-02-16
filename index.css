@@ -496,16 +496,20 @@ body {
 
 .gallery-thumbs .swiper-slide {
   left: 579px;
-  top: 0px;
-  max-width: 20px;
+  top: 18px;
+  width: auto;
+  height: auto;
+  max-width: 110px;
+  max-height: 110px;
+  background-size: contain;
   position: relative;
-  display:block;
-  margin:auto;
+  display: flex;
+  padding-right: 150px;
   z-index: 99;
   cursor: pointer;
- }
+}
 .gallery-thumbs span {
-  left: -152px;
+  left: -157px;
   top: 113px;
   position: relative;
   overflow: visible;
@@ -517,8 +521,18 @@ body {
   font-size: 18px;
   color: #0D0D0D;
 }
-.swiper-slide:hover {
-  color: #BF9E80;
+.gallery-thumbs span:hover {
+  left: -157px;
+  top: 113px;
+  position: relative;
+  overflow: visible;
+  white-space: nowrap;
+  text-align: center;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #0D0D0D;
 }
 #service {
   overflow: visible;
