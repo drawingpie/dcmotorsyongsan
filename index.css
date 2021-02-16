@@ -507,8 +507,8 @@ body {
   transform: scale(1.5);
 }
 .gallery-thumbs span {
-  left: -157px;
-  top: 113px;
+  left: 0px;
+  top: 20px;
   position: relative;
   overflow: visible;
   white-space: nowrap;
