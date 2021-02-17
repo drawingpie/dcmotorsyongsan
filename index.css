@@ -542,10 +542,10 @@ body {
 }
 @media (max-width: 375px) {
 .gallery-top .bigimg {
-  width: 755px;
-  height: 500px;
-  left: 747px;
-  top: 200px;
+  width: 100%;
+  height: auto;
+  left: -43px;
+  top: 195px;
   position: absolute;
   overflow: visible;
   z-index: 9;
@@ -559,7 +559,16 @@ body {
   left: 0px;
   top: 0px;
 }
-
+@media (max-width: 375px) {
+.gallery-top {
+  height: 654px;
+  width: 100%;
+  position: absolute!important;
+  overflow: visible;
+  left: 0px;
+  top: 0px;
+  }
+}
 .swiper-button-prev {
   position: absolute!important;
   width: auto;
@@ -572,7 +581,20 @@ body {
   color: #0D0D0D!important;
   z-index: 9!important;
 }
-
+@media (max-width: 375px) {
+.swiper-button-prev {
+  position: absolute!important;
+  width: auto;
+  height: auto;
+  left: 22.59px!important;
+  top: 298px!important;
+  overflow: visible;
+  background-repeat: no-repeat;
+  outline: none;
+  color: #0D0D0D!important;
+  z-index: 9!important;
+  }
+}
 .swiper-button-next {
   position: absolute!important;
   width: auto;
@@ -585,7 +607,20 @@ body {
   color: #0D0D0D!important;
   z-index: 9!important;
 }
-
+@media (max-width: 375px) {
+.swiper-button-next {
+  position: absolute!important;
+  width: auto;
+  height: auto;
+  left: 338px!important;
+  top: 298px!important;
+  overflow: visible;
+  background-repeat: no-repeat;
+  outline: none;
+  color: #0D0D0D!important;
+  z-index: 9!important;
+  }
+}
 .swiper-button-prev:hover,
 .swiper-button-next:hover {
   color: #99C8F2!important;
