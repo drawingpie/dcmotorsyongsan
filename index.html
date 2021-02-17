@@ -38,6 +38,19 @@
 			</div>
 		</div>
 
+		<div id="myNav" class="overlay">
+			<div class="closebtn" onclick="closeNav()"><img src="Icon material-close.svg"></div>
+			<div class="overlay-content">
+				<a href="#chainabout">소개</a>
+				<a href="#product">제품</a>
+				<a href="#contact">오시는길</a>
+				<button id="servicebtn" onclick="location.href='#service'">구입문의</button>
+			</div>
+		</div>
+		<div class="openbtn" onclick="openNav()"><img src="Icon material-menu.svg"></div>
+
+
+
 		<div id="chainabout">
 			<div id="aboutus"><span>ABOUT US</span></div>
 			<div id="welcome" data-aos="zoom-in"><span>저희 대리점을 방문해 주신 고객님을 진심으로 환영합니다.</span></div>
@@ -374,6 +387,15 @@
 			};
 			xhr.send(data);
 		}
+
+		//슬라이드메뉴
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
 	</script>
 
 </body>
