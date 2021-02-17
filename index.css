@@ -543,9 +543,9 @@ body {
 }
 @media (max-width: 375px) {
 .gallery-top .bigimg {
-  width: 50%;
+  width: 60%;
   height: auto;
-  left: 90px;
+  left: 65px;
   top: 250px;
   position: absolute;
   overflow: visible;
@@ -594,6 +594,7 @@ body {
   outline: none;
   color: #0D0D0D!important;
   z-index: 9!important;
+  transform:scale(0.5)
   }
 }
 .swiper-button-next {
@@ -620,6 +621,7 @@ body {
   outline: none;
   color: #0D0D0D!important;
   z-index: 9!important;
+  transform:scale(0.5)
   }
 }
 .swiper-button-prev:hover,
@@ -649,7 +651,6 @@ body {
   top: 151px;
   position: absolute;
   overflow: visible;
-  width: 308px;
   line-height: 46px;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
@@ -659,6 +660,7 @@ body {
   z-index: 9;
   }
 }
+
 .txt-car-info {
   left: 307px;
   top: 400px;
@@ -673,6 +675,7 @@ body {
   color: rgba(13, 13, 13, 1);
   z-index: 9;
 }
+
 @media (max-width: 375px) {
 .txt-car-info {
   left: 38px;
@@ -683,7 +686,7 @@ body {
   line-height: 28px;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
-  font-weight: 900;
+  font-weight: 400;
   font-size: 17px;
   color: rgba(13, 13, 13, 1);
   z-index: 9;
