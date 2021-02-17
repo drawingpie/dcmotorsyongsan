@@ -108,7 +108,7 @@ body {
   z-index: 9999;
 }/* 스크롤 후*/
 
-.navi#servicebtn {
+#servicebtn {
   background-color: #99C8F2;
   color: white;
   padding: 12px 20px;
