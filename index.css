@@ -369,21 +369,33 @@ body {
   }
   #aboutus{
     font-size: 18px;
+    left: 127px;
+    top: 64px;
   }
   #welcome {
     font-size: 22px;
+    left: 38px;
+    top: 130px;
   }
   #welcomebody {
     font-size: 15px;
+    left: 38px;
+    top: 226px;
   }
   #speed {
     font-size: 69px;
+    left: 65px;
+    top: 450px;
   }
   #smart {
     font-size: 69px;
+    left: 65px;
+    top: 553px;
   }
   #synergy {
     font-size: 69px;
+    left: 38px;
+    top: 651px;
   }
 }
 
