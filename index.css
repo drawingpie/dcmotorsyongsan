@@ -262,17 +262,6 @@ body {
   overflow: visible;
   background: url('aboutbg.png');
 }
-@media (max-width: 375px) {
-  #chainabout {
-    position: absolute;
-    width: 100%;
-    height: 760px;
-    left: 0%;
-    top: 760px;
-    overflow: visible;
-    background: url('aboutbgmob.png');
-  }
-}
 
 #aboutus {
   left: 881px;
@@ -367,6 +356,35 @@ body {
   font-weight: 900;
   font-size: 7.688rem;
   color: rgba(242, 242, 242, 0.7);
+}
+@media (max-width: 375px) {
+  #chainabout {
+    position: absolute;
+    width: 100%;
+    height: 760px;
+    left: 0%;
+    top: 760px;
+    overflow: visible;
+    background: url('aboutbgmob.png');
+  }
+  #aboutus{
+    font-size: 18px;
+  }
+  #welcome {
+    font-size: 22px;
+  }
+  #welcomebody {
+    font-size: 15px;
+  }
+  #speed {
+    font-size: 69px;
+  }
+  #smart {
+    font-size: 69px;
+  }
+  #synergy {
+    font-size: 69px;
+  }
 }
 
 #product {
