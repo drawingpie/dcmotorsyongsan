@@ -35,7 +35,7 @@ body {
 .youtubevideowrapperdiv16-9blind div {
   display: none;
 }
-.youtubevideowrapperdiv iframe {
+.youtubevideowrapperdiv object {
   position: absolute;
   top: 3px;
   left: 0%;
@@ -43,7 +43,7 @@ body {
   height: 100%;
 }
 @media (max-width: 375px) {
-  .youtubevideowrapperdiv iframe {
+  .youtubevideowrapperdiv object {
     top: 0px;
     left: 0%;
     height: 760px;
