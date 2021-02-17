@@ -139,11 +139,10 @@ body {
   display: none;
 }}
 
-@media (max-width: 375px) {
 .overlay, .overlay-content, .overlay a,
 .overlay .closebtn, .openbtn {
   display: none;
-}}
+}
 @media (max-width: 375px) {
   .overlay {
     display: block;
