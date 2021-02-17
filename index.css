@@ -32,7 +32,9 @@ body {
   left: 0%;
   overflow: visible;
 }
-
+.youtubevideowrapperdiv16-9blind div {
+  display: none;
+}
 .youtubevideowrapperdiv iframe {
   position: absolute;
   top: 3px;
@@ -47,7 +49,7 @@ body {
     height: 760px;
   }
   .youtubevideowrapperdiv16-9blind div {
-    display: none;
+    display: block;
   }
   .youtubevideowrapperdiv16-9blind{
     position: absolute;
