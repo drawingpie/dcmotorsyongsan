@@ -33,7 +33,7 @@ body {
   overflow: visible;
 }
 .youtubevideowrapperdiv16-9blind .video-container {
-  display: none;
+  display: block;
 }
 .youtubevideowrapperdiv16-9blind .uphidden {
   display: none;
