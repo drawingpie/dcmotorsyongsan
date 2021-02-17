@@ -648,11 +648,12 @@ body {
 
 @media (max-width: 375px) {
 .type01 {
-  left: 38px;
-  top: 151px;
+  text-align:center;
+  left: 45px;
+  top: 153px;
   position: absolute;
   overflow: visible;
-  line-height: 46px;
+  line-height: 33px;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 900;
@@ -725,8 +726,7 @@ body {
   position: absolute;
   width: 128px;
   height: 33px;
-  left: 38px;
-  top: 563px;
+  top: 110px;
   overflow: visible;
   cursor: pointer;
   text-align: center;
