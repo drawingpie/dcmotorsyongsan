@@ -268,9 +268,10 @@ body {
     position: absolute;
     width: 114.27px;
     height: 20.49px;
-    top: 2%;
+    top: 2.2%;
     left: 10.5%;
     overflow: visible;
+     z-index:9;
   }
 }
 
