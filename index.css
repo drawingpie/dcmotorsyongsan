@@ -544,13 +544,13 @@ body {
 }
 @media (max-width: 375px) {
 .gallery-top .bigimg {
-  width: 60%;
-  height: auto;
-  left: 65px;
-  top: 250px;
-  position: absolute;
-  overflow: visible;
-  z-index: 9;
+    width: 70%;
+    height: auto;
+    left: 45px;
+    top: 250px;
+    position: absolute;
+    overflow: visible;
+    z-index: 9;
   }
 }
 .gallery-top {
@@ -681,7 +681,7 @@ body {
 @media (max-width: 375px) {
 .txt-car-info {
   left: 38px;
-  top: 462px;
+  top: 468px;
   position: absolute;
   overflow: visible;
   width: 285px;
