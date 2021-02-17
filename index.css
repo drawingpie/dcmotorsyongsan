@@ -42,6 +42,13 @@ body {
 }
 @media (max-width: 375px) {
   .youtubevideowrapperdiv iframe {
+    top: 0px;
+    left: 0%;
+    height: 760px;
+  }
+  .youtubevideowrapperdiv16-9blind {
+    top: 0px;
+    left: 0%;
     height: 760px;
   }
 }
@@ -119,10 +126,13 @@ body {
   z-index: 9999;
 }/* 스크롤 후*/
 @media (max-width: 375px) {
-  .navi {
-    display: none;
-  }
-}
+  .header, .header.scroll, .header .navi,
+  .header.scroll .navi, .navi ul,
+  .navi ul li, .navi ul li a,
+  .header .scroll .navi ul li a {
+  display: none;
+}}
+
 @media (max-width: 375px) {
 .overlay, .overlay-content, .overlay a,
 .overlay .closebtn, .openbtn {
