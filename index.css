@@ -474,9 +474,9 @@ body {
 }
 @media (max-width: 375px) {
   #products {
-    font-size: 1.563rem;
-    display: block;
-    margin: auto;
+    font-size: 18px;
+    left: 133px;
+    top: 28px;
   }
 }
 
@@ -500,7 +500,13 @@ body {
   position: relative;
   overflow: visible!important;
 }
-
+@media (max-width: 375px) {
+  .gallery-top .swiper-slide {
+    font-size: 18px;
+    left: 133px;
+    top: 28px;
+  }
+}
 .gallery-top .bigimg {
   max-width: 755px;
   max-height: 500px;
