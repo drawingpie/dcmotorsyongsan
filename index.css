@@ -225,6 +225,7 @@ body {
     top: 2.2%;
     left: 81.9%;
     z-index: 9;
+    transform:scale(0.5)
   }
 }
 
@@ -262,7 +263,7 @@ body {
 }
 
 @media (max-width: 375px) {
-  .dclogomob {
+.dclogomob {
     display: block;
     cursor: pointer;
     position: absolute;
@@ -271,7 +272,7 @@ body {
     top: 2.2%;
     left: 10.5%;
     overflow: visible;
-     z-index:9;
+    z-index:9;
   }
 }
 
