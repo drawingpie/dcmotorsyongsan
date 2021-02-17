@@ -260,6 +260,7 @@ body {
   top: 25px;
   overflow: visible;
 }
+
 @media (max-width: 375px) {
   .dclogomob {
     display: block;
