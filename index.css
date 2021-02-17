@@ -543,9 +543,9 @@ body {
 }
 @media (max-width: 375px) {
 .gallery-top .bigimg {
-  width: 80%;
+  width: 50%;
   height: auto;
-  left: 20px;
+  left: 90px;
   top: 250px;
   position: absolute;
   overflow: visible;
@@ -891,7 +891,16 @@ body {
   top: 3743px;
   background-color: #F2F2F2;
 }
-
+@media (max-width: 375px) {
+#service {
+  height: 760px;
+  width: 100%;
+  position: absolute!important;
+  overflow: visible;
+  left: 0px;
+  top: 3040px;
+  }
+}
 #service span {
   left: 881px;
   top: 104px;
@@ -1017,6 +1026,16 @@ input[type=text], input[type=email], textarea {
   height: 938px;
   left: 0px;
   top: 2812px;
+}
+@media (max-width: 375px) {
+#contact {
+  height: 760px;
+  width: 100%;
+  position: absolute!important;
+  overflow: visible;
+  left: 0px;
+  top: 2280px;
+  }
 }
 
 #contactbg {
