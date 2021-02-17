@@ -32,9 +32,13 @@ body {
   left: 0%;
   overflow: visible;
 }
-.youtubevideowrapperdiv16-9blind div {
+.youtubevideowrapperdiv16-9blind .video-container {
   display: none;
 }
+.youtubevideowrapperdiv16-9blind .uphidden {
+  display: none;
+}
+
 .youtubevideowrapperdiv object {
   position: absolute;
   top: 3px;
@@ -48,7 +52,7 @@ body {
     left: 0%;
     height: 760px;
   }
-  .youtubevideowrapperdiv16-9blind div {
+  .youtubevideowrapperdiv16-9blind .uphidden {
     display: block;
     background: #000;
     position: absolute;
