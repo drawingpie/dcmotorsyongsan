@@ -451,9 +451,9 @@ body {
 @media (max-width: 375px) {
   #product {
     width: 360px;
-    height: 938px;
+    height: 760px;
     left: 0px;
-    top: 1897px;
+    top: 1520px;
     position: absolute;
     overflow: visible;
   }
