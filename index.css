@@ -111,7 +111,7 @@ body {
 #servicebtn {
   background-color: #99C8F2;
   color: white;
-  padding: 12px 20px;
+  padding: 12px auto;
   border: none;
   border-radius: 25px;
   cursor: pointer;
