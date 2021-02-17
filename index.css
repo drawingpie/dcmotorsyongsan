@@ -94,7 +94,7 @@ body {
 
 .navi ul li {
   float: left;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: bold;
 }
 
@@ -132,7 +132,6 @@ body {
   .overlay {
     display: block;
     height: 100%;
-    width: 247px;
     position: absolute;
     z-index: 1;
     top: 0;
@@ -191,7 +190,7 @@ body {
 @media (max-width: 375px) {
   .openbtn {
     display: block;
-    font-size: 30px;
+    font-size: 1.875rem;
     cursor: pointer;
     position: absolute;
     top: 2%;
@@ -212,7 +211,7 @@ body {
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 21px;
+  font-size: 1.313rem;
   outline: none;
   left: 1188px;
   top: 22px;
@@ -256,7 +255,7 @@ body {
 
 #chainabout {
   position: absolute;
-  width: 1921px;
+  width: 100%;
   height: 938px;
   left: -1%;
   top: 961px;
@@ -275,7 +274,7 @@ body {
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 25px;
+  font-size: 1.563rem;
   color: rgba(242, 242, 242, 1);
 }
 
@@ -290,7 +289,7 @@ body {
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 39px;
+  font-size: 2.438rem;
   color: rgba(242, 242, 242, 1);
 }
 
@@ -307,7 +306,7 @@ body {
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 25px;
+  font-size: 1.563rem;
   color: rgba(242, 242, 242, 1);
 }
 
@@ -323,7 +322,7 @@ body {
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 900;
-  font-size: 123px;
+  font-size: 7.688rem;
   color: rgba(242, 242, 242, 0.7);
 }
 
@@ -339,7 +338,7 @@ body {
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 900;
-  font-size: 123px;
+  font-size: 7.688rem;
   color: rgba(242, 242, 242, 0.7);
 }
 
@@ -355,7 +354,7 @@ body {
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 900;
-  font-size: 123px;
+  font-size: 7.688rem;
   color: rgba(242, 242, 242, 0.7);
 }
 
@@ -378,7 +377,7 @@ body {
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 25px;
+  font-size: 1.563rem;
   color: #0D0D0D;
   z-index: 9;
 }
@@ -465,7 +464,7 @@ body {
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 900;
-  font-size: 40px;
+  font-size: 2.5rem;
   color: rgba(13, 13, 13, 1);
   z-index: 9;
 }
@@ -480,7 +479,7 @@ body {
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 23px;
+  font-size: 1.438rem;
   color: rgba(13, 13, 13, 1);
   z-index: 9;
 }
@@ -505,7 +504,7 @@ body {
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 21px;
+  font-size: 1.313rem;
   background-color: transparent;
   z-index: 99;
 }
@@ -575,7 +574,7 @@ body {
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 1.125rem;
   color: #0D0D0D;
 }
 
@@ -631,7 +630,7 @@ body {
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 1.125rem;
   color: #0D0D0D;
 }
 .smallimg:hover {
@@ -677,7 +676,7 @@ body {
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 25px;
+  font-size: 1.563rem;
   color: rgba(0, 0, 0, 1);
 }
 
@@ -725,7 +724,7 @@ label {
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 1.25rem;
   display: block;
 }
 label:after  {
@@ -762,7 +761,7 @@ input[type=text], input[type=email], textarea {
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 21px;
+  font-size: 1.313rem;
   outline: none;
   left: 569px;
   top: 650px;
@@ -815,7 +814,7 @@ input[type=text], input[type=email], textarea {
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 25px;
+  font-size: 1.563rem;
   color: rgba(13, 13, 13, 1);
 }
 
@@ -850,7 +849,7 @@ input[type=text], input[type=email], textarea {
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 1.875rem;
   color: rgba(13, 13, 13, 1);
 }
 
@@ -883,7 +882,7 @@ input[type=text], input[type=email], textarea {
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 1.5rem;
   color: rgba(13, 13, 13, 1);
 }
 
@@ -898,7 +897,7 @@ input[type=text], input[type=email], textarea {
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 1.5rem;
   color: rgba(13, 13, 13, 1);
 }
 
@@ -913,7 +912,7 @@ input[type=text], input[type=email], textarea {
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 1.5rem;
   color: rgba(13, 13, 13, 1);
 }
 
@@ -928,7 +927,7 @@ input[type=text], input[type=email], textarea {
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 1.5rem;
   color: rgba(13, 13, 13, 1);
 }
 
@@ -943,7 +942,7 @@ input[type=text], input[type=email], textarea {
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 1.5rem;
   color: rgba(13, 13, 13, 1);
 }
 
@@ -958,7 +957,7 @@ input[type=text], input[type=email], textarea {
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 1.5rem;
   color: rgba(13, 13, 13, 1);
 }
 
@@ -973,7 +972,7 @@ input[type=text], input[type=email], textarea {
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 1.5rem;
   color: rgba(13, 13, 13, 1);
 }
 
@@ -988,7 +987,7 @@ input[type=text], input[type=email], textarea {
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 1.5rem;
   color: rgba(13, 13, 13, 1);
 }
 
@@ -1103,7 +1102,7 @@ input[type=text], input[type=email], textarea {
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 1rem;
   color: rgba(242, 242, 242, 1);
 }
 
@@ -1119,7 +1118,7 @@ input[type=text], input[type=email], textarea {
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 1rem;
   color: rgba(242, 242, 242, 1);
 }
 
@@ -1135,7 +1134,7 @@ input[type=text], input[type=email], textarea {
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 1rem;
   color: rgba(242, 242, 242, 1);
 }
 
