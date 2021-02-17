@@ -485,8 +485,8 @@ body {
 @media (max-width: 375px) {
   #products {
     font-size: 18px;
-    left: 133px;
-    top: 28px;
+    left: 130px;
+    top: 60px;
   }
 }
 
@@ -543,9 +543,9 @@ body {
 }
 @media (max-width: 375px) {
 .gallery-top .bigimg {
-  width: 100%;
+  width: 80%;
   height: auto;
-  left: -43px;
+  left: 20px;
   top: 195px;
   position: absolute;
   overflow: visible;
@@ -642,7 +642,23 @@ body {
   color: rgba(13, 13, 13, 1);
   z-index: 9;
 }
-
+@media (max-width: 375px) {
+.type01 {
+  left: 307px;
+  top: 269px;
+  position: absolute;
+  overflow: visible;
+  width: 379px;
+  height: 348px;
+  line-height: 46px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 2.5rem;
+  color: rgba(13, 13, 13, 1);
+  z-index: 9;
+  }
+}
 .txt-car-info {
   left: 307px;
   top: 400px;
