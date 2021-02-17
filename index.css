@@ -140,9 +140,10 @@ body {
 }}
 
 .overlay, .overlay-content, .overlay a,
-.overlay .closebtn, .openbtn {
+.overlay .closebtn, .openbtn, .dclogomob {
   display: none;
 }
+
 @media (max-width: 375px) {
   .overlay {
     display: block;
