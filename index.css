@@ -111,7 +111,7 @@ body {
   z-index: 9999;
 }/* 스크롤 후*/
 @media (max-width: 375px) {
-  .header {
+  .navi {
     display: none;
   }
 }
@@ -208,6 +208,7 @@ body {
 #servicebtn:hover {
   background-color: #67A9E5;
 }
+
 .dclogo {
   position: absolute;
   width: 99.249px;
