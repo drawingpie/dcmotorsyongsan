@@ -835,7 +835,17 @@ body {
   background-color: #D9D9D9;
   z-index: 9!important;
 }
-
+@media (max-width: 375px) {
+.gallery-thumbs {
+  position: absolute!important;
+  left: 0px;
+  top: 643px!important;
+  height: 119px;
+  width: 375px;
+  background-color: #D9D9D9;
+  z-index: 9!important;
+  }
+}
 .gallery-thumbs .swiper-slide {
   left: 579px;
   top: 18px;
