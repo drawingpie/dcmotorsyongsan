@@ -642,14 +642,14 @@ body {
   color: rgba(13, 13, 13, 1);
   z-index: 9;
 }
+
 @media (max-width: 375px) {
 .type01 {
-  left: 307px;
-  top: 269px;
+  left: 38px;
+  top: 151px;
   position: absolute;
   overflow: visible;
-  width: 379px;
-  height: 348px;
+  width: 308px;
   line-height: 46px;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
@@ -672,6 +672,22 @@ body {
   font-size: 1.438rem;
   color: rgba(13, 13, 13, 1);
   z-index: 9;
+}
+@media (max-width: 375px) {
+.txt-car-info {
+  left: 38px;
+  top: 462px;
+  position: absolute;
+  overflow: visible;
+  width: 285px;
+  line-height: 28px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  color: rgba(13, 13, 13, 1);
+  z-index: 9;
+  }
 }
 .txt-car-info button,
 .txt-car-info button::after {
@@ -697,6 +713,26 @@ body {
   font-size: 1.313rem;
   background-color: transparent;
   z-index: 99;
+}
+@media (max-width: 375px) {
+.txt-car-info button {
+  color: #0D0D0D;
+  border: 2px solid #0D0D0D;
+  position: absolute;
+  width: 128px;
+  height: 33px;
+  left: 38px;
+  top: 563px;
+  overflow: visible;
+  cursor: pointer;
+  text-align: center;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.313rem;
+  background-color: transparent;
+  z-index: 99;
+  }
 }
 .txt-car-info button::before,
 .txt-car-info button::after {
