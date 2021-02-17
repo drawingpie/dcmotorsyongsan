@@ -109,6 +109,26 @@ body {
 }
 
 /* 스크롤 후*/
+#servicebtn {
+  background-color: #99C8F2;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  width: 159px;
+  height: 49px;
+  overflow: visible;
+  text-align: center;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  outline: none;
+  left: 1188px;
+  top: 17px;
+  position: absolute;
+}
 .dclogo {
   position: absolute;
   width: 99.249px;
