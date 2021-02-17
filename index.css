@@ -255,9 +255,9 @@ body {
 
 #chainabout {
   position: absolute;
-  width: 100%;
+  width: 1921px;
   height: 938px;
-  left: -1%;
+  left: -0.5%;
   top: 19.6%;
   overflow: visible;
   background: url('aboutbg.png');
