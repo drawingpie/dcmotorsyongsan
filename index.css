@@ -99,17 +99,16 @@ body {
   padding-right: 106px;
   text-decoration: none;
   color: #fff;
-}
+}/*스크롤 전*/
 
-/*스크롤 전*/
+
 .header .scroll .navi ul li a {
   height: 80px;
   overflow: visible;
   z-index: 9999;
-}
+}/* 스크롤 후*/
 
-/* 스크롤 후*/
-#servicebtn {
+.navi#servicebtn {
   background-color: #99C8F2;
   color: white;
   padding: 12px 20px;
@@ -128,7 +127,10 @@ body {
   left: 1188px;
   top: 17px;
   position: absolute;
+  z-index: 9999;
+
 }
+
 .dclogo {
   position: absolute;
   width: 99.249px;
