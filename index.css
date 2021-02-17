@@ -54,6 +54,81 @@ body {
   transition: height 0.3s;
   filter: drop-shadow(0px 9px 30px rgba(0, 0, 0, 0.141));
 }
+@media (max-width: 360px) {
+  .header {
+    display: none;
+  }
+}
+@media (max-width: 360px) {
+  .overlay {
+    display: block;
+    height: 100%;
+    width: 247px;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+}
+
+@media (max-width: 360px) {
+  .overlay-content {
+    display: block;
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 360px) {
+  .overlay a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    transition: 0.3s;
+  }
+}
+
+@media (max-width: 360px) {
+  .overlay a:hover {
+    color: #fff;
+  }
+}
+
+@media (max-width: 360px) {
+  .overlay .closebtn {
+    display: block;
+    position: absolute;
+    top: 3%;
+    left: 8%;
+    fill: #818181;
+  }
+}
+
+@media (max-width: 360px) {
+  .overlay .closebtn:hover {
+    fill: #fff;
+  }
+}
+
+@media (max-width: 360px) {
+  .openbtn {
+    display: block;
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    top: 2%;
+    left: 87%;
+  }
+}
 
 .header.scroll {
   height: 80px;
@@ -110,21 +185,7 @@ body {
   overflow: visible;
   z-index: 9999;
 }/* 스크롤 후*/
-@media (max-width: 360px) {
-  .header {
-    display: block;
-    height: 52px;
-    width: 360;
-    position: absolute;
-    z-index: 1;
-    top: 0;
-    right: 0;
-    background-color: rgb(0, 0, 0);
-    background-color: rgba(0, 0, 0, 0.9);
-    overflow-x: hidden;
-    transition: 0.5s;
-  }
-}
+
 #servicebtn {
   background-color: #99C8F2;
   color: white;
