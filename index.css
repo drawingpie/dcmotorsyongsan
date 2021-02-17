@@ -229,7 +229,7 @@ body {
 }
 
 #servicebtn {
-  background-color: #99C8F2;
+  background-color: #BF9E80;
   color: white;
   padding: 12px auto;
   border: none;
@@ -249,7 +249,7 @@ body {
   position: absolute;
 }
 #servicebtn:hover {
-  background-color: #67A9E5;
+  background-color: #A2774F;
 }
 
 .dclogo {
@@ -642,27 +642,12 @@ body {
   color: rgba(13, 13, 13, 1);
   z-index: 9;
 }
-.swiper-button-next {
-  left: 38px;
-  top: 107px;
-  position: absolute;
-  overflow: visible;
-  width: 284px;
-  height: 42px;
-  line-height: 46px;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 2.5rem;
-  color: rgba(13, 13, 13, 1);
-  z-index: 9;
-  }
-}
+
 .txt-car-info {
   left: 307px;
-  top: 357px;
-  width: 320px;
-  position: relative;
+  top: 444px;
+  width: 314px;
+  position: absolute;
   overflow: visible;
   text-align: left;
   font-family: 'Noto Sans KR', sans-serif;
