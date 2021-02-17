@@ -50,6 +50,7 @@ body {
   }
   .youtubevideowrapperdiv16-9blind div {
     display: block;
+    background: #000;
   }
   .youtubevideowrapperdiv16-9blind{
     position: absolute;
@@ -435,14 +436,23 @@ body {
 }
 
 #product {
-  width: 1920px;
+  width: 100%;
   height: 938px;
-  left: 0px;
+  left: 0%;
   top: 1897px;
   position: absolute;
   overflow: visible;
 }
-
+@media (max-width: 375px) {
+  #product {
+    width: 360px;
+    height: 938px;
+    left: 0px;
+    top: 1897px;
+    position: absolute;
+    overflow: visible;
+  }
+}
 #products {
   width: 160px;
   left: 849px;
@@ -456,6 +466,13 @@ body {
   font-size: 1.563rem;
   color: #0D0D0D;
   z-index: 9;
+}
+@media (max-width: 375px) {
+  #products {
+    font-size: 1.563rem;
+    display: block;
+    margin: auto;
+  }
 }
 
 .swiper-container {
