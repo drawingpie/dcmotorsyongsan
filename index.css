@@ -175,6 +175,7 @@ body {
 
 /* 스크롤 후*/
 @media (max-width: 375px) {
+
   .header, .header.scroll, .header .navi,
   .header.scroll .navi, .navi ul,
   .navi ul li, .navi ul li a,
@@ -182,6 +183,7 @@ body {
     display: none;
   }
 }
+
 .overlay, .overlay-content, .overlay a,
 .overlay .closebtn, .openbtn, .dclogomob {
   display: none;
@@ -454,14 +456,14 @@ body {
 
   #welcome {
     font-size: 22px;
-    left: 45px;
+    left: 58px;
     top: 152px;
-    width: 286px;
+    width: 270px;
     line-height: 37px;
   }
 
   #welcomebody {
-    font-size: 15px;
+    font-size: 14px;
     left: 38px;
     top: 260px;
     width: 300px;
@@ -481,6 +483,7 @@ body {
     top: 541px;
     width: 230px;
   }
+
   #synergy {
     font-size: 69px;
     left: 38px;
@@ -845,9 +848,11 @@ body {
   margin-top: 92px;
   overflow: auto;
 }
+
 .spec01mob, .spec02mob, .spec03mob {
   display: none;
-  }
+}
+
 @media (max-width: 375px) {
   .modlacontent01, .modlacontent02, .modlacontent03 {
     background-color: #fff;
@@ -861,12 +866,14 @@ body {
     overflow: auto;
   }
 }
+
 .spec011, .spec021, .spec031 {
   width: 50%;
   background: contain;
   display: block;
   margin: auto;
 }
+
 @media (max-width: 375px) {
   .spec011, .spec021, .spec031 {
     width: 30%;
@@ -875,6 +882,7 @@ body {
     margin: auto;
   }
 }
+
 .modlacontent01 span, .modlacontent02 span, .modlacontent03 span {
   text-align: center;
   display: block;
@@ -888,6 +896,7 @@ body {
   font-size: 1.125rem;
   color: #0D0D0D;
 }
+
 @media (max-width: 375px) {
   .modlacontent01 span, .modlacontent02 span, .modlacontent03 span {
     text-align: center;
@@ -902,7 +911,9 @@ body {
     font-size: 14px;
     color: #0D0D0D;
   }
-}/*닫기버튼
+}
+
+/*닫기버튼
 .close {
   position: fixed;
   color: #aaaaaa;
@@ -954,6 +965,7 @@ body {
   z-index: 99;
   cursor: pointer;
 }
+
 @media (max-width: 375px) {
   .gallery-thumbs .swiper-slide {
     left: 23px;
@@ -970,6 +982,7 @@ body {
     cursor: pointer;
   }
 }
+
 .gallery-thumbs span {
   left: -145px;
   top: 113px;
@@ -983,6 +996,7 @@ body {
   font-size: 1.125rem;
   color: #0D0D0D;
 }
+
 @media (max-width: 375px) {
   .gallery-thumbs span {
     left: 38px;
@@ -998,6 +1012,7 @@ body {
     color: #0D0D0D;
   }
 }
+
 .smallimg:hover {
   animation: vibrate-1 .3s linear infinite both
 }
