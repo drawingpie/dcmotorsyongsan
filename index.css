@@ -972,7 +972,6 @@ body {
   cursor: pointer;
 }
 
-
 @media (max-width: 375px) {
   .gallery-thumbs .swiper-slide {
     left: 15px;
