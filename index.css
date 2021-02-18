@@ -1002,20 +1002,6 @@ body {
   color: #0D0D0D;
 }
 
-@media (max-width: 375px) {
-  .gallery-thumbs span {
-    left: 38px;
-    top: 85px;
-    position: relative;
-    overflow: visible;
-    text-align: center;
-    font-family: 'Noto Sans KR', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    color: #0D0D0D;
-  }
-}
 .smallimg:hover {
   animation: vibrate-1 .3s linear infinite both
 }
