@@ -1287,7 +1287,7 @@ input[type=text], input[type=email], textarea {
     font-size: 24px;
     color: rgba(13, 13, 13, 1);
     border-bottom: 2px solid #0D0D0D;
-    padding-bottom: 16px;
+    padding-bottom: 5px;
   }
 }
 #map iframe {
@@ -1530,7 +1530,7 @@ input[type=text], input[type=email], textarea {
 #footercontents01 {
   opacity: 0.32;
   left: 556px;
-  top: 59px;
+  top: 76px;
   position: absolute;
   overflow: visible;
   width: 589px;
@@ -1543,26 +1543,10 @@ input[type=text], input[type=email], textarea {
   color: rgba(242, 242, 242, 1);
 }
 
-#footercontents02 {
-  opacity: 0.32;
-  left: 556px;
-  top: 90px;
-  position: absolute;
-  overflow: visible;
-  width: 614px;
-  white-space: nowrap;
-  text-align: left;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 1rem;
-  color: rgba(242, 242, 242, 1);
-}
-
 #Copyright {
   opacity: 0.32;
   left: 556px;
-  top: 141px;
+  top: 100px;
   position: absolute;
   overflow: visible;
   width: 541px;
@@ -1589,6 +1573,6 @@ input[type=text], input[type=email], textarea {
   width: 205.019px;
   height: 50.754px;
   left: 302px;
-  top: 52px;
+  top: 76px;
   overflow: visible;
 }
