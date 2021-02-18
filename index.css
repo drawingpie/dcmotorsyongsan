@@ -978,11 +978,11 @@ body {
 
 @media (max-width: 375px) {
   .gallery-thumbs .swiper-slide {
-    left: 23px;
-    top: 2px;
-    transform: scale(0.2)
+    left: 15px;
+    top: -5px;
+    transform: scale(0.6);
     position: relative;
-    padding-right: 30px;
+    padding-right: 10px;
     z-index: 99;
     cursor: pointer;
   }
