@@ -876,6 +876,12 @@ body {
    display:block;
   }
 }
+.spec011, .spec021, .spec031 {
+  width: 50%;
+  background: contain;
+  display: block;
+  margin: auto;
+}
 
 @media (max-width: 375px) {
   .spec011, .spec021, .spec031 {
