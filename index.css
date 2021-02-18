@@ -867,7 +867,7 @@ body {
   }
 }
 @media (max-width: 375px) {
-  .spec01, .spec01, .spec01 {
+  .spec01, .spec02, .spec03 {
    display:none;
   }
 }
