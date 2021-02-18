@@ -356,11 +356,11 @@ body {
 }
 
 #welcome {
-  left: 640px;
+  left: 706px;
   top: 250px;
   position: absolute;
   overflow: visible;
-  width: 600px;
+  width: 508px;
   line-height: 59px;
   text-align: center;
   font-family: 'Noto Sans KR', sans-serif;
