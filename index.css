@@ -175,7 +175,6 @@ body {
 
 /* 스크롤 후*/
 @media (max-width: 375px) {
-
   .header, .header.scroll, .header .navi,
   .header.scroll .navi, .navi ul,
   .navi ul li, .navi ul li a,
@@ -183,7 +182,6 @@ body {
     display: none;
   }
 }
-
 .overlay, .overlay-content, .overlay a,
 .overlay .closebtn, .openbtn, .dclogomob {
   display: none;
@@ -251,13 +249,11 @@ body {
 @media (max-width: 375px) {
   .openbtn {
     display: block;
-    font-size: 1.875rem;
     cursor: pointer;
     position: absolute;
     top: 2.2%;
     left: 81.9%;
     z-index: 9;
-    transform: scale(0.5)
   }
 }
 
@@ -450,43 +446,46 @@ body {
 
   #aboutus {
     font-size: 18px;
-    left: 127px;
-    top: 64px;
-    width: 284px;
+    left: 136px;
+    top: 77px;
+    width: 104px;
+    text-align: center;
   }
 
   #welcome {
     font-size: 22px;
-    left: 38px;
-    top: 130px;
-    width: 266px;
+    left: 45px;
+    top: 152px;
+    width: 286px;
+    line-height: 37px;
   }
 
   #welcomebody {
     font-size: 15px;
     left: 38px;
-    top: 226px;
-    width: 284px;
+    top: 260px;
+    width: 300px;
+    line-height: 29px;
   }
 
   #speed {
     font-size: 69px;
     left: 65px;
-    top: 450px;
+    top: 439px;
     width: 230px;
   }
 
   #smart {
     font-size: 69px;
     left: 65px;
-    top: 553px;
+    top: 541px;
     width: 230px;
   }
 
   #synergy {
     font-size: 69px;
     left: 38px;
-    top: 651px;
+    top: 633px;
     width: 285px;
   }
 }
