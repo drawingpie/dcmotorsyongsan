@@ -456,9 +456,9 @@ body {
 
   #welcome {
     font-size: 22px;
-    left: 58px;
+    left: 45px;
     top: 152px;
-    width: 270px;
+    width: 286px;
     line-height: 37px;
   }
 
@@ -531,7 +531,7 @@ body {
   #products {
     font-size: 18px;
     left: 130px;
-    top: 60px;
+    top: 59px;
   }
 }
 
@@ -593,9 +593,9 @@ body {
 
 @media (max-width: 375px) {
   .gallery-top .bigimg {
-    width: 70%;
+    width: 60%;
     height: auto;
-    left: 45px;
+    left: 80px;
     top: 250px;
     position: absolute;
     overflow: visible;
@@ -861,22 +861,25 @@ body {
     height: 670px;
     display: none;
     z-index: 999;
-    left: 38px;
-    top: 53px;
+    left: 30px;
+    top: 46px;
     overflow: auto;
   }
 }
-
-.spec011, .spec021, .spec031 {
-  width: 50%;
-  background: contain;
-  display: block;
-  margin: auto;
+@media (max-width: 375px) {
+  .spec01, .spec01, .spec01 {
+   display:none;
+  }
+}
+@media (max-width: 375px) {
+  .spec01mob, .spec02mob, .spec03mob {
+   display:block;
+  }
 }
 
 @media (max-width: 375px) {
   .spec011, .spec021, .spec031 {
-    width: 30%;
+    width: 50%;
     background: contain;
     display: block;
     margin: auto;
