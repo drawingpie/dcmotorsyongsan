@@ -481,7 +481,6 @@ body {
     top: 541px;
     width: 230px;
   }
-
   #synergy {
     font-size: 69px;
     left: 38px;
@@ -784,7 +783,7 @@ body {
     position: absolute;
     width: 128px;
     height: 33px;
-    top: 110px;
+    top: 100px;
     overflow: visible;
     cursor: pointer;
     text-align: center;
@@ -846,14 +845,36 @@ body {
   margin-top: 92px;
   overflow: auto;
 }
-
+.spec01mob, .spec02mob, .spec03mob {
+  display: none;
+  }
+@media (max-width: 375px) {
+  .modlacontent01, .modlacontent02, .modlacontent03 {
+    background-color: #fff;
+    position: absolute;
+    width: 315px;
+    height: 670px;
+    display: none;
+    z-index: 999;
+    left: 38px;
+    top: 53px;
+    overflow: auto;
+  }
+}
 .spec011, .spec021, .spec031 {
   width: 50%;
   background: contain;
   display: block;
   margin: auto;
 }
-
+@media (max-width: 375px) {
+  .spec011, .spec021, .spec031 {
+    width: 30%;
+    background: contain;
+    display: block;
+    margin: auto;
+  }
+}
 .modlacontent01 span, .modlacontent02 span, .modlacontent03 span {
   text-align: center;
   display: block;
@@ -867,8 +888,21 @@ body {
   font-size: 1.125rem;
   color: #0D0D0D;
 }
-
-/*닫기버튼
+@media (max-width: 375px) {
+  .modlacontent01 span, .modlacontent02 span, .modlacontent03 span {
+    text-align: center;
+    display: block;
+    margin: auto;
+    padding-top: 50px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #0D0D0D;
+  }
+}/*닫기버튼
 .close {
   position: fixed;
   color: #aaaaaa;
