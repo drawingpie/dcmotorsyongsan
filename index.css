@@ -1275,17 +1275,19 @@ input[type=text], input[type=email], textarea {
 @media (max-width: 375px) {
   #chain  {
     left: 38px;
-    top: 106px;
+    top: 146px;
     position: absolute;
     overflow: visible;
-    width: 370px;
+    width: 300px;
     white-space: nowrap;
     text-align: left;
     font-family: 'Noto Sans KR', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 1.875rem;
     color: rgba(13, 13, 13, 1);
+    border-bottom: 2px solid #0D0D0D;
+    padding-bottom: 16px;
   }
 }
 #map iframe {
