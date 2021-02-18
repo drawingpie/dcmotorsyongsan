@@ -1275,7 +1275,7 @@ input[type=text], input[type=email], textarea {
 @media (max-width: 375px) {
   #chain  {
     left: 38px;
-    top: 146px;
+    top: 105px;
     position: absolute;
     overflow: visible;
     width: 300px;
