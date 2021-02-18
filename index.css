@@ -980,6 +980,7 @@ body {
   .gallery-thumbs .swiper-slide {
     left: 15px;
     top: -5px;
+    -webkit-transform:scale(0.6);
     transform: scale(0.6);
     position: relative;
     padding-right: 10px;
