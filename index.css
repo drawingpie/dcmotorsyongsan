@@ -670,7 +670,7 @@ body {
     position: absolute !important;
     width: auto;
     height: auto;
-    left: 338px !important;
+    right: 22.59px !important;
     top: 298px !important;
     overflow: visible;
     background-repeat: no-repeat;
@@ -980,7 +980,7 @@ body {
   .gallery-thumbs .swiper-slide {
     left: 15px;
     top: -5px;
-    -webkit-transform:scale(0.6);
+    -webkit-transform:scale(0.6, 0.6);
     transform: scale(0.6);
     position: relative;
     padding-right: 10px;
