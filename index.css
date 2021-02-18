@@ -1067,7 +1067,21 @@ body {
   font-size: 1.563rem;
   color: rgba(0, 0, 0, 1);
 }
-
+@media (max-width: 375px) {
+  #service span {
+    left: 139px;
+    top: 31px;
+    position: absolute;
+    overflow: visible;
+    white-space: nowrap;
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 1);
+  }
+}
 #line01 {
   fill: transparent;
   stroke: rgba(217, 217, 217, 1);
@@ -1097,7 +1111,6 @@ body {
   stroke-miterlimit: 4;
   shape-rendering: auto;
 }
-
 .line02 {
   overflow: visible;
   position: absolute;
@@ -1176,8 +1189,8 @@ input[type=text], input[type=email], textarea {
 #contact {
   position: absolute;
   overflow: visible;
-  width: 1920px;
-  height: 938px;
+  width: 375px;
+  height: 760px;
   left: 0px;
   top: 2812px;
 }
@@ -1202,7 +1215,16 @@ input[type=text], input[type=email], textarea {
   top: 0px;
   background-color: #fff;
 }
-
+@media (max-width: 375px) {
+  #contactbg  {
+    height: 760px;
+    width: 100%;
+    position: absolute !important;
+    overflow: visible;
+    left: 0px;
+    top: 0px;
+  }
+}
 #contacthead span {
   left: 881px;
   top: 117px;
@@ -1217,7 +1239,22 @@ input[type=text], input[type=email], textarea {
   font-size: 1.563rem;
   color: rgba(13, 13, 13, 1);
 }
-
+@media (max-width: 375px) {
+  #contacthead span  {
+    left: 143px;
+    top: 36px;
+    position: absolute;
+    overflow: visible;
+    width: 98px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: rgba(13, 13, 13, 1);
+  }
+}
 #line03 {
   fill: transparent;
   stroke: rgba(13, 13, 13, 1);
@@ -1237,6 +1274,15 @@ input[type=text], input[type=email], textarea {
   top: 285px;
   transform: matrix(1, 0, 0, 1, 0, 0);
 }
+@media (max-width: 375px) {
+  .line03  {
+    left: 38px;
+    top: 146px;
+    position: absolute;
+    overflow: visible;
+    width: 300px;
+  }
+}
 
 #chain {
   left: 258px;
@@ -1252,7 +1298,22 @@ input[type=text], input[type=email], textarea {
   font-size: 1.875rem;
   color: rgba(13, 13, 13, 1);
 }
-
+@media (max-width: 375px) {
+  #chain  {
+    left: 38px;
+    top: 106px;
+    position: absolute;
+    overflow: visible;
+    width: 370px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: rgba(13, 13, 13, 1);
+  }
+}
 #map {
   position: absolute;
   width: 702px;
@@ -1261,16 +1322,16 @@ input[type=text], input[type=email], textarea {
   top: 321px;
   overflow: visible;
 }
-
-#naver_map {
-  position: absolute;
-  width: 702px;
-  height: 532px;
-  left: 0px;
-  top: 0px;
-  overflow: visible;
+@media (max-width: 375px) {
+  #map  {
+    position: absolute;
+    width: 300px;
+    height: 215px;
+    left: 38px;
+    top: 160px;
+    overflow: visible;
+  }
 }
-
 #add {
   left: 1025px;
   top: 388px;
