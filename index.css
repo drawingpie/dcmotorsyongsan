@@ -1278,7 +1278,11 @@ input[type=text], input[type=email], textarea {
   display: flex;
   float: right;
 }
-
+@media (max-width: 375px) {
+  .line {
+  display: inline;
+ }
+}
 #contact {
   position: absolute;
   overflow: visible;
@@ -1785,7 +1789,7 @@ input[type=text], input[type=email], textarea {
     width: 375px;
     height: 192px;
     left: 0px;
-    top: 3800px;
+    top: 0px;
   }
 }
 #footercontents01 {
