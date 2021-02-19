@@ -41,7 +41,7 @@
 				</ul>
 			</div>
 		</div>
-
+		<!--
 		<div id="myNav" class="overlay">
 			<div class="closebtn" onclick="closeNav()"><img src="Icon material-close.svg"></div>
 			<div class="overlay-content">
@@ -55,6 +55,19 @@
 			<div class="openbtn" onclick="openNav()"><img src="Icon material-menu.svg"></div>
 			<a href='#cover'><img class="dclogomob" src="moblogo.png"></a>
 		</div>
+	-->
+
+		<div class="btn"></div>
+		<div onclick="history.back();" class="page_cover"></div>
+		<a href='#cover'><img class="dclogomob" src="moblogo.png"></a>
+		<div id="menu">
+			<div onclick="history.back();" class="close"></div>
+			<a href="#chainabout">소개</a>
+			<a href="#product">제품</a>
+			<a href="#contact">오시는길</a>
+			<a href="#contact">구입문의</a>
+		</div>
+
 
 		<div id="chainabout">
 			<div id="aboutus"><span>ABOUT US</span></div>
@@ -379,14 +392,27 @@
 			xhr.send(data);
 		}
 
-		//슬라이드메뉴
+		/*슬라이드메뉴
 		function openNav() {
 			document.getElementById("myNav").style.width = "100%";
 		}
 
 		function closeNav() {
 			document.getElementById("myNav").style.width = "0%";
-		}
+		}*/
+		$(".btn").click(function() {
+		  $("#menu,.page_cover,html").addClass("open");
+		  window.location.hash = "#open";
+		});
+
+		window.onhashchange = function() {
+		  if (location.hash != "#open") {
+		    $("#menu,.page_cover,html").removeClass("open");
+		  }
+		};
+
+
+		Resources1× 0.5× 0.25× Rerun
 	</script>
 
 </body>
