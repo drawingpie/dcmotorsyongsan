@@ -514,7 +514,7 @@ body {
 
 #products {
   width: 160px;
-  left: 849px;
+  left: 44.2%;
   top: 109px;
   position: relative;
   overflow: visible;
@@ -536,9 +536,9 @@ body {
 }
 
 .swiper-container {
-  width: 1920px;
+  width: 100%;
   height: 938px;
-  left: 0px;
+  left: 0%;
   top: 0px;
   position: relative;
   overflow: visible !important;
@@ -560,9 +560,9 @@ body {
 .gallery-top .swiper-slide {
   background-image: url("productbg.png");
   background-repeat: no-repeat;
-  width: 1920px;
+  width: 100%;
   height: 936px;
-  left: 0px;
+  left: 0%;
   top: 0px;
   position: relative;
   overflow: visible !important;
@@ -584,7 +584,7 @@ body {
 .gallery-top .bigimg {
   max-width: 755px;
   max-height: 500px;
-  left: 747px;
+  left: 38.9%;
   top: 200px;
   position: absolute;
   overflow: visible;
@@ -608,7 +608,7 @@ body {
   width: 100%;
   position: absolute !important;
   overflow: visible;
-  left: 0px;
+  left: 0%;
   top: 0px;
 }
 
@@ -627,7 +627,7 @@ body {
   position: absolute !important;
   width: auto;
   height: auto;
-  left: 140px !important;
+  left: 7.2% !important;
   top: 457px !important;
   overflow: visible;
   background-repeat: no-repeat;
@@ -656,7 +656,7 @@ body {
   position: absolute !important;
   width: auto;
   height: auto;
-  left: 1700px !important;
+  left: 88.5% !important;
   top: 457px !important;
   overflow: visible;
   outline: none;
@@ -687,7 +687,7 @@ body {
 }
 
 .type01 {
-  left: 307px;
+  left: 15.9%;
   top: 269px;
   position: absolute;
   overflow: visible;
@@ -721,7 +721,7 @@ body {
 }
 
 .txt-car-info {
-  left: 307px;
+  left: 15.9%;
   top: 400px;
   width: 314px;
   position: absolute;
@@ -766,7 +766,7 @@ body {
   position: absolute;
   width: 252px;
   height: 56px;
-  left: 0px;
+  left: 0%;
   top: 170px;
   overflow: visible;
   cursor: pointer;
@@ -814,8 +814,8 @@ body {
 
 .open01::after, .open02::after, .open03::after {
   height: 100%;
-  left: 0;
-  top: 0;
+  left: 0%;
+  top: 0%;
   width: 0;
 }
 
@@ -844,7 +844,7 @@ body {
   height: 699px;
   display: none;
   z-index: 999;
-  left: 458px;
+  left: 23.8%;
   margin-top: 92px;
   overflow: auto;
 }
@@ -941,7 +941,7 @@ body {
 */
 .gallery-thumbs {
   position: absolute !important;
-  left: 0px;
+  left: 0%;
   top: 755px !important;
   height: 183px;
   background-color: #D9D9D9;
@@ -961,7 +961,7 @@ body {
 }
 
 .gallery-thumbs .swiper-slide {
-  left: 579px;
+  left: 30.1%;
   top: 18px;
   width: 100%;
   max-width: 130px;
@@ -987,7 +987,7 @@ body {
 }
 
 .gallery-thumbs span {
-  left: -145px;
+  left: -7.5%;
   top: 113px;
   position: relative;
   overflow: visible;
@@ -1033,9 +1033,9 @@ body {
 #service {
   overflow: visible;
   position: absolute;
-  width: 1920px;
+  width: 100%;
   height: 938px;
-  left: 0px;
+  left: 0%;
   top: 3743px;
   background-color: #F2F2F2;
 }
@@ -1052,7 +1052,7 @@ body {
 }
 
 #service span {
-  left: 881px;
+  left: 45.8%;
   top: 104px;
   position: absolute;
   overflow: visible;
@@ -1085,7 +1085,7 @@ body {
   position: absolute;
   width: 1388px;
   height: 1px;
-  left: 265.5px;
+  left: 13.8%;
   top: 330px;
   transform: matrix(1, 0, 0, 1, 0, 0);
 }
@@ -1107,7 +1107,7 @@ body {
   position: absolute;
   width: 1388px;
   height: 1px;
-  left: 265.5px;
+  left: 13.8%;
   top: 512px;
   transform: matrix(1, 0, 0, 1, 0, 0);
 }
@@ -1186,7 +1186,7 @@ input[type=text], input[type=email], textarea {
 
 @media (max-width: 375px) {
   input[type=text], input[type=email], textarea {
-     width: 300px!important;
+    width: 300px!important;
     height: 50px;
     padding: 20px;
     border: 1px solid #ccc;
@@ -1222,7 +1222,7 @@ input[type=text], input[type=email], textarea {
   font-weight: 500;
   font-size: 1.313rem;
   outline: none;
-  left: 569px;
+  left: 29.6%;
   top: 650px;
   position: absolute;
 }
@@ -1253,7 +1253,7 @@ input[type=text], input[type=email], textarea {
 }
 
 .container {
-  left: 264.5px;
+  left: 13.7%;
   top: 195px;
   position: absolute;
   overflow: visible;
@@ -1293,7 +1293,7 @@ input[type=text], input[type=email], textarea {
   overflow: visible;
   width: 375px;
   height: 760px;
-  left: 0px;
+  left: 0%;
   top: 2812px;
 }
 
@@ -1311,9 +1311,9 @@ input[type=text], input[type=email], textarea {
 #contactbg {
   position: absolute;
   overflow: visible;
-  width: 1920px;
+  width: 100%;
   height: 858px;
-  left: 0px;
+  left: 0%;
   top: 0px;
   background-color: #fff;
 }
@@ -1328,7 +1328,7 @@ input[type=text], input[type=email], textarea {
   }
 }
 #contacthead span {
-  left: 881px;
+  left: 45.8%;
   top: 117px;
   position: absolute;
   overflow: visible;
@@ -1359,7 +1359,7 @@ input[type=text], input[type=email], textarea {
 }
 
 #chain {
-  left: 258px;
+  left: 13.4%;
   top: 217px;
   position: absolute;
   overflow: visible;
@@ -1396,7 +1396,7 @@ input[type=text], input[type=email], textarea {
   position: absolute;
   width: 702px;
   height: 532px;
-  left: 258px;
+  left: 13.4%;
   top: 321px;
   overflow: visible;
 }
@@ -1411,7 +1411,7 @@ input[type=text], input[type=email], textarea {
   }
 }
 #add {
-  left: 1025px;
+  left: 53.3%;
   top: 388px;
   position: absolute;
   overflow: visible;
@@ -1441,7 +1441,7 @@ input[type=text], input[type=email], textarea {
   }
 }
 #tel {
-  left: 1025px;
+  left: 53.3%;
   top: 510px;
   position: absolute;
   overflow: visible;
@@ -1472,7 +1472,7 @@ input[type=text], input[type=email], textarea {
 }
 
 #fax {
-  left: 1025px;
+  left: 53.3%;
   top: 627px;
   position: absolute;
   overflow: visible;
@@ -1502,7 +1502,7 @@ input[type=text], input[type=email], textarea {
   }
 }
 #hour {
-  left: 1025px;
+  left: 53.3%;
   top: 746px;
   position: absolute;
   overflow: visible;
@@ -1532,7 +1532,7 @@ input[type=text], input[type=email], textarea {
   }
 }
 #addbody {
-  left: 1156px;
+  left: 60.2%;
   top: 388px;
   position: absolute;
   overflow: visible;
@@ -1561,7 +1561,7 @@ input[type=text], input[type=email], textarea {
   }
 }
 #telnumber {
-  left: 1156px;
+  left: 60.2%;
   top: 510px;
   position: absolute;
   overflow: visible;
@@ -1590,7 +1590,7 @@ input[type=text], input[type=email], textarea {
   }
 }
 #faxnumber {
-  left: 1156px;
+  left: 60.2%;
   top: 627px;
   position: absolute;
   overflow: visible;
@@ -1618,7 +1618,7 @@ input[type=text], input[type=email], textarea {
   }
 }
 #hourbody {
-  left: 1156px;
+  left: 60.2%;
   top: 746px;
   position: absolute;
   overflow: visible;
@@ -1651,7 +1651,7 @@ input[type=text], input[type=email], textarea {
   overflow: visible;
   position: absolute;
   width: 637px;
-  left: 1025.5px;
+  left: 53.4%;
   top: 475px;
 }
 @media (max-width: 375px) {
@@ -1671,7 +1671,7 @@ input[type=text], input[type=email], textarea {
   position: absolute;
   width: 637px;
   height: 1px;
-  left: 1025.5px;
+  left: 53.4%;
   top: 587px;
 }
 @media (max-width: 375px) {
@@ -1690,7 +1690,7 @@ input[type=text], input[type=email], textarea {
   position: absolute;
   width: 637px;
   height: 1px;
-  left: 1025.5px;
+  left: 53.4%;
   top: 706px;
   transform: matrix(1, 0, 0, 1, 0, 0);
 }
@@ -1711,7 +1711,7 @@ input[type=text], input[type=email], textarea {
   position: absolute;
   width: 637px;
   height: 1px;
-  left: 1025.5px;
+  left: 53.4%;
   top: 853px;
   transform: matrix(1, 0, 0, 1, 0, 0);
 }
@@ -1730,9 +1730,9 @@ input[type=text], input[type=email], textarea {
 #footer {
   position: absolute;
   overflow: visible;
-  width: 1920px;
+  width: 100%;
   height: 215px;
-  left: 0px;
+  left: 0%;
   top: 4685px;
 }
 @media (max-width: 375px) {
@@ -1748,9 +1748,9 @@ input[type=text], input[type=email], textarea {
 #footerbg {
   position: absolute;
   overflow: visible;
-  width: 1920px;
+  width: 100%;
   height: 215px;
-  left: 0px;
+  left: 0%;
   top: 0px;
   background: #0D0D0D;
 }
@@ -1766,7 +1766,7 @@ input[type=text], input[type=email], textarea {
 }
 #footercontents01 {
   opacity: 0.32;
-  left: 556px;
+  left: 28.9%;
   top: 76px;
   position: absolute;
   overflow: visible;
@@ -1796,7 +1796,7 @@ input[type=text], input[type=email], textarea {
 }
 #Copyright {
   opacity: 0.32;
-  left: 556px;
+  left: 28.9%;
   top: 105px;
   position: absolute;
   overflow: visible;
@@ -1828,7 +1828,7 @@ input[type=text], input[type=email], textarea {
   position: absolute;
   width: 82px;
   height: 81px;
-  left: 1694px;
+  left: 88.2%;
   top: 60px;
   overflow: visible;
 }
@@ -1847,7 +1847,7 @@ input[type=text], input[type=email], textarea {
   position: absolute;
   width: 205.019px;
   height: 50.754px;
-  left: 302px;
+  left: 15.7%;
   top: 76px;
   overflow: visible;
 }
