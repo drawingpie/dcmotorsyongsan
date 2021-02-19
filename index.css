@@ -275,7 +275,7 @@ body {
   font-weight: 500;
   font-size: 1.313rem;
   outline: none;
-  left: 1188px;
+  left: 61.8%;
   top: 22px;
   position: absolute;
 }
@@ -288,7 +288,7 @@ body {
   position: absolute;
   width: 99.249px;
   height: 31.956px;
-  left: 346px;
+  left: 18%;
   top: 25px;
   overflow: visible;
 }
@@ -300,15 +300,15 @@ body {
     position: absolute;
     width: 106.27px;
     height: 20.49px;
-    top: 2.2%;
-    left: 10.5%;
+    top: 2.2px;
+    left: 10.5px;
     overflow: visible;
     z-index: 9;
   }
 }
 
 #yongsan {
-  left: 450px;
+  left: 23.4%;
   top: 10px;
   position: absolute;
   overflow: visible;
@@ -325,7 +325,7 @@ body {
   position: absolute;
   width: 96.677px;
   height: 52.344px;
-  left: 1690.223px;
+  left: 88%;
   top: 17.192px;
   overflow: visible;
 }
@@ -356,7 +356,7 @@ body {
 }
 
 #welcome {
-  left: 706px;
+  left: 36.7%;
   top: 250px;
   position: absolute;
   overflow: visible;
@@ -371,7 +371,7 @@ body {
 }
 
 #welcomebody {
-  left: 610px;
+  left: 31.7%;
   top: 429px;
   position: absolute;
   overflow: visible;
@@ -390,7 +390,7 @@ body {
 #speed {
   opacity: 0.5;
   mix-blend-mode: screen;
-  left: 140px;
+  left: 7.2%;
   top: 703px;
   position: absolute;
   overflow: visible;
@@ -406,7 +406,7 @@ body {
 #smart {
   opacity: 0.5;
   mix-blend-mode: screen;
-  left: 686px;
+  left: 35.7%;
   top: 703px;
   position: absolute;
   overflow: visible;
@@ -422,7 +422,7 @@ body {
 #synergy {
   opacity: 0.5;
   mix-blend-mode: screen;
-  left: 1245px;
+  left: 64.8%;
   top: 703px;
   position: absolute;
   overflow: visible;
