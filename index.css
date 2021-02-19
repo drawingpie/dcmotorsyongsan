@@ -199,7 +199,7 @@ body {
     background-color: rgba(0, 0, 0, 0.9);
     overflow:hidden;
     transition: 0.5s;
-    overflow:hidden;
+    overflow-x: hidden;
   }
 }
 
