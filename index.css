@@ -1193,7 +1193,7 @@ input[type=text], input[type=email], textarea {
     border-radius: 0px;
     box-sizing: border-box;
     margin-top: 6px;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
     resize: vertical;
     filter: drop-shadow(0px 1px 20px rgba(0, 0, 0, 0.071));
     outline: none;
@@ -1266,7 +1266,20 @@ input[type=text], input[type=email], textarea {
 }
 @media (max-width: 375px) {
   .line {
-  display: inline;
+    display: block;
+    left: 38px;
+    top: 74px;
+    position: absolute;
+    overflow: visible;
+ }
+}
+@media (max-width: 375px) {
+  .row {
+    display: inline;
+    left: 38px;
+    top:407px;
+    position: absolute;
+    overflow: visible;
  }
 }
 #contact {
