@@ -1319,7 +1319,22 @@ input[type=text], input[type=email], textarea {
   font-size: 1.5rem;
   color: rgba(13, 13, 13, 1);
 }
-
+@media (max-width: 375px) {
+  #add  {
+    left: 38px;
+    top: 395px;
+    position: absolute;
+    overflow: visible;
+    width: 50px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgba(13, 13, 13, 1);
+  }
+}
 #tel {
   left: 1025px;
   top: 510px;
@@ -1333,6 +1348,22 @@ input[type=text], input[type=email], textarea {
   font-weight: 500;
   font-size: 1.5rem;
   color: rgba(13, 13, 13, 1);
+}
+@media (max-width: 375px) {
+  #tel  {
+    left: 38px;
+    top: 494px;
+    position: absolute;
+    overflow: visible;
+    width: 50px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgba(13, 13, 13, 1);
+  }
 }
 
 #fax {
@@ -1349,7 +1380,22 @@ input[type=text], input[type=email], textarea {
   font-size: 1.5rem;
   color: rgba(13, 13, 13, 1);
 }
-
+@media (max-width: 375px) {
+  #fax  {
+    left: 38px;
+    top: 566px;
+    position: absolute;
+    overflow: visible;
+    width: 50px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgba(13, 13, 13, 1);
+  }
+}
 #hour {
   left: 1025px;
   top: 746px;
@@ -1364,7 +1410,22 @@ input[type=text], input[type=email], textarea {
   font-size: 1.5rem;
   color: rgba(13, 13, 13, 1);
 }
-
+@media (max-width: 375px) {
+  #hour  {
+    left: 38px;
+    top: 638px;
+    position: absolute;
+    overflow: visible;
+    width: 75px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgba(13, 13, 13, 1);
+  }
+}
 #addbody {
   left: 1156px;
   top: 388px;
@@ -1379,7 +1440,22 @@ input[type=text], input[type=email], textarea {
   font-size: 1.5rem;
   color: rgba(13, 13, 13, 1);
 }
-
+@media (max-width: 375px) {
+  #addbody  {
+    left: 149px;
+    top: 395px;
+    position: absolute;
+    overflow: visible;
+    width: 190px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgba(13, 13, 13, 1);
+  }
+}
 #telnumber {
   left: 1156px;
   top: 510px;
@@ -1394,7 +1470,22 @@ input[type=text], input[type=email], textarea {
   font-size: 1.5rem;
   color: rgba(13, 13, 13, 1);
 }
-
+@media (max-width: 375px) {
+  #telnumber  {
+    left: 149px;
+    top: 494px;
+    position: absolute;
+    overflow: visible;
+    width: 190px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgba(13, 13, 13, 1);
+  }
+}
 #faxnumber {
   left: 1156px;
   top: 627px;
@@ -1409,7 +1500,22 @@ input[type=text], input[type=email], textarea {
   font-size: 1.5rem;
   color: rgba(13, 13, 13, 1);
 }
-
+@media (max-width: 375px) {
+  #faxnumber  {
+    left: 149px;
+    top: 566px;
+    position: absolute;
+    overflow: visible;
+    width: 507px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgba(13, 13, 13, 1);
+  }
+}
 #hourbody {
   left: 1156px;
   top: 746px;
@@ -1424,7 +1530,22 @@ input[type=text], input[type=email], textarea {
   font-size: 1.5rem;
   color: rgba(13, 13, 13, 1);
 }
-
+@media (max-width: 375px) {
+  #hourbody  {
+    left: 149px;
+    top: 638px;
+    position: absolute;
+    overflow: visible;
+    width: 75px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgba(13, 13, 13, 1);
+  }
+}
 #line04 {
   fill: transparent;
   stroke: rgba(217, 217, 217, 1);
@@ -1444,7 +1565,22 @@ input[type=text], input[type=email], textarea {
   top: 475px;
   transform: matrix(1, 0, 0, 1, 0, 0);
 }
-
+@media (max-width: 375px) {
+  #hourbody  {
+    left: 149px;
+    top: 638px;
+    position: absolute;
+    overflow: visible;
+    width: 75px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgba(13, 13, 13, 1);
+  }
+}
 #line05 {
   fill: transparent;
   stroke: rgba(217, 217, 217, 1);
@@ -1464,7 +1600,17 @@ input[type=text], input[type=email], textarea {
   top: 587px;
   transform: matrix(1, 0, 0, 1, 0, 0);
 }
-
+@media (max-width: 375px) {
+  .line05  {
+    overflow: visible;
+    position: absolute;
+    width: 300px;
+    height: 1px;
+    left: 38px;
+    top: 472px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+}
 #line06 {
   fill: transparent;
   stroke: rgba(217, 217, 217, 1);
@@ -1484,7 +1630,17 @@ input[type=text], input[type=email], textarea {
   top: 706px;
   transform: matrix(1, 0, 0, 1, 0, 0);
 }
-
+@media (max-width: 375px) {
+  .line06  {
+    overflow: visible;
+    position: absolute;
+    width: 300px;
+    height: 1px;
+    left: 38px;
+    top: 544px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+}
 #line07 {
   fill: transparent;
   stroke: rgba(217, 217, 217, 1);
@@ -1504,7 +1660,17 @@ input[type=text], input[type=email], textarea {
   top: 853px;
   transform: matrix(1, 0, 0, 1, 0, 0);
 }
-
+@media (max-width: 375px) {
+  .line07  {
+    overflow: visible;
+    position: absolute;
+    width: 300px;
+    height: 1px;
+    left: 38px;
+    top: 616px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+}
 #footer {
   position: absolute;
   overflow: visible;
@@ -1543,7 +1709,7 @@ input[type=text], input[type=email], textarea {
 #Copyright {
   opacity: 0.32;
   left: 556px;
-  top: 100px;
+  top: 105px;
   position: absolute;
   overflow: visible;
   width: 541px;
