@@ -1678,20 +1678,14 @@ input[type=text], input[type=email], textarea {
   }
 }
 .line05 {
-  fill: transparent;
-  stroke: rgba(217, 217, 217, 1);
-  stroke-width: 1px;
-  stroke-linejoin: miter;
-  stroke-linecap: butt;
-  stroke-miterlimit: 4;
-  shape-rendering: auto;
+  border-bottom: 1px solid #D9D9D9;
+  margin-bottom: 72px;
   overflow: visible;
   position: absolute;
   width: 637px;
   height: 1px;
   left: 1025.5px;
   top: 587px;
-  transform: matrix(1, 0, 0, 1, 0, 0);
 }
 @media (max-width: 375px) {
   .line05  {
@@ -1701,7 +1695,6 @@ input[type=text], input[type=email], textarea {
     height: 1px;
     left: 38px;
     top: 472px;
-    transform: matrix(1, 0, 0, 1, 0, 0);
   }
 }
 .line06 {
@@ -1766,7 +1759,16 @@ input[type=text], input[type=email], textarea {
   left: 0px;
   top: 4685px;
 }
-
+@media (max-width: 375px) {
+  #footer  {
+    position: absolute;
+    overflow: visible;
+    width: 375px;
+    height: 192px;
+    left: 0px;
+    top: 3800px;
+  }
+}
 #footerbg {
   position: absolute;
   overflow: visible;
@@ -1776,7 +1778,16 @@ input[type=text], input[type=email], textarea {
   top: 0px;
   background: #0D0D0D;
 }
-
+@media (max-width: 375px) {
+  #footerbg  {
+    position: absolute;
+    overflow: visible;
+    width: 375px;
+    height: 192px;
+    left: 0px;
+    top: 3800px;
+  }
+}
 #footercontents01 {
   opacity: 0.32;
   left: 556px;
@@ -1792,7 +1803,23 @@ input[type=text], input[type=email], textarea {
   font-size: 1rem;
   color: rgba(242, 242, 242, 1);
 }
-
+@media (max-width: 375px) {
+  #footercontents01  {
+    opacity: 0.32;
+    left: 38px;
+    top: 92px;
+    position: absolute;
+    overflow: visible;
+    width: 262px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 9px;
+    color: rgba(242, 242, 242, 1);
+  }
+}
 #Copyright {
   opacity: 0.32;
   left: 556px;
@@ -1808,7 +1835,23 @@ input[type=text], input[type=email], textarea {
   font-size: 1rem;
   color: rgba(242, 242, 242, 1);
 }
-
+@media (max-width: 375px) {
+  #Copyright  {
+    opacity: 0.32;
+    left: 38px;
+    top: 127px;
+    position: absolute;
+    overflow: visible;
+    width: 262px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 9px;
+    color: rgba(242, 242, 242, 1);
+  }
+}
 #topbtn {
   position: absolute;
   width: 82px;
@@ -1817,7 +1860,17 @@ input[type=text], input[type=email], textarea {
   top: 60px;
   overflow: visible;
 }
-
+@media (max-width: 375px) {
+  #topbtn  {
+    position: absolute;
+    width: 30px;
+    height: 29px;
+    left: 308px;
+    top: 38px;
+    overflow: visible;
+    transform: scale(0.8);
+  }
+}
 #footerlogo {
   position: absolute;
   width: 205.019px;
@@ -1825,4 +1878,14 @@ input[type=text], input[type=email], textarea {
   left: 302px;
   top: 76px;
   overflow: visible;
+}
+@media (max-width: 375px) {
+  #footerlogo  {
+    position: absolute;
+    width: 98.89px;
+    height: 27.92px;
+    left: 38px;
+    top: 53px;
+    overflow: visible;
+  }
 }
