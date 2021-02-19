@@ -1161,7 +1161,7 @@ label {
     font-family: 'Noto Sans KR', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     display: block;
   }
 }
@@ -1186,7 +1186,7 @@ input[type=text], input[type=email], textarea {
 
 @media (max-width: 375px) {
   input[type=text], input[type=email], textarea {
-    width: 300px;
+     width: 300px!important;
     height: 50px;
     padding: 20px;
     border: 1px solid #ccc;
@@ -1199,7 +1199,13 @@ input[type=text], input[type=email], textarea {
     outline: none;
   }
 }
-
+@media (max-width: 375px) {
+  textarea {
+    width: 300px!important;
+    height: 143px!important;
+    padding: 20px;
+    }
+}
 #my-form-button {
   background-color: #99C8F2;
   color: white;
@@ -1224,7 +1230,7 @@ input[type=text], input[type=email], textarea {
   #my-form-button {
     background-color: #99C8F2;
     color: white;
-    padding: 12px 20px;
+    padding: 5px 0px;
     border: none;
     border-radius: 0px;
     cursor: pointer;
@@ -1254,8 +1260,8 @@ input[type=text], input[type=email], textarea {
 }
 @media (max-width: 375px) {
   .container {
-    left: 38px;
-    top: 74px;
+    left: 0px;
+    top: 0px;
     position: absolute;
     overflow: visible;
   }
@@ -1277,7 +1283,7 @@ input[type=text], input[type=email], textarea {
   .row {
     display: inline;
     left: 38px;
-    top:407px;
+    top:409px;
     position: absolute;
     overflow: visible;
  }
@@ -1764,8 +1770,7 @@ input[type=text], input[type=email], textarea {
   top: 76px;
   position: absolute;
   overflow: visible;
-  width: 589px;
-  white-space: nowrap;
+  width: 800px;
   text-align: left;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
@@ -1780,8 +1785,7 @@ input[type=text], input[type=email], textarea {
     top: 92px;
     position: absolute;
     overflow: visible;
-    width: 262px;
-    white-space: nowrap;
+    width: 290px;
     text-align: left;
     font-family: 'Noto Sans KR', sans-serif;
     font-style: normal;
@@ -1797,7 +1801,6 @@ input[type=text], input[type=email], textarea {
   position: absolute;
   overflow: visible;
   width: 541px;
-  white-space: nowrap;
   text-align: left;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
@@ -1813,7 +1816,6 @@ input[type=text], input[type=email], textarea {
     position: absolute;
     overflow: visible;
     width: 262px;
-    white-space: nowrap;
     text-align: left;
     font-family: 'Noto Sans KR', sans-serif;
     font-style: normal;
@@ -1836,9 +1838,9 @@ input[type=text], input[type=email], textarea {
     width: 30px;
     height: 29px;
     left: 308px;
-    top: 38px;
+    top: 10px;
     overflow: visible;
-    transform: scale(0.8);
+    transform: scale(0.5);
   }
 }
 #footerlogo {
@@ -1851,12 +1853,12 @@ input[type=text], input[type=email], textarea {
 }
 @media (max-width: 375px) {
   #footerlogo  {
-    transform: scale(0.5);
+    transform: scale(0.6);
     position: absolute;
     width: 98.89px;
     height: 27.92px;
-    left: 38px;
-    top: 53px;
+    left: 18px;
+    top: 47px;
     overflow: visible;
   }
 }
