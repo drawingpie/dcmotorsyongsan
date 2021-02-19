@@ -248,6 +248,18 @@ body {
     fill: #fff;
   }
 }
+.mobheader {display: none;}
+@media (max-width: 375px) {
+  .mobheader {
+    display: block;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.5);
+    width: 375px;
+    height: 60px;
+  }
+}
 
 @media (max-width: 375px) {
   .openbtn {
@@ -301,7 +313,7 @@ body {
     position: absolute;
     width: 106.27px;
     height: 20.49px;
-    top: 15px;
+    top: 17px;
     left: 38px;
     overflow: visible;
     z-index: 9;
