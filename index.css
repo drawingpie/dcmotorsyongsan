@@ -1098,7 +1098,17 @@ body {
   top: 330px;
   transform: matrix(1, 0, 0, 1, 0, 0);
 }
-
+@media (max-width: 375px) {
+  .line01 {
+    overflow: visible;
+    position: absolute;
+    width: 300px;
+    height: 1px;
+    left: 38px;
+    top: 176px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+}
 #line02 {
   fill: transparent;
   stroke: rgba(217, 217, 217, 1);
@@ -1117,7 +1127,42 @@ body {
   top: 512px;
   transform: matrix(1, 0, 0, 1, 0, 0);
 }
-
+@media (max-width: 375px) {
+  .line02 {
+    overflow: visible;
+    position: absolute;
+    width: 300px;
+    height: 1px;
+    left: 38px;
+    top: 287px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+}
+.line01_1.line02_1 {
+  display:none;
+}
+@media (max-width: 375px) {
+  .line01_1 {
+    overflow: visible;
+    position: absolute;
+    width: 300px;
+    height: 1px;
+    left: 38px;
+    top: 398px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+}
+@media (max-width: 375px) {
+  .line02_1 {
+    overflow: visible;
+    position: absolute;
+    width: 300px;
+    height: 1px;
+    left: 38px;
+    top: 509px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+}
 label {
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
@@ -1125,7 +1170,15 @@ label {
   font-size: 1.25rem;
   display: block;
 }
-
+@media (max-width: 375px) {
+  label {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    display: block;
+  }
+}
 label:after {
   content: "*";
   color: red;
@@ -1138,12 +1191,27 @@ input[type=text], input[type=email], textarea {
   border-radius: 0px;
   box-sizing: border-box;
   margin-top: 6px;
-  margin-bottom: 16px;
+  margin-right: 60px;
+  margin-bottom: 80px;
   resize: vertical;
   filter: drop-shadow(0px 1px 20px rgba(0, 0, 0, 0.071));
   outline: none;
-  margin-right: 60px;
-  margin-bottom: 80px;
+}
+
+@media (max-width: 375px) {
+  input[type=text], input[type=email], textarea {
+    width: 300px;
+    height: 50px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 60px;
+    resize: vertical;
+    filter: drop-shadow(0px 1px 20px rgba(0, 0, 0, 0.071));
+    outline: none;
+  }
 }
 
 #my-form-button {
@@ -1166,7 +1234,28 @@ input[type=text], input[type=email], textarea {
   top: 650px;
   position: absolute;
 }
-
+@media (max-width: 375px) {
+  #my-form-button {
+    background-color: #99C8F2;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+    width: 130px;
+    height: 28px;
+    overflow: visible;
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    outline: none;
+    left: 123px;
+    top: 713px;
+    position: absolute;
+  }
+}
 #my-form-button:hover {
   background-color: #67A9E5;
 }
@@ -1177,7 +1266,14 @@ input[type=text], input[type=email], textarea {
   position: absolute;
   overflow: visible;
 }
-
+@media (max-width: 375px) {
+  .container {
+    left: 38px;
+    top: 74px;
+    position: absolute;
+    overflow: visible;
+  }
+}
 .line {
   display: flex;
   float: right;
