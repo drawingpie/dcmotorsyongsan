@@ -170,7 +170,7 @@ body {
   overflow: visible;
   z-index: 9999;
 }/* 스크롤 후*/
-/* 모바일메뉴
+
 @media (max-width: 375px) {
 
   .header, .header.scroll, .header .navi,
@@ -185,7 +185,7 @@ body {
 .overlay .closebtn, .openbtn, .dclogomob {
   display: none;
 }
-
+/* 모바일메뉴
 @media (max-width: 375px) {
   .overlay {
     display: block;
