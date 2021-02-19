@@ -1637,8 +1637,18 @@ input[type=text], input[type=email], textarea {
   overflow: visible;
   position: absolute;
   width: 637px;
-  left: 258px;
-  top: 285px;
+  left: 1025.5px;
+  top: 471px;
+}
+@media (max-width: 375px) {
+  .line04  {
+    overflow: visible;
+    position: absolute;
+    width: 300px;
+    height: 1px;
+    left: 38px;
+    top: 471px;
+  }
 }
 @media (max-width: 375px) {
   #hourbody  {
