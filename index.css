@@ -1677,7 +1677,7 @@ input[type=text], input[type=email], textarea {
     color: rgba(13, 13, 13, 1);
   }
 }
-#line05 {
+.line05 {
   fill: transparent;
   stroke: rgba(217, 217, 217, 1);
   stroke-width: 1px;
@@ -1685,9 +1685,6 @@ input[type=text], input[type=email], textarea {
   stroke-linecap: butt;
   stroke-miterlimit: 4;
   shape-rendering: auto;
-}
-
-.line05 {
   overflow: visible;
   position: absolute;
   width: 637px;
@@ -1707,7 +1704,7 @@ input[type=text], input[type=email], textarea {
     transform: matrix(1, 0, 0, 1, 0, 0);
   }
 }
-#line06 {
+.line06 {
   fill: transparent;
   stroke: rgba(217, 217, 217, 1);
   stroke-width: 1px;
@@ -1715,9 +1712,6 @@ input[type=text], input[type=email], textarea {
   stroke-linecap: butt;
   stroke-miterlimit: 4;
   shape-rendering: auto;
-}
-
-.line06 {
   overflow: visible;
   position: absolute;
   width: 637px;
@@ -1737,7 +1731,7 @@ input[type=text], input[type=email], textarea {
     transform: matrix(1, 0, 0, 1, 0, 0);
   }
 }
-#line07 {
+.line07 {
   fill: transparent;
   stroke: rgba(217, 217, 217, 1);
   stroke-width: 1px;
@@ -1745,9 +1739,6 @@ input[type=text], input[type=email], textarea {
   stroke-linecap: butt;
   stroke-miterlimit: 4;
   shape-rendering: auto;
-}
-
-.line07 {
   overflow: visible;
   position: absolute;
   width: 637px;
