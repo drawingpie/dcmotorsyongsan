@@ -1518,7 +1518,6 @@ input[type=text], input[type=email], textarea {
   position: absolute;
   overflow: visible;
   width: 507px;
-  white-space: nowrap;
   text-align: left;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
@@ -1532,8 +1531,8 @@ input[type=text], input[type=email], textarea {
     top: 395px;
     position: absolute;
     overflow: visible;
-    width: 190px;
-    white-space: nowrap;
+    width: 180px!important;
+    line-height:27px!important;
     text-align: left;
     font-family: 'Noto Sans KR', sans-serif;
     font-style: normal;
@@ -1548,7 +1547,6 @@ input[type=text], input[type=email], textarea {
   position: absolute;
   overflow: visible;
   width: 507px;
-  white-space: nowrap;
   text-align: left;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
@@ -1578,7 +1576,6 @@ input[type=text], input[type=email], textarea {
   position: absolute;
   overflow: visible;
   width: 507px;
-  white-space: nowrap;
   text-align: left;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
@@ -1593,7 +1590,6 @@ input[type=text], input[type=email], textarea {
     position: absolute;
     overflow: visible;
     width: 507px;
-    white-space: nowrap;
     text-align: left;
     font-family: 'Noto Sans KR', sans-serif;
     font-style: normal;
@@ -1608,7 +1604,6 @@ input[type=text], input[type=email], textarea {
   position: absolute;
   overflow: visible;
   width: 507px;
-  white-space: nowrap;
   text-align: left;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
@@ -1622,8 +1617,8 @@ input[type=text], input[type=email], textarea {
     top: 638px;
     position: absolute;
     overflow: visible;
-    width: 75px;
-    white-space: nowrap;
+    width: 191px;
+    line-height:27px!important;
     text-align: left;
     font-family: 'Noto Sans KR', sans-serif;
     font-style: normal;
@@ -1650,22 +1645,7 @@ input[type=text], input[type=email], textarea {
     top: 471px;
   }
 }
-@media (max-width: 375px) {
-  #hourbody  {
-    left: 149px;
-    top: 638px;
-    position: absolute;
-    overflow: visible;
-    width: 75px;
-    white-space: nowrap;
-    text-align: left;
-    font-family: 'Noto Sans KR', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    color: rgba(13, 13, 13, 1);
-  }
-}
+
 .line05 {
   border-top: 1px solid #D9D9D9;
   overflow: visible;
