@@ -221,9 +221,12 @@ body {
     display: block;
     padding: 8px;
     text-decoration: none;
-    font-size: 36px;
     color: #818181;
     transition: 0.3s;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
   }
 }
 
