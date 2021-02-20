@@ -43,7 +43,7 @@
 		</div>
 
 		<div id="myNav" class="overlay">
-			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="Icon material-close.svg"></a>
+			<a href="javascript:void(0)" class="closebtn" ><img src="Icon material-close.svg"></a>
 			<div class="overlay-content">
 				<a href="#chainabout">소개</a>
 				<a href="#product">제품</a>
@@ -52,7 +52,7 @@
 			</div>
 		</div>
 		<div class="mobheader">
-			<div class="openbtn" onclick="openNav()"><img src="Icon material-menu.svg"></div>
+			<div class="openbtn"><img src="Icon material-menu.svg"></div>
 			<a href='#cover'><img class="dclogomob" src="moblogo.png"></a>
 		</div>
 
@@ -382,11 +382,11 @@
 		//슬라이드메뉴
 
 
-		$("#openNav").click(function() {
+		$(".openbtn").click(function() {
 			$("#myNav").css("right", "0");
 		  $("body").addClass("dark")
 		});
-		$(".closeNav").click(function() {
+		$(".closebtn").click(function() {
 			$("#myNav").css("right", "-200px");
 		  $("body").removeClass("dark");
 		});
