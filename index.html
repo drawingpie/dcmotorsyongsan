@@ -379,17 +379,17 @@
 			xhr.send(data);
 		}
 
-		//슬라이드메뉴
+		/*슬라이드메뉴
 		function openNav() {
 			document.getElementById("myNav").style.width = "100%";
 		}
 
 		function closeNav() {
 			document.getElementById("myNav").style.width = "0%";
-		}
-		function openNav() {
-			document.getElementById("myNav").style.width = "0%";
-		}
+		}***/
+
+$("[id*='Btn']").stop(true).on('click',function(e){e.preventDefault();$(this).scrolld();})
+
 	</script>
 
 </body>
