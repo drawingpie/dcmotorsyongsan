@@ -56,13 +56,13 @@
 			<a href='#cover'><img class="dclogomob" src="moblogo.png"></a>
 		</div>
 	-->
-		<nav id="sidebar">
+		<div id="sidebar">
 			<div class="closebtn" ><img src="Icon material-close.svg"></div>
 			<a href="#chainabout">소개</a>
 			<a href="#product">제품</a>
 			<a href="#contact">오시는길</a>
 			<a href="#service">구입문의</a>
-		</nav>
+		</div>
 		<div class="mobheader">
 			<div class="openbtn"><img src="Icon material-menu.svg"></div>
 			<a href='#cover'><img class="dclogomob" src="moblogo.png"></a>
@@ -399,12 +399,12 @@
 		//슬라이드메뉴
 
 		$('.openbtn').on('click', function () {
-		    $('#sidebar').addClass('active');
+		    $('#sidebar').show('active');
 		    $('.overlay').fadeIn();
 		});
 
-		$('.overlay').on('click', function () {
-		    $('#sidebar').removeClass('active');
+		$('.closebtn').on('click', function () {
+		    $('#sidebar').hide('active');
 		    $('.overlay').fadeOut();
 		});	</script>
 
