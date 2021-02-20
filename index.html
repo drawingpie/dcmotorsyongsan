@@ -381,14 +381,14 @@
 
 		//슬라이드메뉴
 
-
-		$(".openbtn").click(function() {
-			$("#myNav").css("right", "0");
-		  $("body").addClass("dark")
+		$('.openbtn').on('click', function () {
+		    $('#sidebar').addClass('active');
+		    $('.overlay').fadeIn();
 		});
-		$(".closebtn").click(function() {
-			$("#myNav").css("right", "-200px");
-		  $("body").removeClass("dark");
+
+		$('.overlay').on('click', function () {
+		    $('#sidebar').removeClass('active');
+		    $('.overlay').fadeOut();
 		});
 	</script>
 
