@@ -188,6 +188,7 @@ body {
 
 @media screen and (max-width: 375px) {
   .overlay {
+    display: block;
     height: 100%;
     width: 0;
     position: fixed;
@@ -203,7 +204,6 @@ body {
 
 @media screen and (max-width: 375px) {
   .overlay-content {
-    display: block;
     position: relative;
     top: 25%;
     width: 100%;
@@ -214,10 +214,11 @@ body {
 
 @media screen and (max-width: 375px) {
   .overlay a {
-    display: block;
     padding: 8px;
     text-decoration: none;
+    font-size: 36px;
     color: #818181;
+    display: block;
     transition: 0.3s;
     font-family: 'Noto Sans KR', sans-serif;
     font-style: normal;
@@ -234,7 +235,6 @@ body {
 
 @media screen and (max-width: 375px) {
   .overlay .closebtn {
-    display: block;
     position: absolute;
     top: 3%;
     left: 8%;
@@ -247,6 +247,7 @@ body {
     fill: #fff;
   }
 }
+
 .mobheader {display: none;}
 @media screen and (max-width: 375px) {
   .mobheader {
