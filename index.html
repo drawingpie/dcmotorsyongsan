@@ -388,6 +388,14 @@
 			document.getElementById("myNav").style.width = "0%";
 		}
 
+		$("#openNav").click(function() {
+			$("#myNav").css("right", "0");
+		  $("body").addClass("dark")
+		});
+		$(".closeNav").click(function() {
+			$("#myNav").css("right", "-200px");
+		  $("body").removeClass("dark");
+		});
 	</script>
 
 </body>
