@@ -383,12 +383,12 @@
 		//슬라이드메뉴
 
 		$('.openbtn').on('click', function() {
-			$('#sidebar').addClass('active');
+			$('#sidebar').addClass();
 			$('.overlay').fadeIn();
 		});
 
 		$('.overlay').on('click', function() {
-			$('#sidebar').removeClass('active');
+			$('#sidebar').removeClass();
 			$('.overlay').fadeOut();
 		});
 	</script>
