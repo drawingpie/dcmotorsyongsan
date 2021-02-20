@@ -164,12 +164,16 @@ body {
   padding-right: 106px;
   text-decoration: none;
   color: #fff;
-}/*스크롤 전*/
+}
+
+/*스크롤 전*/
 .header .scroll .navi ul li a {
   height: 80px;
   overflow: visible;
   z-index: 9999;
-}/* 스크롤 후*/
+}
+
+/* 스크롤 후*/
 /* 스크롤 후*/
 @media screen and (max-width: 375px) {
 
@@ -186,30 +190,46 @@ body {
   display: none;
 }
 
-
 @media screen and (max-width: 375px) {
   #sidebar {
-      display:block;
-      width: 250px;
-      position: fixed;
-      top: 0;
-      right: -250px;
-      height: 100%;
-      z-index: 999;
-      background: #333;
-      color: #fff;
-      transition: all 0.3s;
+    display: block;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    right: -250px;
+    height: 100%;
+    z-index: 999;
+    transition: all 0.3s;
+    background: #fff;
+    padding-top: 200px;
   }
-
 }
+
+@media screen and (max-width: 375px) {
+  #sidebar a {
+    z-index: 999;
+    color: #000;
+    padding: 20px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    font-size: 20px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    padding-right: 40px;
+  }
+}
+
 @media screen and (max-width: 375px) {
   #sidebar.active {
-      right: 250px;
+    right: 250px;
   }
 }
+
 @media screen and (max-width: 375px) {
   #sidebar .closebtn {
-    display:block;
+    display: block;
     position: absolute;
     top: 10px;
     left: 8px;
@@ -222,7 +242,11 @@ body {
     fill: #fff;
   }
 }
-.mobheader {display: none;}
+
+.mobheader {
+  display: none;
+}
+
 @media screen and (max-width: 375px) {
   .mobheader {
     display: block;
@@ -235,16 +259,18 @@ body {
     z-index: 99;
   }
 }
+
 @media screen and (max-width: 375px) {
   .overlay {
-      position: fixed;
-      width: 100%;
-      height: 100%;
-      background: rgba(0, 0, 0, 0.7);
-      z-index: 99;
-      display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 99;
+    display: none;
   }
 }
+
 @media screen and (max-width: 375px) {
   .openbtn {
     display: block;
@@ -336,6 +362,7 @@ body {
   overflow: visible;
   background: url('aboutbg.png');
 }
+
 @media screen and (max-width: 375px) {
   #chainabout {
     position: absolute;
@@ -362,6 +389,7 @@ body {
   font-size: 1.563rem;
   color: rgba(242, 242, 242, 1);
 }
+
 @media screen and (max-width: 375px) {
   #aboutus {
     font-size: 18px;
@@ -371,6 +399,7 @@ body {
     text-align: center;
   }
 }
+
 #welcome {
   left: 36.7%;
   top: 250px;
@@ -385,6 +414,7 @@ body {
   font-size: 2.438rem;
   color: rgba(242, 242, 242, 1);
 }
+
 @media screen and (max-width: 375px) {
   #welcome {
     font-size: 22px;
@@ -394,6 +424,7 @@ body {
     line-height: 37px;
   }
 }
+
 #welcomebody {
   left: 31.7%;
   top: 429px;
@@ -410,6 +441,7 @@ body {
   font-size: 1.563rem;
   color: rgba(242, 242, 242, 1);
 }
+
 @media screen and (max-width: 375px) {
   #welcomebody {
     font-size: 14px;
@@ -419,6 +451,7 @@ body {
     line-height: 29px;
   }
 }
+
 #speed {
   opacity: 0.5;
   mix-blend-mode: screen;
@@ -434,6 +467,7 @@ body {
   font-size: 7.688rem;
   color: rgba(242, 242, 242, 0.7);
 }
+
 @media screen and (max-width: 375px) {
   #speed {
     font-size: 69px;
@@ -442,6 +476,7 @@ body {
     width: 230px;
   }
 }
+
 #smart {
   opacity: 0.5;
   mix-blend-mode: screen;
@@ -457,6 +492,7 @@ body {
   font-size: 7.688rem;
   color: rgba(242, 242, 242, 0.7);
 }
+
 @media screen and (max-width: 375px) {
   #smart {
     font-size: 69px;
@@ -465,6 +501,7 @@ body {
     width: 230px;
   }
 }
+
 #synergy {
   opacity: 0.5;
   mix-blend-mode: screen;
@@ -480,6 +517,7 @@ body {
   font-size: 7.688rem;
   color: rgba(242, 242, 242, 0.7);
 }
+
 @media screen and (max-width: 375px) {
   #synergy {
     font-size: 69px;
@@ -863,16 +901,19 @@ body {
     overflow: auto;
   }
 }
+
 @media screen and (max-width: 375px) {
   .spec01, .spec02, .spec03 {
-   display:none;
+    display: none;
   }
 }
+
 @media screen and (max-width: 375px) {
   .spec01mob, .spec02mob, .spec03mob {
-   display:block;
+    display: block;
   }
 }
+
 .spec011, .spec021, .spec031 {
   width: 50%;
   background: contain;
@@ -956,11 +997,12 @@ body {
     z-index: 9 !important;
   }
 }
+
 .gallery-thumbs .swiper-slide {
   left: 27%;
   top: 0px;
   max-width: 130px;
-  transform:scale(0.7, 0.7);
+  transform: scale(0.7, 0.7);
   position: relative;
   display: flex;
   padding-right: 150px;
@@ -973,14 +1015,15 @@ body {
     left: 10px;
     top: -5px;
     max-width: 200px;
-    -webkit-transform:scale(0.6, 0.6);
-    transform:scale(0.6, 0.6);
+    -webkit-transform: scale(0.6, 0.6);
+    transform: scale(0.6, 0.6);
     position: relative;
     padding-right: 10px;
     z-index: 99;
     cursor: pointer;
   }
 }
+
 .gallery-thumbs span {
   left: -150%;
   top: 170px;
@@ -994,6 +1037,7 @@ body {
   font-size: 1.125rem;
   color: #0D0D0D;
 }
+
 @media screen and (max-width: 375px) {
   .gallery-thumbs span {
     left: -150px;
@@ -1006,6 +1050,7 @@ body {
     cursor: pointer;
   }
 }
+
 .smallimg:hover {
   animation: vibrate-1 .3s linear infinite both
 }
@@ -1070,6 +1115,7 @@ body {
   font-size: 1.563rem;
   color: rgba(0, 0, 0, 1);
 }
+
 @media screen and (max-width: 375px) {
   #service span {
     left: 139px;
@@ -1085,6 +1131,7 @@ body {
     color: rgba(0, 0, 0, 1);
   }
 }
+
 .line01 {
   border-bottom: 1px solid #D9D9D9;
   overflow: visible;
@@ -1095,6 +1142,7 @@ body {
   top: 330px;
   transform: matrix(1, 0, 0, 1, 0, 0);
 }
+
 @media screen and (max-width: 375px) {
   .line01 {
     overflow: visible;
@@ -1117,6 +1165,7 @@ body {
   top: 512px;
   transform: matrix(1, 0, 0, 1, 0, 0);
 }
+
 @media screen and (max-width: 375px) {
   .line02 {
     overflow: visible;
@@ -1128,9 +1177,11 @@ body {
     transform: matrix(1, 0, 0, 1, 0, 0);
   }
 }
+
 .line01_1.line02_1 {
-  display:none;
+  display: none;
 }
+
 @media screen and (max-width: 375px) {
   .line01_1 {
     border-bottom: 1px solid #D9D9D9;
@@ -1143,6 +1194,7 @@ body {
     transform: matrix(1, 0, 0, 1, 0, 0);
   }
 }
+
 @media screen and (max-width: 375px) {
   .line02_1 {
     border-bottom: 1px solid #D9D9D9;
@@ -1155,6 +1207,7 @@ body {
     transform: matrix(1, 0, 0, 1, 0, 0);
   }
 }
+
 label {
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
@@ -1162,6 +1215,7 @@ label {
   font-size: 1.25rem;
   display: block;
 }
+
 @media screen and (max-width: 375px) {
   label {
     font-family: 'Noto Sans KR', sans-serif;
@@ -1171,6 +1225,7 @@ label {
     display: block;
   }
 }
+
 label:after {
   content: "*";
   color: red;
@@ -1192,7 +1247,7 @@ input[type=text], input[type=email], textarea {
 
 @media screen and (max-width: 375px) {
   input[type=text], input[type=email], textarea {
-    width: 300px!important;
+    width: 300px !important;
     height: 50px;
     padding: 20px;
     border: 1px solid #ccc;
@@ -1205,13 +1260,15 @@ input[type=text], input[type=email], textarea {
     outline: none;
   }
 }
+
 @media screen and (max-width: 375px) {
   textarea {
-    width: 300px!important;
-    height: 143px!important;
+    width: 300px !important;
+    height: 143px !important;
     padding: 20px;
-    }
+  }
 }
+
 #my-form-button {
   background-color: #99C8F2;
   color: white;
@@ -1232,6 +1289,7 @@ input[type=text], input[type=email], textarea {
   top: 650px;
   position: absolute;
 }
+
 @media screen and (max-width: 375px) {
   #my-form-button {
     background-color: #99C8F2;
@@ -1254,6 +1312,7 @@ input[type=text], input[type=email], textarea {
     position: absolute;
   }
 }
+
 #my-form-button:hover {
   background-color: #67A9E5;
 }
@@ -1264,6 +1323,7 @@ input[type=text], input[type=email], textarea {
   position: absolute;
   overflow: visible;
 }
+
 @media screen and (max-width: 375px) {
   .container {
     left: 0px;
@@ -1272,10 +1332,12 @@ input[type=text], input[type=email], textarea {
     overflow: visible;
   }
 }
+
 .line {
   display: flex;
   float: right;
 }
+
 @media screen and (max-width: 375px) {
   .line {
     display: block;
@@ -1283,17 +1345,19 @@ input[type=text], input[type=email], textarea {
     top: 74px;
     position: absolute;
     overflow: visible;
- }
+  }
 }
+
 @media screen and (max-width: 375px) {
   .row {
     display: inline;
     left: 38px;
-    top:409px;
+    top: 409px;
     position: absolute;
     overflow: visible;
- }
+  }
 }
+
 #contact {
   position: absolute;
   overflow: visible;
@@ -1323,8 +1387,9 @@ input[type=text], input[type=email], textarea {
   top: 0px;
   background-color: #fff;
 }
+
 @media screen and (max-width: 375px) {
-  #contactbg  {
+  #contactbg {
     height: 760px;
     width: 100%;
     position: absolute !important;
@@ -1333,6 +1398,7 @@ input[type=text], input[type=email], textarea {
     top: 0px;
   }
 }
+
 #contacthead span {
   left: 45.8%;
   top: 117px;
@@ -1347,8 +1413,9 @@ input[type=text], input[type=email], textarea {
   font-size: 1.563rem;
   color: rgba(13, 13, 13, 1);
 }
+
 @media screen and (max-width: 375px) {
-  #contacthead span  {
+  #contacthead span {
     left: 143px;
     top: 36px;
     position: absolute;
@@ -1380,8 +1447,9 @@ input[type=text], input[type=email], textarea {
   border-bottom: 2px solid #0D0D0D;
   padding-bottom: 28px;
 }
+
 @media screen and (max-width: 375px) {
-  #chain  {
+  #chain {
     left: 38px;
     top: 105px;
     position: absolute;
@@ -1398,6 +1466,7 @@ input[type=text], input[type=email], textarea {
     padding-bottom: 5px;
   }
 }
+
 #map iframe {
   position: absolute;
   width: 702px;
@@ -1406,8 +1475,9 @@ input[type=text], input[type=email], textarea {
   top: 321px;
   overflow: visible;
 }
+
 @media screen and (max-width: 375px) {
-  #map iframe  {
+  #map iframe {
     position: absolute;
     width: 300px;
     height: 215px;
@@ -1416,6 +1486,7 @@ input[type=text], input[type=email], textarea {
     overflow: visible;
   }
 }
+
 #add {
   left: 53.3%;
   top: 388px;
@@ -1430,8 +1501,9 @@ input[type=text], input[type=email], textarea {
   font-size: 1.5rem;
   color: rgba(13, 13, 13, 1);
 }
+
 @media screen and (max-width: 375px) {
-  #add  {
+  #add {
     left: 38px;
     top: 395px;
     position: absolute;
@@ -1446,6 +1518,7 @@ input[type=text], input[type=email], textarea {
     color: rgba(13, 13, 13, 1);
   }
 }
+
 #tel {
   left: 53.3%;
   top: 510px;
@@ -1460,8 +1533,9 @@ input[type=text], input[type=email], textarea {
   font-size: 1.5rem;
   color: rgba(13, 13, 13, 1);
 }
+
 @media screen and (max-width: 375px) {
-  #tel  {
+  #tel {
     left: 38px;
     top: 494px;
     position: absolute;
@@ -1491,8 +1565,9 @@ input[type=text], input[type=email], textarea {
   font-size: 1.5rem;
   color: rgba(13, 13, 13, 1);
 }
+
 @media screen and (max-width: 375px) {
-  #fax  {
+  #fax {
     left: 38px;
     top: 566px;
     position: absolute;
@@ -1507,6 +1582,7 @@ input[type=text], input[type=email], textarea {
     color: rgba(13, 13, 13, 1);
   }
 }
+
 #hour {
   left: 53.3%;
   top: 746px;
@@ -1521,8 +1597,9 @@ input[type=text], input[type=email], textarea {
   font-size: 1.5rem;
   color: rgba(13, 13, 13, 1);
 }
+
 @media screen and (max-width: 375px) {
-  #hour  {
+  #hour {
     left: 38px;
     top: 638px;
     position: absolute;
@@ -1537,6 +1614,7 @@ input[type=text], input[type=email], textarea {
     color: rgba(13, 13, 13, 1);
   }
 }
+
 #addbody {
   left: 60.2%;
   top: 388px;
@@ -1550,14 +1628,15 @@ input[type=text], input[type=email], textarea {
   font-size: 1.5rem;
   color: rgba(13, 13, 13, 1);
 }
+
 @media screen and (max-width: 375px) {
-  #addbody  {
+  #addbody {
     left: 149px;
     top: 395px;
     position: absolute;
     overflow: visible;
-    width: 180px!important;
-    line-height:27px!important;
+    width: 180px !important;
+    line-height: 27px !important;
     text-align: left;
     font-family: 'Noto Sans KR', sans-serif;
     font-style: normal;
@@ -1566,6 +1645,7 @@ input[type=text], input[type=email], textarea {
     color: rgba(13, 13, 13, 1);
   }
 }
+
 #telnumber {
   left: 60.2%;
   top: 510px;
@@ -1579,8 +1659,9 @@ input[type=text], input[type=email], textarea {
   font-size: 1.5rem;
   color: rgba(13, 13, 13, 1);
 }
+
 @media screen and (max-width: 375px) {
-  #telnumber  {
+  #telnumber {
     left: 149px;
     top: 494px;
     position: absolute;
@@ -1595,6 +1676,7 @@ input[type=text], input[type=email], textarea {
     color: rgba(13, 13, 13, 1);
   }
 }
+
 #faxnumber {
   left: 60.2%;
   top: 627px;
@@ -1608,8 +1690,9 @@ input[type=text], input[type=email], textarea {
   font-size: 1.5rem;
   color: rgba(13, 13, 13, 1);
 }
+
 @media screen and (max-width: 375px) {
-  #faxnumber  {
+  #faxnumber {
     left: 149px;
     top: 566px;
     position: absolute;
@@ -1623,6 +1706,7 @@ input[type=text], input[type=email], textarea {
     color: rgba(13, 13, 13, 1);
   }
 }
+
 #hourbody {
   left: 60.2%;
   top: 746px;
@@ -1636,14 +1720,15 @@ input[type=text], input[type=email], textarea {
   font-size: 1.5rem;
   color: rgba(13, 13, 13, 1);
 }
+
 @media screen and (max-width: 375px) {
-  #hourbody  {
+  #hourbody {
     left: 149px;
     top: 638px;
     position: absolute;
     overflow: visible;
     width: 191px;
-    line-height:27px!important;
+    line-height: 27px !important;
     text-align: left;
     font-family: 'Noto Sans KR', sans-serif;
     font-style: normal;
@@ -1652,6 +1737,7 @@ input[type=text], input[type=email], textarea {
     color: rgba(13, 13, 13, 1);
   }
 }
+
 .line04 {
   border-top: 1px solid #D9D9D9;
   overflow: visible;
@@ -1660,8 +1746,9 @@ input[type=text], input[type=email], textarea {
   left: 53.4%;
   top: 475px;
 }
+
 @media screen and (max-width: 375px) {
-  .line04  {
+  .line04 {
     overflow: visible;
     position: absolute;
     width: 300px;
@@ -1680,11 +1767,13 @@ input[type=text], input[type=email], textarea {
   left: 53.4%;
   top: 587px;
 }
+
 @media screen and (max-width: 375px) {
-  .line05  {
-    display:none;
+  .line05 {
+    display: none;
   }
 }
+
 .line06 {
   border-top: 1px solid #D9D9D9;
   overflow: visible;
@@ -1695,8 +1784,9 @@ input[type=text], input[type=email], textarea {
   top: 706px;
   transform: matrix(1, 0, 0, 1, 0, 0);
 }
+
 @media screen and (max-width: 375px) {
-  .line06  {
+  .line06 {
     overflow: visible;
     position: absolute;
     width: 300px;
@@ -1706,6 +1796,7 @@ input[type=text], input[type=email], textarea {
     transform: matrix(1, 0, 0, 1, 0, 0);
   }
 }
+
 .line07 {
   border-top: 1px solid #D9D9D9;
   overflow: visible;
@@ -1716,8 +1807,9 @@ input[type=text], input[type=email], textarea {
   top: 853px;
   transform: matrix(1, 0, 0, 1, 0, 0);
 }
+
 @media screen and (max-width: 375px) {
-  .line07  {
+  .line07 {
     overflow: visible;
     position: absolute;
     width: 300px;
@@ -1736,8 +1828,9 @@ input[type=text], input[type=email], textarea {
   left: 0%;
   top: 4685px;
 }
+
 @media screen and (max-width: 375px) {
-  #footer  {
+  #footer {
     position: absolute;
     overflow: visible;
     width: 375px;
@@ -1746,6 +1839,7 @@ input[type=text], input[type=email], textarea {
     top: 3800px;
   }
 }
+
 #footerbg {
   position: absolute;
   overflow: visible;
@@ -1755,8 +1849,9 @@ input[type=text], input[type=email], textarea {
   top: 0px;
   background: #0D0D0D;
 }
+
 @media screen and (max-width: 375px) {
-  #footerbg  {
+  #footerbg {
     position: absolute;
     overflow: visible;
     width: 375px;
@@ -1765,6 +1860,7 @@ input[type=text], input[type=email], textarea {
     top: 0px;
   }
 }
+
 #footercontents01 {
   opacity: 0.32;
   left: 28.9%;
@@ -1779,8 +1875,9 @@ input[type=text], input[type=email], textarea {
   font-size: 1rem;
   color: rgba(242, 242, 242, 1);
 }
+
 @media screen and (max-width: 375px) {
-  #footercontents01  {
+  #footercontents01 {
     opacity: 0.32;
     left: 38px;
     top: 92px;
@@ -1795,6 +1892,7 @@ input[type=text], input[type=email], textarea {
     color: rgba(242, 242, 242, 1);
   }
 }
+
 #Copyright {
   opacity: 0.32;
   left: 28.9%;
@@ -1809,8 +1907,9 @@ input[type=text], input[type=email], textarea {
   font-size: 1rem;
   color: rgba(242, 242, 242, 1);
 }
+
 @media screen and (max-width: 375px) {
-  #Copyright  {
+  #Copyright {
     opacity: 0.32;
     left: 38px;
     top: 127px;
@@ -1825,6 +1924,7 @@ input[type=text], input[type=email], textarea {
     color: rgba(242, 242, 242, 1);
   }
 }
+
 #topbtn {
   position: absolute;
   width: 82px;
@@ -1833,8 +1933,9 @@ input[type=text], input[type=email], textarea {
   top: 60px;
   overflow: visible;
 }
+
 @media screen and (max-width: 375px) {
-  #topbtn  {
+  #topbtn {
     position: absolute;
     width: 30px;
     height: 29px;
@@ -1844,6 +1945,7 @@ input[type=text], input[type=email], textarea {
     transform: scale(0.5);
   }
 }
+
 #footerlogo {
   position: absolute;
   width: 205.019px;
@@ -1852,8 +1954,9 @@ input[type=text], input[type=email], textarea {
   top: 76px;
   overflow: visible;
 }
+
 @media screen and (max-width: 375px) {
-  #footerlogo  {
+  #footerlogo {
     transform: scale(0.6);
     position: absolute;
     width: 98.89px;
