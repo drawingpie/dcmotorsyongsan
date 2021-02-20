@@ -989,9 +989,8 @@ body {
   .gallery-thumbs .swiper-slide {
     left: 10px;
     top: -5px;
-    width: 100%;
-    max-width: 100px;
-    transform:scale(0.6);
+    max-width: 200px;
+    transform:scale(0.6, 0.6);
     position: relative;
     padding-right: 10px;
     z-index: 99;
