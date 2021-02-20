@@ -399,12 +399,12 @@
 		//슬라이드메뉴
 
 		$('.openbtn').on('click', function () {
-		    $('#sidebar').show('active');
+		    $('#sidebar').addClass('active');
 		    $('.overlay').fadeIn();
 		});
 
 		$('.closebtn').on('click', function () {
-		    $('#sidebar').hide('active');
+		    $('#sidebar').removeClass('active');
 		    $('.overlay').fadeOut();
 		});	</script>
 
