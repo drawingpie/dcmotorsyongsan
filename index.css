@@ -186,20 +186,27 @@ body {
   display: none;
 }
 
+
 @media screen and (max-width: 375px) {
   #sidebar {
+      display:block;
       width: 250px;
       position: fixed;
       top: 0;
-      left: -250px;
+      right: 250px;
       height: 100%;
       z-index: 999;
       background: #333;
       color: #fff;
       transition: all 0.3s;
   }
-}
 
+}
+@media screen and (max-width: 375px) {
+  #sidebar.active {
+      left: 0;
+  }
+}
 @media screen and (max-width: 375px) {
   #sidebar .closebtn {
     display:block;
@@ -228,17 +235,6 @@ body {
     z-index: 99;
   }
 }
-
-@media screen and (max-width: 375px) {
-  .openbtn {
-    display: block;
-    cursor: pointer;
-    position: absolute;
-    top: 12px;
-    left: 295px;
-    z-index: 9;
-  }
-}
 @media screen and (max-width: 375px) {
   .overlay {
       position: fixed;
@@ -247,6 +243,16 @@ body {
       background: rgba(0, 0, 0, 0.7);
       z-index: 99;
       display: none;
+  }
+}
+@media screen and (max-width: 375px) {
+  .openbtn {
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    top: 12px;
+    left: 295px;
+    z-index: 9;
   }
 }
 
