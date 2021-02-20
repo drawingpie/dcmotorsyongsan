@@ -241,7 +241,7 @@ body {
 }
 
 @media screen and (max-width: 375px) {
-  .sidebarwrap .mobheader {
+  .mobheader {
     display: block;
     position: fixed;
     top: 0px;
@@ -249,8 +249,7 @@ body {
     background: rgba(0, 0, 0, 0.5);
     width: 375px;
     height: 60px;
-    z-index: 99!important;
-    -webkit-backface-visibility: hidden;
+    z-index: 99;
     }
 }
 
