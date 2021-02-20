@@ -387,23 +387,8 @@
 		function closeNav() {
 			document.getElementById("myNav").style.width = "0%";
 		}
-
-
-		function mobGnbList() {
-		    var list = $('.mo-gnb-list');
-		    var item = list.children('li').children('a');
-		    var mobRightMenu = $('.mo-right-menu');
-		    var innerMenu = mobRightMenu.children('.mo-inner-menu');
-
-		    item.each(function(i) {
-		        $(this).bind('click', function(e) {
-		            var idx = $(this).parent().attr('data-mob-index');
-		            if(idx == undefined || idx == null) location.href = $(this).attr('href');
-		            else innerMenu.removeClass('on').eq(idx).addClass('on');
-
-		            item.parent().removeClass('on').eq(i).addClass('on');
-		        });
-		    });
+		function openNav() {
+			document.getElementById("myNav").style.width = "0%";
 		}
 	</script>
 
