@@ -193,7 +193,7 @@ body {
       width: 250px;
       position: fixed;
       top: 0;
-      right: 250px;
+      right: -250px;
       height: 100%;
       z-index: 999;
       background: #333;
