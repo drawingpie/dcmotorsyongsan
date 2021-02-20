@@ -204,7 +204,7 @@ body {
 }
 @media screen and (max-width: 375px) {
   #sidebar.active {
-      right: 0;
+      right: 250px;
   }
 }
 @media screen and (max-width: 375px) {
