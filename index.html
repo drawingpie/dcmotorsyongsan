@@ -382,13 +382,11 @@
 		//슬라이드메뉴
 
 		$('.openbtn').on('click', function () {
-		    $('#sidebar').addClass('active');
-		    $('.overlay').fadeIn();
+		    $('.overlay').addClass('active');
 		});
 
-		$('.overlay').on('click', function () {
-		    $('#sidebar').removeClass('active');
-		    $('.overlay').fadeOut();
+		$('.closebtn').on('click', function () {
+		    $('.overlay').removeClass('active');
 		});
 	</script>
 
