@@ -986,7 +986,7 @@ color: rgba(242, 242, 242, 0.4);}
     padding-right: 10px;
     z-index: 99;
     cursor: pointer;
-    display:block;
+    display:flex;
   }
 }
 
