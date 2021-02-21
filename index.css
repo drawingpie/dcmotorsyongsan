@@ -369,12 +369,10 @@ body {
 
 @media screen and (max-width: 375px) {
   #aboutus {
-    font-size: 18px;
-    left: 136px;
     top: 78px;
-    width: 104px;
-    text-align: center;
-  }
+    left:50%;
+    transform: translateX(-50%);
+    font-size: 18px;  }
 }
 
 #welcome {
@@ -395,9 +393,9 @@ body {
 @media screen and (max-width: 375px) {
   #welcome {
     font-size: 22px;
-    left: 45px;
+    left:50%;
+    transform: translateX(-50%);
     top: 153px;
-    width: 286px;
     line-height: 37px;
   }
 }
@@ -422,7 +420,8 @@ body {
 @media screen and (max-width: 375px) {
   #welcomebody {
     font-size: 14px;
-    left: 38px;
+    left:50%;
+    transform: translateX(-50%);
     top: 255px;
     width: 300px;
     line-height: 29px;
@@ -445,9 +444,9 @@ color: rgba(242, 242, 242, 0.4);}
 @media screen and (max-width: 375px) {
   #speed {
     font-size: 69px;
-    left: 86px;
+    left:50%;
+    transform: translateX(-50%);
     top: 411px;
-    width: 230px;
   }
 }
 
@@ -468,9 +467,9 @@ color: rgba(242, 242, 242, 0.4);}
 @media screen and (max-width: 375px) {
   #smart {
     font-size: 69px;
-    left: 86px;
+    left:50%;
+    transform: translateX(-50%);
     top: 519px;
-    width: 230px;
   }
 }
 
@@ -485,14 +484,14 @@ color: rgba(242, 242, 242, 0.4);}
   font-style: normal;
   font-weight: 900;
   font-size: 7.688rem;
-color: rgba(242, 242, 242, 0.4);}
+  color: rgba(242, 242, 242, 0.4);}
 
 @media screen and (max-width: 375px) {
   #synergy {
     font-size: 69px;
-    left: 53px;
+    left:50%;
+    transform: translateX(-50%);
     top: 627px;
-    width: 285px;
   }
 }
 
