@@ -709,10 +709,8 @@ color: rgba(242, 242, 242, 0.4);}
 @media screen and (max-width: 375px) {
   .type01 {
     text-align: center;
-    left: 107px;
     top: 151px;
     position: absolute;
-    overflow: visible;
     line-height: 33px;
     font-family: 'Noto Sans KR', sans-serif;
     font-style: normal;
@@ -720,8 +718,7 @@ color: rgba(242, 242, 242, 0.4);}
     font-size: 24px;
     color: rgba(13, 13, 13, 1);
     z-index: 9;
-    width: 308px;
-  }
+    margin-left:-50px;  }
 }
 
 .txt-car-info {
