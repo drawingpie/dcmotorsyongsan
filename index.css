@@ -982,10 +982,8 @@ color: rgba(242, 242, 242, 0.4);}
   .gallery-thumbs .swiper-slide {
     left: 10px;
     top: -5px;
-    max-width: 200px;
+    max-width: 150px;
     margin: 0;
-    -webkit-transform: scale(0.6, 0.6);
-    transform: scale(0.6, 0.6);
     position: relative;
     padding-right: 10px;
     z-index: 99;
