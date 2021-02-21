@@ -445,7 +445,7 @@ color: rgba(242, 242, 242, 0.4);}
 @media screen and (max-width: 375px) {
   #speed {
     font-size: 69px;
-    left: 82px;
+    left: 86px;
     top: 411px;
     width: 230px;
   }
@@ -468,7 +468,7 @@ color: rgba(242, 242, 242, 0.4);}
 @media screen and (max-width: 375px) {
   #smart {
     font-size: 69px;
-    left: 81px;
+    left: 86px;
     top: 519px;
     width: 230px;
   }
@@ -490,7 +490,7 @@ color: rgba(242, 242, 242, 0.4);}
 @media screen and (max-width: 375px) {
   #synergy {
     font-size: 69px;
-    left: 45px;
+    left: 53px;
     top: 627px;
     width: 285px;
   }
@@ -534,7 +534,7 @@ color: rgba(242, 242, 242, 0.4);}
 @media screen and (max-width: 375px) {
   #products {
     font-size: 18px;
-    left: 130px;
+    left: 110px;
     top: 78px;
   }
 }
@@ -1739,7 +1739,7 @@ input[type=text], input[type=email], textarea {
     font-weight: 500;
     font-size: 12px;
     outline: none;
-    left: 123px;
+    left: 38px;
     top: 713px;
     position: absolute;
   }
