@@ -60,11 +60,7 @@ body {
   display: block;
 }
 
-.youtubevideowrapperdiv16-9blind .uphidden {
-  display: none;
-}
-
-.youtubevideowrapperdiv object {
+.youtubevideowrapperdiv video {
   position: absolute;
   top: 5px;
   left: 0%;
@@ -73,20 +69,10 @@ body {
 }
 
 @media screen and (max-width: 375px) {
-  .youtubevideowrapperdiv object {
+  .youtubevideowrapperdiv video {
     top: 0px;
     left: 0%;
     height: 1080px;
-  }
-
-  .youtubevideowrapperdiv16-9blind .uphidden {
-    display: block;
-    background: #000;
-    position: absolute;
-    top: 0px;
-    width: 100%;
-    height: 60px;
-    z-index: 9;
   }
 
   .youtubevideowrapperdiv16-9blind {
