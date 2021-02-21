@@ -969,11 +969,10 @@ color: rgba(242, 242, 242, 0.4);}
 .gallery-thumbs .swiper-slide {
   left: 17%;
   top: -10px;
-  max-width: 130px;
-  transform: scale(0.7, 0.7);
+  max-width: 100%;
   position: relative;
   display: flex;
-  padding-right: 150px;
+  padding-right: 10px;
   z-index: 99;
   cursor: pointer;
 }
