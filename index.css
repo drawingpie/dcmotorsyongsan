@@ -979,15 +979,15 @@ color: rgba(242, 242, 242, 0.4);}
 
 @media screen and (max-width: 375px) {
   .gallery-thumbs .swiper-slide {
-    left: 10px;
-    top: -5px;
+    left: -23px;
+    top: -20px;
     max-width: 100%;
     position: relative;
-    padding-right: 10px;
+    padding-right: 18px;
     z-index: 99;
     cursor: pointer;
     display:block;
-    transform:scale(0.5);
+    transform:scale(0.45);
   }
 }
 
@@ -1007,14 +1007,9 @@ color: rgba(242, 242, 242, 0.4);}
 
 @media screen and (max-width: 375px) {
   .gallery-thumbs span {
-    left: -150px;
-    top: 120px;
-    width: 100%;
-    max-width: 100px;
-    position: relative;
-    padding-right: 10px;
-    z-index: 99;
-    cursor: pointer;
+    left: 40px;
+    top: -20px;
+    font-size: 25px;
   }
 }
 
