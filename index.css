@@ -982,11 +982,11 @@ color: rgba(242, 242, 242, 0.4);}
     left: 10px;
     top: -5px;
     max-width: 100%;
-    height:auto !important;
     position: relative;
     padding-right: 10px;
     z-index: 99;
     cursor: pointer;
+    display:block;
   }
 }
 
