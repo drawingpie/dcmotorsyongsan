@@ -393,10 +393,10 @@ body {
 @media screen and (max-width: 375px) {
   #welcome {
     font-size: 22px;
-    left:50%;
-    transform: translateX(-50%);
+    left:45px;
     top: 153px;
     line-height: 37px;
+    display:flex;
   }
 }
 
@@ -420,11 +420,11 @@ body {
 @media screen and (max-width: 375px) {
   #welcomebody {
     font-size: 14px;
-    left:50%;
-    transform: translateX(-50%);
+    left:38px;
     top: 255px;
     width: 300px;
     line-height: 29px;
+    display: flex;
   }
 }
 
@@ -444,9 +444,9 @@ color: rgba(242, 242, 242, 0.4);}
 @media screen and (max-width: 375px) {
   #speed {
     font-size: 69px;
-    left:50%;
-    transform: translateX(-50%);
+    left:82px;
     top: 411px;
+    display: flex;
   }
 }
 
@@ -467,9 +467,9 @@ color: rgba(242, 242, 242, 0.4);}
 @media screen and (max-width: 375px) {
   #smart {
     font-size: 69px;
-    left:50%;
-    transform: translateX(-50%);
+    left:82px;
     top: 519px;
+    display: flex;
   }
 }
 
@@ -489,9 +489,9 @@ color: rgba(242, 242, 242, 0.4);}
 @media screen and (max-width: 375px) {
   #synergy {
     font-size: 69px;
-    left:50%;
-    transform: translateX(-50%);
+    left:45px;
     top: 627px;
+    display: flex;
   }
 }
 
