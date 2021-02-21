@@ -991,12 +991,11 @@ color: rgba(242, 242, 242, 0.4);}
   }
 }
 
-.gallery-thumbs span {
-  left: -42%;
-  top: 160px;
+.swiper-slide .slide-text  {
+  left: -50%;
+  top: 80px;
+  margin:auto;
   position: relative;
-  overflow: visible;
-  white-space: nowrap;
   text-align: center;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
@@ -1006,10 +1005,12 @@ color: rgba(242, 242, 242, 0.4);}
 }
 
 @media screen and (max-width: 375px) {
-  .gallery-thumbs span {
-    left: 40px;
-    top: -20px;
-    font-size: 25px;
+  .swiper-slide .slide-text {
+  left: 50%;
+  top: -10px;
+  white-space: nowrap;
+  font-size: 24px;
+
   }
 }
 
