@@ -445,8 +445,6 @@ body {
 }
 
 #speed {
-  opacity: 0.5;
-  mix-blend-mode: screen;
   left: 7.2%;
   top: 703px;
   position: absolute;
@@ -457,8 +455,7 @@ body {
   font-style: normal;
   font-weight: 900;
   font-size: 7.688rem;
-  color: rgba(242, 242, 242, 0.7);
-}
+color: rgba(242, 242, 242, 0.4);}
 
 @media screen and (max-width: 375px) {
   #speed {
@@ -470,8 +467,6 @@ body {
 }
 
 #smart {
-  opacity: 0.5;
-  mix-blend-mode: screen;
   left: 35.7%;
   top: 703px;
   position: absolute;
@@ -482,7 +477,7 @@ body {
   font-style: normal;
   font-weight: 900;
   font-size: 7.688rem;
-  color: rgba(242, 242, 242, 0.7);
+  color: rgba(242, 242, 242, 0.4);
 }
 
 @media screen and (max-width: 375px) {
@@ -495,8 +490,6 @@ body {
 }
 
 #synergy {
-  opacity: 0.5;
-  mix-blend-mode: screen;
   left: 64.8%;
   top: 703px;
   position: absolute;
@@ -507,8 +500,7 @@ body {
   font-style: normal;
   font-weight: 900;
   font-size: 7.688rem;
-  color: rgba(242, 242, 242, 0.7);
-}
+color: rgba(242, 242, 242, 0.4);}
 
 @media screen and (max-width: 375px) {
   #synergy {
@@ -683,7 +675,7 @@ body {
   position: absolute !important;
   width: auto;
   height: auto;
-  left: 88.5% !important;
+  left: 90.9% !important;
   top: 457px !important;
   overflow: visible;
   outline: none;
@@ -1007,6 +999,7 @@ body {
     left: 10px;
     top: -5px;
     max-width: 200px;
+    height: auto;
     -webkit-transform: scale(0.6, 0.6);
     transform: scale(0.6, 0.6);
     position: relative;
