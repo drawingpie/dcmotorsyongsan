@@ -967,8 +967,8 @@ color: rgba(242, 242, 242, 0.4);}
 }
 
 .gallery-thumbs .swiper-slide {
-  left: 27%;
-  top: 0px;
+  left: 17%;
+  top: -10px;
   max-width: 130px;
   transform: scale(0.7, 0.7);
   position: relative;
@@ -992,8 +992,8 @@ color: rgba(242, 242, 242, 0.4);}
 }
 
 .gallery-thumbs span {
-  left: -150%;
-  top: 170px;
+  left: -42%;
+  top: 160px;
   position: relative;
   overflow: visible;
   white-space: nowrap;
