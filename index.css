@@ -1005,12 +1005,12 @@ body {
     padding-right: 17px;
     z-index: 99;
     cursor: pointer;
-    left: -4%;
-    translateX(4%);
+    left: -2.5%;
+    left: -2.5%;
+    transform:translateX(2.5%) scale(0.7);
     text-align: center;
     max-width: 100%;
-    transform: scale(0.7);
-  }
+    }
 }
 
 .slide-text01, .slide-text02, .slide-text03 {
