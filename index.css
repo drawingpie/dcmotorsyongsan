@@ -861,9 +861,9 @@ color: rgba(242, 242, 242, 0.4);}
     background-color: #fff;
     position: absolute;
     width: 315px;
-    height: 620px;
+    height: 600px;
     display: none;
-    z-index: 999;
+    z-index: 9999;
     left: 30px;
     top: 0px;
     overflow: auto;
@@ -891,11 +891,13 @@ color: rgba(242, 242, 242, 0.4);}
 
 @media screen and (max-width: 375px) {
   .spec011 {
-    width: 80%;
+    width: 70%;
     background: cover;
     display: block;
     top: 80px;
     position:relative;
+    border: 0.5px solid #D9D9D9;
+    margin-bottom:-10px;
     }
 }
 @media screen and (max-width: 375px) {
