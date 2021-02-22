@@ -1358,7 +1358,7 @@ body {
 
 @media screen and (max-width: 480px) {
   #addbody {
-    left: 31%;
+    left: 34%;
     top: 395px;
     position: absolute;
     overflow: visible;
@@ -1389,7 +1389,7 @@ body {
 
 @media screen and (max-width: 480px) {
   #telnumber {
-    left: 31%;
+    left: 34%;
     top: 494px;
     position: absolute;
     overflow: visible;
@@ -1420,7 +1420,7 @@ body {
 
 @media screen and (max-width: 480px) {
   #faxnumber {
-    left: 31%;
+    left: 34%;
     top: 566px;
     position: absolute;
     overflow: visible;
@@ -1450,7 +1450,7 @@ body {
 
 @media screen and (max-width: 480px) {
   #hourbody {
-    left: 31%;
+    left: 34%;
     top: 638px;
     position: absolute;
     overflow: visible;
