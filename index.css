@@ -46,7 +46,6 @@ body {
     overflow: hidden auto;
   }
 }
-
 .youtubevideowrapperdiv16-9blind {
   position: absolute;
   width: 101%;
@@ -74,7 +73,6 @@ body {
     left: 0%;
     height: 1080px;
   }
-
   .youtubevideowrapperdiv16-9blind {
     position: absolute;
     width: 101%;
@@ -174,7 +172,6 @@ body {
     display: none;
   }
 }
-
 #sidebar, .overlay .closebtn,
 .openbtn, .dclogomob, .mobheader {
   display: none;
@@ -194,7 +191,6 @@ body {
     padding-top: 200px;
   }
 }
-
 @media screen and (max-width: 375px) {
   #sidebar a {
     z-index: 999;
@@ -213,13 +209,11 @@ body {
     color:#99C8F2;
   }
 }
-
 @media screen and (max-width: 375px) {
   #sidebar.active {
     left: 128px;
   }
 }
-
 @media screen and (max-width: 375px) {
   #sidebar .closebtn {
     display: block;
@@ -228,7 +222,6 @@ body {
     left: 20px;
   }
 }
-
 @media screen and (max-width: 375px) {
   .overlay {
     position: fixed;
@@ -239,7 +232,6 @@ body {
     display: none;
   }
 }
-
 .mobheader {
   display: none;
 }
@@ -256,7 +248,18 @@ body {
     z-index: 99;
   }
 }
-
+@media screen and (max-width: 360px) {
+  .mobheader {
+    display: block;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.5);
+    width: 360px;
+    height: 60px;
+    z-index: 99;
+  }
+}
 @media screen and (max-width: 375px) {
   .openbtn {
     display: block;
@@ -267,7 +270,16 @@ body {
     z-index: 9;
   }
 }
-
+@media screen and (max-width: 360px) {
+  .openbtn {
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    top: 12px;
+    left: 296px;
+    z-index: 9;
+  }
+}
 @media screen and (max-width: 375px) {
   .dclogomob {
     display: block;
@@ -281,7 +293,19 @@ body {
     z-index: 9;
   }
 }
-
+@media screen and (max-width: 360px) {
+  .dclogomob {
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    width: 106.27px;
+    height: 20.49px;
+    top: 17px;
+    left: 38px;
+    overflow: visible;
+    z-index: 9;
+  }
+}
 #servicebtn {
   background-color: #BF9E80;
   color: white;
@@ -360,7 +384,6 @@ body {
     background: url('aboutbgmob.png');
   }
 }
-
 #aboutus {
   left: 45.8%;
   top: 150px;
@@ -384,7 +407,6 @@ body {
     font-size: 18px;
   }
 }
-
 #welcome {
   left: 36.7%;
   top: 250px;
