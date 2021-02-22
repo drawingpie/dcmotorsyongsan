@@ -350,9 +350,7 @@ body {
     top: 760px;
     background: url('aboutbgmob.png');
     position: absolute;
-    left: 50%;
-    transform: translate(-50%);
-    text-align: center;
+    left: 0%;
   }
 }
 #aboutus {
