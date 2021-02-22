@@ -912,8 +912,8 @@ body {
     width: 70%;
     background: cover;
     display: block;
-    top: -80px;
     position: relative;
+    margin-bottom: 30px;
   }
 }
 
