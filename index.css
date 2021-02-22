@@ -865,7 +865,7 @@ color: rgba(242, 242, 242, 0.4);}
     display: none;
     z-index: 999;
     left: 30px;
-    top: 46px;
+    top: 0px;
     overflow: auto;
   }
 }
@@ -890,14 +890,23 @@ color: rgba(242, 242, 242, 0.4);}
 }
 
 @media screen and (max-width: 375px) {
-  .spec011, .spec021, .spec031 {
-    width: 50%;
-    background: contain;
+  .spec011 {
+    width: 80%;
+    background: cover;
     display: block;
-    margin: auto;
+    top: 80px;
+    position:relative;
+    }
+}
+@media screen and (max-width: 375px) {
+  .spec021, .spec031 {
+    width: 70%;
+    background: cover;
+    display: block;
+    top: -80px;
+    position:relative;
   }
 }
-
 .modlacontent01 span, .modlacontent02 span, .modlacontent03 span {
   text-align: center;
   display: block;
@@ -913,21 +922,16 @@ color: rgba(242, 242, 242, 0.4);}
 }
 
 @media screen and (max-width: 375px) {
-  .modlacontent01 span, .modlacontent02 span, .modlacontent03 span {
+  .modlacontent01 span {
     text-align: center;
     display: block;
     margin: auto;
-    padding-top: 50px;
+    top: 70px;
+    position:relative;
     white-space: nowrap;
-    text-align: center;
-    font-family: 'Noto Sans KR', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    color: #0D0D0D;
-  }
+    font-size: 12px;
+      }
 }
-
 /*닫기버튼
 .close {
   position: fixed;
