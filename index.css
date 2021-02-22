@@ -81,7 +81,8 @@ body {
     height: 1080px;
     top: -150px;
     left: 0%;
-    overflow: visible;  }
+    overflow: visible;
+  }
 }
 
 .header {
@@ -246,7 +247,7 @@ body {
     width: 375px;
     height: 60px;
     z-index: 99;
-    }
+  }
 }
 
 @media screen and (max-width: 375px) {
@@ -259,6 +260,7 @@ body {
     z-index: 9;
   }
 }
+
 @media screen and (max-width: 375px) {
   .dclogomob {
     display: block;
@@ -370,9 +372,10 @@ body {
 @media screen and (max-width: 375px) {
   #aboutus {
     top: 78px;
-    left:50%;
+    left: 50%;
     transform: translateX(-50%);
-    font-size: 18px;  }
+    font-size: 18px;
+  }
 }
 
 #welcome {
@@ -393,10 +396,10 @@ body {
 @media screen and (max-width: 375px) {
   #welcome {
     font-size: 22px;
-    left:45px;
+    left: 45px;
     top: 153px;
     line-height: 37px;
-    display:flex;
+    display: flex;
   }
 }
 
@@ -420,7 +423,7 @@ body {
 @media screen and (max-width: 375px) {
   #welcomebody {
     font-size: 14px;
-    left:38px;
+    left: 38px;
     top: 255px;
     width: 300px;
     line-height: 29px;
@@ -439,12 +442,13 @@ body {
   font-style: normal;
   font-weight: 900;
   font-size: 7.688rem;
-color: rgba(242, 242, 242, 0.4);}
+  color: rgba(242, 242, 242, 0.4);
+}
 
 @media screen and (max-width: 375px) {
   #speed {
     font-size: 69px;
-    left:82px;
+    left: 82px;
     top: 411px;
     display: flex;
   }
@@ -467,7 +471,7 @@ color: rgba(242, 242, 242, 0.4);}
 @media screen and (max-width: 375px) {
   #smart {
     font-size: 69px;
-    left:82px;
+    left: 82px;
     top: 519px;
     display: flex;
   }
@@ -484,12 +488,13 @@ color: rgba(242, 242, 242, 0.4);}
   font-style: normal;
   font-weight: 900;
   font-size: 7.688rem;
-  color: rgba(242, 242, 242, 0.4);}
+  color: rgba(242, 242, 242, 0.4);
+}
 
 @media screen and (max-width: 375px) {
   #synergy {
     font-size: 69px;
-    left:45px;
+    left: 45px;
     top: 627px;
     display: flex;
   }
@@ -532,11 +537,12 @@ color: rgba(242, 242, 242, 0.4);}
 
 @media screen and (max-width: 375px) {
   #products {
-    display:block;
+    display: block;
     font-size: 18px;
-    left:50%;
+    left: 50%;
     transform: translateX(-50%);
-    top: 78px;  }
+    top: 78px;
+  }
 }
 
 .swiper-container {
@@ -718,7 +724,7 @@ color: rgba(242, 242, 242, 0.4);}
     font-size: 24px;
     color: rgba(13, 13, 13, 1);
     z-index: 9;
-    left:50%;
+    left: 50%;
     transform: translateX(-50%);
   }
 }
@@ -895,20 +901,22 @@ color: rgba(242, 242, 242, 0.4);}
     background: cover;
     display: block;
     top: 80px;
-    position:relative;
+    position: relative;
     border: 0.5px solid #D9D9D9;
-    margin-bottom:-10px;
-    }
+    margin-bottom: -10px;
+  }
 }
+
 @media screen and (max-width: 375px) {
   .spec021, .spec031 {
     width: 70%;
     background: cover;
     display: block;
     top: -80px;
-    position:relative;
+    position: relative;
   }
 }
+
 .modlacontent01 span, .modlacontent02 span, .modlacontent03 span {
   text-align: center;
   display: block;
@@ -929,11 +937,12 @@ color: rgba(242, 242, 242, 0.4);}
     display: block;
     margin: auto;
     top: 70px;
-    position:relative;
+    position: relative;
     white-space: nowrap;
     font-size: 12px;
-      }
+  }
 }
+
 /*닫기버튼
 .close {
   position: fixed;
@@ -992,15 +1001,15 @@ color: rgba(242, 242, 242, 0.4);}
     padding-right: 18px;
     z-index: 99;
     cursor: pointer;
-    display:block;
-    transform:scale(0.45);
+    display: block;
+    transform: scale(0.45);
   }
 }
 
 .slide-text01, .slide-text02, .slide-text03 {
   left: -50%;
   top: 80px;
-  margin:auto;
+  margin: auto;
   position: relative;
   text-align: center;
   font-family: 'Noto Sans KR', sans-serif;
@@ -1009,59 +1018,62 @@ color: rgba(242, 242, 242, 0.4);}
   font-size: 1.125rem;
   color: #0D0D0D;
 }
+
 @media screen and (max-width: 375px) {
   .slide-text01 {
-  left: 44%;
-  top: -10px;
-  white-space: nowrap;
-  font-size: 24px;
+    left: 44%;
+    top: -10px;
+    white-space: nowrap;
+    font-size: 24px;
   }
 }
+
 @media screen and (max-width: 375px) {
   .slide-text02 {
-  left: 70%;
-  top: -4px;
-  white-space: nowrap;
-  font-size: 24px;
+    left: 70%;
+    top: -4px;
+    white-space: nowrap;
+    font-size: 24px;
   }
 }
+
 @media screen and (max-width: 375px) {
   .slide-text03 {
-  left: 20%;
-  top: -10px;
-  white-space: nowrap;
-  font-size: 24px;
+    left: 20%;
+    top: -10px;
+    white-space: nowrap;
+    font-size: 24px;
   }
 }
-
 
 .smallimg:hover {
-  animation: vibrate-1 .3s linear infinite both
+  animation: shake-right .7s cubic-bezier(.455, .03, .515, .955) both
 }
 
-@keyframes vibrate-1 {
-  0% {
-    transform: translate(0)
+@keyframes shake-right {
+  0%, 100% {
+    transform: rotate(0deg);
+    transform-origin: 100% 50%
   }
 
-  20% {
-    transform: translate(-2px, 2px)
+  10% {
+    transform: rotate(2deg)
   }
 
-  40% {
-    transform: translate(-2px, -2px)
+  20%, 40%, 60% {
+    transform: rotate(-4deg)
   }
 
-  60% {
-    transform: translate(2px, 2px)
+  30%, 50%, 70% {
+    transform: rotate(4deg)
   }
 
   80% {
-    transform: translate(2px, -2px)
+    transform: rotate(-2deg)
   }
 
-  100% {
-    transform: translate(0)
+  90% {
+    transform: rotate(2deg)
   }
 }
 
@@ -1123,7 +1135,7 @@ color: rgba(242, 242, 242, 0.4);}
 
 @media screen and (max-width: 375px) {
   #contacthead span {
-    left:50%;
+    left: 50%;
     transform: translateX(-50%);
     top: 31px;
     position: absolute;
@@ -1565,7 +1577,7 @@ color: rgba(242, 242, 242, 0.4);}
 
 @media screen and (max-width: 375px) {
   #service span {
-    left:50%;
+    left: 50%;
     transform: translateX(-50%);
     top: 31px;
     position: absolute;
