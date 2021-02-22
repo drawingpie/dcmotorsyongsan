@@ -1002,13 +1002,13 @@ body {
 @media screen and (max-width: 480px) {
   .gallery-thumbs .swiper-slide {
     top: -10px;
-    position: ab;
-    padding-right: 15px;
+    padding-right: 17px;
     z-index: 99;
     cursor: pointer;
-    left: 5%;
-    translateX(-5%);
+    left: -4%;
+    translateX(4%);
     text-align: center;
+    max-width: 100%;
     transform: scale(0.7);
   }
 }
@@ -1028,32 +1028,31 @@ body {
 
 @media screen and (max-width: 480px) {
   .slide-text01 {
-    left: -170%;
+    left: -180%;
     translateX(170%);
     top: 70px;
     white-space: nowrap;
-    font-size: 1.188;
+    font-size: 1rem;
   }
 }
 
 @media screen and (max-width: 480px) {
   .slide-text02 {
-    left: -120%;
+    left: -150%;
     top: 70px;
     white-space: nowrap;
-    font-size: 1.188;
+    font-size: 1rem;
   }
 }
 
 @media screen and (max-width: 480px) {
   .slide-text03 {
-    left: -160%;
+    left: -190%;
     top: 70px;
     white-space: nowrap;
-    font-size: 1.188;
+    font-size: 1rem;
   }
 }
-
 .smallimg:hover {
   animation: shake-right .7s cubic-bezier(.455, .03, .515, .955) both
 }
