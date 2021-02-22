@@ -140,18 +140,22 @@ body {
 .navi ul li a {
   position: relative;
   overflow: visible;
-  left: 715px;
+  left: 600px;
   font-style: normal;
   font-family: 'Noto Sans KR', sans-serif;
   font-weight: 700;
   font-size: 1.25rem;
-  height: 80px;
+  text-align:center;
+  width:90px;
+  height: 75px;
   display: block;
-  padding-right: 106px;
+  margin-right: 60px;
   text-decoration: none;
   color: #fff;
-}
-
+  }
+.navi a:hover {
+  border-bottom: 5px solid #99C8F2;
+  }
 /*스크롤 전*/
 .header .scroll .navi ul li a {
   height: 80px;
@@ -204,6 +208,9 @@ body {
     font-style: normal;
     font-weight: 500;
     padding-right: 40px;
+  }
+  #sidebar a:active {
+    color:#99C8F2;
   }
 }
 
