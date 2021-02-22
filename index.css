@@ -698,11 +698,11 @@ body {
   }
 }
 
-.swiper-button-prev:hover,
-.swiper-button-next:hover {
+.swiper-button-prev:active,
+.swiper-button-next:active {
   color: #99C8F2 !important;
+  transition: 0.3s ease;
 }
-
 .type01 {
   left: 15.9%;
   top: 269px;
