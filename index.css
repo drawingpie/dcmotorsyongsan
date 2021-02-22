@@ -1004,7 +1004,6 @@ body {
     z-index: 99;
     cursor: pointer;
     left: -2.5%;
-    left: -2.5%;
     transform:translateX(2.5%) scale(0.7);
     text-align: center;
     max-width: 100%;
