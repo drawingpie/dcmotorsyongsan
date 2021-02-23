@@ -70,7 +70,7 @@
         })
       },
       S = function(e) {
-        return e === !0 || "mobile" === e && p.default.mobile() || "phone" === e && p.default.phone() || "tablet" === e && p.default.tablet() || "function" == typeof e && e() === !0
+        return e === !1 || "mobile" === e && p.default.mobile() || "phone" === e && p.default.phone() || "tablet" === e && p.default.tablet() || "function" == typeof e && e() === !0
       },
       z = function(e) {
         x = i(x, e), w = (0, h.default)();
