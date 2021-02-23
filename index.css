@@ -1007,7 +1007,7 @@ body {
 @media screen and (max-width: 480px) {
   .gallery-thumbs .smallimg {
     left: 50%;
-    top: 5px;
+    top: 12px;
     width: 110%;
     position: relative;
     z-index: 99;
@@ -1089,8 +1089,7 @@ body {
 @media screen and (max-width: 480px) {
   .slide-text01 {
     left: 60%;
-    translateX(170%);
-    top: 0px;
+    top: 10px;
     white-space: nowrap;
     font-size: 0.7rem;
   }
@@ -1099,8 +1098,7 @@ body {
 @media screen and (max-width: 480px) {
   .slide-text02 {
     left: 70%;
-    translateX(170%);
-    top: -3px;
+    top: 7px;
     white-space: nowrap;
     font-size: 0.7rem;
   }
@@ -1109,8 +1107,7 @@ body {
 @media screen and (max-width: 480px) {
   .slide-text03 {
     left: 50%;
-    translateX(170%);
-    top: 0px;
+    top: 10px;
     white-space: nowrap;
     font-size: 0.7rem;
   }
