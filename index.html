@@ -237,10 +237,17 @@
 
 	</div>
 
-<script src="WOW.js"></script>
-<script>
-  new WOW().init();
-</script>
+	<script src="wow.js"></script>
+	<script>
+		wow = new WOW({
+			boxClass: 'wow', // default
+			animateClass: 'animated', // default
+			offset: 0, // default
+			mobile: true, // default
+			live: true // default
+		})
+		wow.init();
+	</script>
 
 	<script type="text/javascript">
 		//슬라이드//
@@ -389,8 +396,6 @@
 			$('#sidebar').removeClass('active');
 			$('.overlay').fadeOut();
 		});
-
-
 	</script>
 
 </body>
