@@ -402,22 +402,6 @@ body {
   font-weight: 700;
   font-size: 2.438rem;
   color: rgba(242, 242, 242, 1);
-  animation: welcomeani .7s cubic-bezier(.215, .61, .355, 1.000) both
-}
-
-@keyframes welcomeani {
-  0% {
-    letter-spacing: -.5em;
-    opacity: 0
-  }
-
-  40% {
-    opacity: .6
-  }
-
-  100% {
-    opacity: 1
-  }
 }
 
 @media screen and (max-width: 480px) {
@@ -445,7 +429,6 @@ body {
   font-weight: 500;
   font-size: 1.563rem;
   color: rgba(242, 242, 242, 1);
-  animation: welcomeani .7s cubic-bezier(.215, .61, .355, 1.000) both
 }
 
 @media screen and (max-width: 480px) {
@@ -471,22 +454,6 @@ body {
   font-weight: 900;
   font-size: 7.688rem;
   color: rgba(242, 242, 242, 0.4);
-  animation: slide-in-bottom .5s cubic-bezier(.25, .46, .45, .94) both
-}
-
-@keyframes tracking-in-expand {
-  0% {
-    letter-spacing: -.5em;
-    opacity: 0
-  }
-
-  40% {
-    opacity: .6
-  }
-
-  100% {
-    opacity: 1
-  }
 }
 
 @media screen and (max-width: 480px) {
@@ -510,7 +477,6 @@ body {
   font-weight: 900;
   font-size: 7.688rem;
   color: rgba(242, 242, 242, 0.4);
-  animation: slide-in-bottom .5s cubic-bezier(.25, .46, .45, .94) both
 }
 
 @media screen and (max-width: 480px) {
@@ -534,7 +500,6 @@ body {
   font-weight: 900;
   font-size: 7.688rem;
   color: rgba(242, 242, 242, 0.4);
-  animation: slide-in-bottom .5s cubic-bezier(.25, .46, .45, .94) both
 }
 
 @media screen and (max-width: 480px) {
