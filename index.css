@@ -410,7 +410,7 @@ body {
     top: 153px;
     line-height: 37px;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-50%)!important;
   }
 }
 
