@@ -66,7 +66,7 @@
       },
       _ = function() {
         w.forEach(function(e, t) {
-          e.node.removeAttribute("[data-aos]"), e.node.removeAttribute("[data-aos]"), e.node.removeAttribute("[data-aos]"), e.node.removeAttribute("[data-aos]")
+          e.node.removeAttribute("data-aos"), e.node.removeAttribute("data-aos-easing"), e.node.removeAttribute("data-aos-duration"), e.node.removeAttribute("data-aos-delay")
         })
       },
       S = function(e) {
@@ -75,7 +75,7 @@
       z = function(e) {
         x = i(x, e), w = (0, h.default)();
         var t = document.all && !window.atob;
-        return S(x.disable) || t ? _() : (document.querySelector("body").setAttribute("[data-aos]", x.easing), document.querySelector("body").setAttribute("[data-aos]", x.duration), document.querySelector("body").setAttribute("[data-aos]", x.delay), "DOMContentLoaded" === x.startEvent && ["complete", "interactive"].indexOf(document.readyState) > -1 ? j(!0) : "load" === x.startEvent ? window.addEventListener(x.startEvent, function() {
+        return S(x.disable) || t ? _() : (document.querySelector("body").setAttribute("data-aos-easing", x.easing), document.querySelector("body").setAttribute("data-aos-duration", x.duration), document.querySelector("body").setAttribute("data-aos-delay", x.delay), "DOMContentLoaded" === x.startEvent && ["complete", "interactive"].indexOf(document.readyState) > -1 ? j(!0) : "load" === x.startEvent ? window.addEventListener(x.startEvent, function() {
           j(!0)
         }) : document.addEventListener(x.startEvent, function() {
           j(!0)
@@ -346,7 +346,7 @@
         var t = Array.prototype.slice.call(e.addedNodes),
           n = Array.prototype.slice.call(e.removedNodes),
           o = t.concat(n).filter(function(e) {
-            return e.hasAttribute && e.hasAttribute("[data-aos]")
+            return e.hasAttribute && e.hasAttribute("data-aos")
           }).length;
         o && i()
       })
@@ -414,7 +414,7 @@
       value: !0
     });
     var n = function(e, t, n) {
-        var o = e.node.getAttribute("[data-aos]");
+        var o = e.node.getAttribute("data-aos-once");
         t > e.position ? e.node.classList.add("animate__animated") : "undefined" != typeof o && ("false" === o || !n && "true" !== o) && e.node.classList.remove("animate__animated")
       },
       o = function(e, t) {
@@ -462,9 +462,9 @@
           o = 0,
           i = window.innerHeight,
           a = {
-            offset: e.getAttribute("[data-aos]"),
-            anchor: e.getAttribute("[data-aos]"),
-            anchorPlacement: e.getAttribute("[data-aos]")
+            offset: e.getAttribute("data-aos-offset"),
+            anchor: e.getAttribute("data-aos-anchor"),
+            anchorPlacement: e.getAttribute("data-aos-anchor-placement")
           };
         switch (a.offset && !isNaN(a.offset) && (o = parseInt(a.offset)), a.anchor && document.querySelectorAll(a.anchor) && (e = document.querySelectorAll(a.anchor)[0]), n = (0, r.default)(e).top, a.anchorPlacement) {
           case "top-bottom":
