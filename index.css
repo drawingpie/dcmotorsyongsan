@@ -47,12 +47,7 @@ body {
     -webkit-overflow: hidden auto;
   }
 }
-[data-aos] {
-  visibility: hidden;
-}
-[data-aos].animated {
-  visibility: visible;
-}
+
 .youtubevideowrapperdiv16-9blind {
   position: absolute;
   width: 101%;
