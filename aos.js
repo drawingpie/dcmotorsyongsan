@@ -12,7 +12,7 @@
       return e[o].call(i.exports, i, i.exports, t), i.loaded = !0, i.exports
     }
     var n = {};
-    return t.m = e, t.c = n, t.p = "dist/", t(0)
+    return t.m = e, t.c = n, t.p = "", t(0)
   }([function(e, t, n) {
     "use strict";
 
