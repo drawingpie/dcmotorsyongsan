@@ -405,8 +405,9 @@ body {
     font-size: 22px;
     top: 153px;
     line-height: 37px;
-    left: 50%;
-    transform: translateX(-50%)!important;
+    width: 283px;
+    left:50%;
+    margin-left: -141.5px;
   }
 }
 
@@ -431,10 +432,11 @@ body {
   .welcomebody {
     font-size: 14px;
     top: 255px;
-    width: 300px;
     line-height: 29px;
-    left: 50%;
-    transform: translateX(-50%)!important;
+    width: 300px;
+    left:50%;
+    margin-left: -150px;
+
   }
 }
 
@@ -455,9 +457,10 @@ body {
 @media screen and (max-width: 480px) {
   .speed {
     font-size: 69px;
-    left: 50%;
-    transform: translateX(-50%)!important;
     top: 411px;
+    width: 212px;
+    left:50%;
+    margin-left: -106px;
   }
 }
 
@@ -478,9 +481,10 @@ body {
 @media screen and (max-width: 480px) {
   .smart {
     font-size: 69px;
-    left: 50%;
-    transform: translateX(-50%)!important;
     top: 519px;
+    width: 214px;
+    left:50%;
+    margin-left: -107px;
   }
 }
 
@@ -501,9 +505,10 @@ body {
 @media screen and (max-width: 480px) {
   .synergy {
     font-size: 69px;
-    left: 50%;
-    transform: translateX(-50%)!important;
     top: 627px;
+    width: 285px;
+    left:50%;
+    margin-left: -142.5px;
   }
 }
 
