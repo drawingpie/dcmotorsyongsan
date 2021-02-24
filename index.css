@@ -385,7 +385,7 @@ body {
   }
 }
 
-#welcome {
+.welcome {
   left: 36.7%;
   top: 250px;
   position: absolute;
@@ -401,7 +401,7 @@ body {
 }
 
 @media screen and (max-width: 480px) {
-  #welcome {
+  .welcome {
     font-size: 22px;
     top: 153px;
     line-height: 37px;
@@ -410,7 +410,7 @@ body {
   }
 }
 
-#welcomebody {
+.welcomebody {
   left: 31.7%;
   top: 429px;
   position: absolute;
@@ -428,7 +428,7 @@ body {
 }
 
 @media screen and (max-width: 480px) {
-  #welcomebody {
+  .welcomebody {
     font-size: 14px;
     top: 255px;
     width: 300px;
@@ -438,7 +438,7 @@ body {
   }
 }
 
-#speed {
+.speed {
   left: 7.2%;
   top: 703px;
   position: absolute;
@@ -453,7 +453,7 @@ body {
 }
 
 @media screen and (max-width: 480px) {
-  #speed {
+  .speed {
     font-size: 69px;
     left: 50%;
     transform: translateX(-50%);
@@ -461,7 +461,7 @@ body {
   }
 }
 
-#smart {
+.smart {
   left: 35.7%;
   top: 703px;
   position: absolute;
@@ -476,7 +476,7 @@ body {
 }
 
 @media screen and (max-width: 480px) {
-  #smart {
+  .smart {
     font-size: 69px;
     left: 50%;
     transform: translateX(-50%);
@@ -484,7 +484,7 @@ body {
   }
 }
 
-#synergy {
+.synergy {
   left: 64.8%;
   top: 703px;
   position: absolute;
@@ -499,7 +499,7 @@ body {
 }
 
 @media screen and (max-width: 480px) {
-  #synergy {
+  .synergy {
     font-size: 69px;
     left: 50%;
     transform: translateX(-50%);
