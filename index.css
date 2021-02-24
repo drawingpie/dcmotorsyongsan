@@ -50,7 +50,7 @@ body {
 [data-aos] {
   visibility: hidden;
 }
-[data-aos].animated {
+[data-aos].animate__animated {
   visibility: visible;
 }
 .youtubevideowrapperdiv16-9blind {
