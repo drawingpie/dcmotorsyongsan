@@ -434,7 +434,7 @@ body {
     width: 300px;
     line-height: 29px;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-50%)!important;
   }
 }
 
@@ -456,7 +456,7 @@ body {
   .speed {
     font-size: 69px;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-50%)!important;
     top: 411px;
   }
 }
@@ -479,7 +479,7 @@ body {
   .smart {
     font-size: 69px;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-50%)!important;
     top: 519px;
   }
 }
@@ -502,7 +502,7 @@ body {
   .synergy {
     font-size: 69px;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-50%)!important;
     top: 627px;
   }
 }
