@@ -415,7 +415,7 @@
     });
     var n = function(e, t, n) {
         var o = e.node.getAttribute("data-aos-once");
-        t > e.position ? e.node.classList.add("animate__animated") : "undefined" != typeof o && ("false" === o || !n && "true" !== o) && e.node.classList.remove("animate__animated")
+        t > e.position ? e.node.classList.add("animated") : "undefined" != typeof o && ("false" === o || !n && "true" !== o) && e.node.classList.remove("animated")
       },
       o = function(e, t) {
         var o = window.pageYOffset,
