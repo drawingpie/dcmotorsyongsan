@@ -409,7 +409,22 @@ body {
     transform: translateX(-50%)!important;
   }
 }
+[data-aos="new-animation"] {
+  opacity: 0;
+  transition-property: transform, opacity;
 
+  &.aos-animate {
+    opacity: 1;
+  }
+
+@media screen and (max-width: 480px) {
+    transform: translateX(100px);
+
+    &.aos-animate {
+      transform: translateX(0);
+    }
+  }
+}
 .welcomebody {
   left: 31.7%;
   top: 429px;
