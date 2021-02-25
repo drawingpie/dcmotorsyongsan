@@ -69,18 +69,11 @@ body {
 @media screen and (max-width: 480px) {
   .youtubevideowrapperdiv video {
     top: 0px;
-    left: 0%;
+    left: -250%;
     height: 1080px;
+    width: auto;
   }
 
-  .youtubevideowrapperdiv16-9blind {
-    position: absolute;
-    width: 101%;
-    height: 1080px;
-    top: -150px;
-    left: 0%;
-    overflow: visible;
-  }
 }
 .header {
   position: fixed;
