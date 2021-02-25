@@ -390,13 +390,16 @@
 		});
 
 		//삼성인터넷 비디오재생//
-		const video = document.getElementById('dcvideo');
-video.play()
-  .catch((err) => {
-    if (err.name === 'NotAllowedError') {
-      // Display PLAY button with a click event listener and play the video there.
+		var broswerInfo = navigator.userAgent;
+
+var isMobile = {
+    Android: function () {
+        return navigator.userAgent.match(/Android/i) == null ? false : true;
+    },
+    BlackBerry: function () {
+        return navigator.userAgent.match(/BlackBerry/i) == null ? false : true;
     }
-  });
+};
 	</script>
 
 </body>
