@@ -69,7 +69,7 @@ body {
 @media screen and (max-width: 480px) {
   .youtubevideowrapperdiv video {
     top: 0px;
-    left: -250%;
+    left: -200%;
     height: 1080px;
     width: auto;
   }
