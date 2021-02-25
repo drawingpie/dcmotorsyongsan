@@ -45,20 +45,43 @@ body {
     height: 100%;
     }
 }
-.video_dc {
+.youtubevideowrapperdiv16-9blind {
+  position: absolute;
+  width: 101%;
+  height: 1080px;
+  top: -120px;
+  left: 0%;
+  overflow: visible;
+}
+
+.youtubevideowrapperdiv16-9blind .video-container {
+  display: block;
+}
+
+.youtubevideowrapperdiv object {
   position: absolute;
   top: 5px;
   left: 0%;
   width: 100%;
   height: 100%;
 }
+
 @media screen and (max-width: 480px) {
-  .video_dc {
+  .youtubevideowrapperdiv object {
     top: 0px;
     left: 0%;
     height: 1080px;
   }
 
+  .youtubevideowrapperdiv16-9blind {
+    position: absolute;
+    width: 101%;
+    height: 1080px;
+    top: -150px;
+    left: 0%;
+    overflow: visible;
+  }
+}
 .header {
   position: fixed;
   top: 0;
