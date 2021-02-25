@@ -390,16 +390,9 @@
 		});
 
 		//삼성인터넷 비디오재생//
-		var broswerInfo = navigator.userAgent;
+		HTMLMediaElement.autoplay = true | false;
+		var autoplay = HTMLMediaElement.autoplay;
 
-var isMobile = {
-    Android: function () {
-        return navigator.userAgent.match(/Android/i) == null ? false : true;
-    },
-    BlackBerry: function () {
-        return navigator.userAgent.match(/BlackBerry/i) == null ? false : true;
-    }
-};
 	</script>
 
 </body>
