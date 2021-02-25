@@ -17,10 +17,11 @@
 
 <body>
 	<div id="cover">
-		<!-- 영상 한 묶음. 영상이 연속으로 있을 경우 이 묶음을 더 추가하면 됨-->
-		<video autoplay muted loop>
-		  <source src="Daechang Motors DANIGO VAN.mp4" type="video/mp4">
-		</video>
+		<div class="video_dc">
+			<video autoplay muted loop>
+				<source src="Daechang Motors DANIGO VAN.mp4" type="video/mp4">
+			</video>
+		</div>
 
 		<div class="header">
 			<div class="navi">
@@ -382,8 +383,6 @@
 			$('#sidebar').removeClass('active');
 			$('.overlay').fadeOut();
 		});
-
-
 	</script>
 
 </body>
