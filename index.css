@@ -45,16 +45,20 @@ body {
     height: 100%;
     }
 }
-
 video {
+  position: absolute;
+  top: 5px;
+  left: 0%;
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 @media screen and (max-width: 480px) {
   video {
-    width: 100%;
-    height: auto;
+    top: 0px;
+    left: 0%;
+    height: 1080px;
   }
+
 .header {
   position: fixed;
   top: 0;
