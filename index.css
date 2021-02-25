@@ -58,7 +58,7 @@ body {
   display: block;
 }
 
-.youtubevideowrapperdiv object {
+.youtubevideowrapperdiv video {
   position: absolute;
   top: 5px;
   left: 0%;
@@ -67,7 +67,7 @@ body {
 }
 
 @media screen and (max-width: 480px) {
-  .youtubevideowrapperdiv object {
+  .youtubevideowrapperdiv video {
     top: 0px;
     left: 0%;
     height: 1080px;
