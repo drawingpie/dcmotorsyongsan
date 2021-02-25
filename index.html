@@ -22,7 +22,7 @@
 
 		<div class="youtubevideowrapperdiv youtubevideowrapperdiv16-9blind">
 			<div class=video-container style="text-align: center">
-				<video autoplay muted loop playsinline>
+				<video id="dcvideo" autoplay muted loop playsinline>
 					<source src="Daechang Motors DANIGO VAN.mp4" type="video/mp4">
 				</video>
 			</div>
@@ -388,6 +388,15 @@
 			$('#sidebar').removeClass('active');
 			$('.overlay').fadeOut();
 		});
+
+		//삼성인터넷 비디오재생//
+		const video = document.getElementById('dcvideo');
+video.play()
+  .catch((err) => {
+    if (err.name === 'NotAllowedError') {
+      // Display PLAY button with a click event listener and play the video there.
+    }
+  });
 	</script>
 
 </body>
