@@ -149,7 +149,7 @@ body {
   color: #fff;
 }
 
-.navi a:hover {
+li a:hover {
   border-bottom: 5px solid #99C8F2;
 }
 
