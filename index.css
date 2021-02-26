@@ -1714,7 +1714,6 @@ label {
   font-weight: 400;
   font-size: 1.25rem;
   display: block;
-  -ms-display: block;
 }
 
 @media screen and (max-width: 480px) {
@@ -1839,12 +1838,9 @@ input[type=text], input[type=email], textarea {
 
 .line {
   display: flex;
-  -ms-display: flex;
   float: right;
 }
-.row {
-  -ms-display: inline;
-}
+
 @media screen and (max-width: 480px) {
   .line {
     display: block;
