@@ -1842,7 +1842,9 @@ input[type=text], input[type=email], textarea {
   -ms-display: flex;
   float: right;
 }
-
+.row {
+  -ms-display: inline;
+}
 @media screen and (max-width: 480px) {
   .line {
     display: block;
