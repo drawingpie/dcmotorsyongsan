@@ -37,7 +37,7 @@
 					<li><a href="#product">제품</a></li>
 					<li><a href="#contact">오시는길</a></li>
 				</ul>
-				<a class="servicebtn" href="#service">구입문의</a>
+				<a class="servicebtn" type="button" onclick="goService();">
 			</div>
 		</div>
 
@@ -389,9 +389,10 @@
 			$('.overlay').fadeOut();
 		});
 
-		//삼성인터넷 비디오재생//
-		HTMLMediaElement.autoplay = true;
-		var autoplay = HTMLMediaElement.autoplay;
+		//네비게이션 서비스 버튼//
+		function goService(){
+     location.href = "index.html";
+}
 	</script>
 
 </body>
