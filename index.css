@@ -281,7 +281,7 @@ body {
   }
 }
 
-#servicebtn {
+.servicebtn {
   background-color: #BF9E80;
   color: white;
   padding: 12px auto;
@@ -302,7 +302,7 @@ body {
   position: absolute;
 }
 
-#servicebtn:hover {
+.servicebtn:hover {
   background-color: #A2774F;
 }
 
