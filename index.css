@@ -1714,6 +1714,7 @@ label {
   font-weight: 400;
   font-size: 1.25rem;
   display: block;
+  -ms-display: block;
 }
 
 @media screen and (max-width: 480px) {
