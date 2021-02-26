@@ -1639,7 +1639,7 @@ li a:hover {
   width: 1388px;
   height: 1px;
   left: 13.8%;
-  top: 330px;
+  top: 360px;
   transform: matrix(1, 0, 0, 1, 0, 0);
 }
 
@@ -1662,7 +1662,7 @@ li a:hover {
   width: 1388px;
   height: 1px;
   left: 13.8%;
-  top: 512px;
+  top: 530px;
   transform: matrix(1, 0, 0, 1, 0, 0);
 }
 
@@ -1790,7 +1790,7 @@ input[type=text], input[type=email], textarea {
   font-size: 1.313rem;
   outline: none;
   left: 39%;
-  top: 643px;
+  top: 600px;
   position: absolute;
 }
 
@@ -1819,7 +1819,7 @@ input[type=text], input[type=email], textarea {
 
 .container {
   left: 13.7%;
-  top: 195px;
+  top: 220px;
   position: absolute;
   overflow: visible;
 }
