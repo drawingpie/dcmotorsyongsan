@@ -1838,6 +1838,7 @@ input[type=text], input[type=email], textarea {
 
 .line {
   display: flex;
+  -ms-display: flex;
   float: right;
 }
 
