@@ -1003,7 +1003,7 @@ li a:hover {
 }
 
 .gallery-thumbs .smallimg {
-  left: 65%;
+  left: 70%;
   top: -10px;
   width: 50%;
   position: relative;
@@ -1061,7 +1061,7 @@ li a:hover {
 }
 
 .slide-text01 {
-  left: 23%;
+  left: 30%;
   top: -3px;
   padding-right: 50px;
   position: relative;
@@ -1074,7 +1074,7 @@ li a:hover {
 }
 
 .slide-text02 {
-  left: 28%;
+  left: 35%;
   top: -3px;
   padding-right: 50px;
   position: relative;
@@ -1087,7 +1087,7 @@ li a:hover {
 }
 
 .slide-text03 {
-  left: 21%;
+  left: 27%;
   top: -3px;
   padding-right: 50px;
   position: relative;
