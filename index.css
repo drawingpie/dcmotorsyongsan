@@ -48,6 +48,10 @@ body {
   html {
     scroll-behavior: smooth;
   }
+
+  body {
+    overflow-x: hidden;
+  }
 }
 
 .youtubevideowrapperdiv16-9blind {
@@ -706,10 +710,12 @@ li a:hover {
 }
 
 @media screen and (max-width: 480px) {
+
   .swiper-button-prev:hover,
   .swiper-button-next:hover {
     color: #0D0D0D !important;
-     }
+  }
+
   .swiper-button-prev:active,
   .swiper-button-next:active {
     color: #99C8F2 !important;
@@ -1762,7 +1768,7 @@ input[type=text], input[type=email], textarea {
 
 @media screen and (max-width: 480px) {
   input[type=text], input[type=email], textarea {
-    width: 83.75vw!important;
+    width: 83.75vw !important;
     height: 50px;
     border: 1px solid #ccc;
     border-radius: 0px;
