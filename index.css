@@ -854,7 +854,7 @@ li a:hover {
 }
 
 .modlacontent01, .modlacontent02, .modlacontent03 {
-  background-color: #F2F2F2;
+  background-color: #fff;
   position: absolute;
   width: 1005px;
   height: 699px;
@@ -871,7 +871,7 @@ li a:hover {
 
 @media screen and (max-width: 480px) {
   .modlacontent01, .modlacontent02, .modlacontent03 {
-    background-color: #F2F2F2;
+    background-color: #fff;
     position: absolute;
     width: 315px;
     height: 600px;
@@ -1142,7 +1142,7 @@ li a:hover {
   height: 858px;
   left: 0%;
   top: 0px;
-  background-color: #F2F2F2;
+  background-color: #fff;
 }
 
 @media screen and (max-width: 480px) {
