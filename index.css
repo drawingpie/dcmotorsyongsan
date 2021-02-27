@@ -56,7 +56,7 @@ body {
 
 .youtubevideowrapperdiv16-9blind {
   position: absolute;
-  width: 101%;
+  width: 100%;
   height: 1080px;
   top: -120px;
   left: 0%;
@@ -78,7 +78,7 @@ body {
 @media screen and (max-width: 480px) {
   .youtubevideowrapperdiv video {
     top: 0px;
-    left: -200%;
+    left: -210%;
     height: 1080px;
     width: auto;
   }
