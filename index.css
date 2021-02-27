@@ -699,10 +699,22 @@ li a:hover {
   }
 }
 
-.swiper-button-prev:active,
-.swiper-button-next:active {
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
   color: #99C8F2 !important;
   transition: 0.3s ease;
+}
+
+@media screen and (max-width: 480px) {
+  .swiper-button-prev:hover,
+  .swiper-button-next:hover {
+    color: #0D0D0D !important;
+     }
+  .swiper-button-prev:active,
+  .swiper-button-next:active {
+    color: #99C8F2 !important;
+    transition: 0.3s ease;
+  }
 }
 
 .type01 {
