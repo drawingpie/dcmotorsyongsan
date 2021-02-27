@@ -1649,7 +1649,7 @@ li a:hover {
     width: 83.75%;
     height: 1px;
     left: 8%;
-    top: 176px;
+    top: 173px;
     transform: matrix(1, 0, 0, 1, 0, 0);
   }
 }
@@ -1672,7 +1672,7 @@ li a:hover {
     width: 83.75%;
     height: 1px;
     left: 8%;
-    top: 287px;
+    top: 285px;
     transform: matrix(1, 0, 0, 1, 0, 0);
   }
 }
@@ -1689,7 +1689,7 @@ li a:hover {
     width: 83.75%;
     height: 1px;
     left: 8%;
-    top: 398px;
+    top: 396px;
     transform: matrix(1, 0, 0, 1, 0, 0);
   }
 }
@@ -1702,7 +1702,7 @@ li a:hover {
     width: 83.75%;
     height: 1px;
     left: 8%;
-    top: 509px;
+    top: 507px;
     transform: matrix(1, 0, 0, 1, 0, 0);
   }
 }
@@ -1750,13 +1750,12 @@ input[type=text], input[type=email], textarea {
 
 @media screen and (max-width: 480px) {
   input[type=text], input[type=email], textarea {
-    width: 83.75vw !important;
+    width: 83.75vw!important;
     height: 50px;
     border: 1px solid #ccc;
     border-radius: 0px;
     box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 40px;
+    margin-bottom: 37px;
     filter: drop-shadow(0px 1px 20px rgba(0, 0, 0, 0.071));
     outline: none;
     left: 62%;
