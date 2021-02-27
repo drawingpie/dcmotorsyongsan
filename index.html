@@ -388,6 +388,25 @@
 			$('#sidebar').removeClass('active');
 			$('.overlay').fadeOut();
 		});
+
+		//탑버튼//
+		$(function() {
+			 $(window).scroll(function() {
+					 if ($(this).scrollTop() > 500) {
+							 $('#topbtn').fadeIn();
+					 } else {
+							 $('#topbtn').fadeOut();
+					 }
+			 });
+
+			 $("#topbtn").click(function() {
+					 $('html, body').animate({
+							 scrollTop : 0
+					 }, 400);
+					 return false;
+			 });
+	 });
+
 	</script>
 
 </body>
