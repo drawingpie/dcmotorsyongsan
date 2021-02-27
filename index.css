@@ -78,8 +78,12 @@ body {
     left: -210%;
     height: 1080px;
     width: auto;
-    overflow-x: hidden;
   }
+
+  .youtubevideowrapperdiv {
+     overflow-x: hidden;
+    }
+    
 }
 
 .header {
