@@ -146,7 +146,7 @@ body {
   display: block;
   margin-right: 60px;
   text-decoration: none;
-  color: #fff;
+  color: #F2F2F2;
 }
 
 li a:hover {
@@ -187,7 +187,7 @@ li a:hover {
     height: 100%;
     z-index: 999;
     transition: all 0.3s;
-    background: #fff;
+    background: #F2F2F2;
     padding-top: 200px;
   }
 }
@@ -195,7 +195,7 @@ li a:hover {
 @media screen and (max-width: 480px) {
   #sidebar a {
     z-index: 999;
-    color: #000;
+    color: #0D0D0D;
     padding: 5%;
     text-decoration: none;
     text-align: center;
@@ -325,7 +325,7 @@ li a:hover {
   font-style: normal;
   font-weight: 500;
   font-size: 13px;
-  color: #fff;
+  color: #F2F2F2;
   letter-spacing: 1px;
 }
 
@@ -825,7 +825,7 @@ li a:hover {
 }
 
 .txt-car-info button:hover {
-  color: #fff;
+  color: #F2F2F2;
   border-color: #99C8F2;
 }
 
@@ -854,7 +854,7 @@ li a:hover {
 }
 
 .modlacontent01, .modlacontent02, .modlacontent03 {
-  background-color: #fff;
+  background-color: #F2F2F2;
   position: absolute;
   width: 1005px;
   height: 699px;
@@ -871,7 +871,7 @@ li a:hover {
 
 @media screen and (max-width: 480px) {
   .modlacontent01, .modlacontent02, .modlacontent03 {
-    background-color: #fff;
+    background-color: #F2F2F2;
     position: absolute;
     width: 315px;
     height: 600px;
@@ -963,7 +963,7 @@ li a:hover {
 
 .close:hover,
 .close:focus {
-  color: #000;
+  color: #0D0D0D;
   text-decoration: none;
   cursor: pointer;
 }
@@ -1142,7 +1142,7 @@ li a:hover {
   height: 858px;
   left: 0%;
   top: 0px;
-  background-color: #fff;
+  background-color: #F2F2F2;
 }
 
 @media screen and (max-width: 480px) {
