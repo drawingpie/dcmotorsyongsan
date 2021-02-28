@@ -132,7 +132,7 @@ body {
   font-style: normal;
   font-family: 'Noto Sans KR', sans-serif;
   font-weight: 700;
-  font-size: 1.25rem;
+  font-size: 1.25vw;
   text-align: center;
   padding-bottom: 21px;
   padding-left: 30px;
@@ -287,7 +287,7 @@ body {
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 1.313rem;
+  font-size: 1.313vw;
   outline: none;
   left: 61.8%;
   top: 22px;
@@ -365,7 +365,7 @@ body {
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 1.563rem;
+  font-size: 1.563vw;
   color: rgba(242, 242, 242, 1);
 }
 
@@ -389,7 +389,7 @@ body {
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 2.438rem;
+  font-size: 2.438vw;
   color: rgba(242, 242, 242, 1);
 }
 
@@ -417,7 +417,7 @@ body {
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 1.563rem;
+  font-size: 1.563vw;
   color: rgba(242, 242, 242, 1);
 }
 
@@ -442,7 +442,7 @@ body {
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 900;
-  font-size: 7.688rem;
+  font-size: 7.688vw;
   color: rgba(242, 242, 242, 0.4);
 }
 
@@ -466,7 +466,7 @@ body {
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 900;
-  font-size: 7.688rem;
+  font-size: 7.688vw;
   color: rgba(242, 242, 242, 0.4);
 }
 
@@ -490,7 +490,7 @@ body {
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 900;
-  font-size: 7.688rem;
+  font-size: 7.688vw;
   color: rgba(242, 242, 242, 0.4);
 }
 
@@ -535,7 +535,7 @@ body {
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 1.563rem;
+  font-size: 1.563vw;
   color: #0D0D0D;
   z-index: 9;
 }
@@ -727,7 +727,7 @@ body {
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 900;
-  font-size: 2.5rem;
+  font-size: 2.5vw;
   color: rgba(13, 13, 13, 1);
   z-index: 9;
 }
@@ -758,7 +758,7 @@ body {
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 1.438rem;
+  font-size: 1.438vw;
   color: rgba(13, 13, 13, 1);
   z-index: 9;
 }
@@ -802,7 +802,7 @@ body {
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 1.313rem;
+  font-size: 1.313vw;
   background-color: transparent;
   z-index: 99;
 }
@@ -946,7 +946,7 @@ body {
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 1.125rem;
+  font-size: 1.125vw;
   color: #0D0D0D;
 }
 
@@ -1068,7 +1068,7 @@ body {
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 1.125rem;
+  font-size: 1.125vw;
   color: #0D0D0D;
 }
 
@@ -1081,7 +1081,7 @@ body {
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 1.125rem;
+  font-size: 1.125vw;
   color: #0D0D0D;
 }
 
@@ -1094,7 +1094,7 @@ body {
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 1.125rem;
+  font-size: 1.125vw;
   color: #0D0D0D;
 }
 
@@ -1103,7 +1103,7 @@ body {
     left: 30%;
     top: 10px;
     white-space: nowrap;
-    font-size: 0.7rem;
+    font-size: 0.7vw;
   }
 }
 
@@ -1112,7 +1112,7 @@ body {
     left: 45%;
     top: 7px;
     white-space: nowrap;
-    font-size: 0.7rem;
+    font-size: 0.7vw;
   }
 }
 
@@ -1121,7 +1121,7 @@ body {
     left: 15%;
     top: 10px;
     white-space: nowrap;
-    font-size: 0.7rem;
+    font-size: 0.7vw;
   }
 }
 
@@ -1178,7 +1178,7 @@ body {
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 1.563rem;
+  font-size: 1.563vw;
   color: rgba(13, 13, 13, 1);
 }
 
@@ -1211,7 +1211,7 @@ body {
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 1.875rem;
+  font-size: 1.875vw;
   color: rgba(13, 13, 13, 1);
   border-bottom: 2px solid #0D0D0D;
   padding-bottom: 28px;
@@ -1267,7 +1267,7 @@ body {
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 1.5rem;
+  font-size: 1.5vw;
   color: rgba(13, 13, 13, 1);
 }
 
@@ -1299,7 +1299,7 @@ body {
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 1.5rem;
+  font-size: 1.5vw;
   color: rgba(13, 13, 13, 1);
 }
 
@@ -1331,7 +1331,7 @@ body {
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 1.5rem;
+  font-size: 1.5vw;
   color: rgba(13, 13, 13, 1);
 }
 
@@ -1363,7 +1363,7 @@ body {
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 1.5rem;
+  font-size: 1.5vw;
   color: rgba(13, 13, 13, 1);
 }
 
@@ -1394,7 +1394,7 @@ body {
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 1.5rem;
+  font-size: 1.5vw;
   color: rgba(13, 13, 13, 1);
 }
 
@@ -1425,7 +1425,7 @@ body {
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 1.5rem;
+  font-size: 1.5vw;
   color: rgba(13, 13, 13, 1);
 }
 
@@ -1456,7 +1456,7 @@ body {
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 1.5rem;
+  font-size: 1.5vw;
   color: rgba(13, 13, 13, 1);
 }
 
@@ -1486,7 +1486,7 @@ body {
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 1.5rem;
+  font-size: 1.5vw;
   color: rgba(13, 13, 13, 1);
 }
 
@@ -1621,7 +1621,7 @@ body {
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 1.563rem;
+  font-size: 1.563vw;
   color: rgba(0, 0, 0, 1);
 }
 
@@ -1722,7 +1722,7 @@ label {
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 1.25rem;
+  font-size: 1.25vw;
   display: block;
 }
 
@@ -1796,7 +1796,7 @@ input[type=text], input[type=email], textarea {
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 1.313rem;
+  font-size: 1.313vw;
   outline: none;
   left: 39%;
   top: 600px;
@@ -1922,7 +1922,7 @@ input[type=text], input[type=email], textarea {
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 1rem;
+  font-size: 1vw;
   color: rgba(242, 242, 242, 1);
 }
 
@@ -1954,7 +1954,7 @@ input[type=text], input[type=email], textarea {
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 1rem;
+  font-size: 1vw;
   color: rgba(242, 242, 242, 1);
 }
 
