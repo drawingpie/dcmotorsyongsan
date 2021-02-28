@@ -338,7 +338,7 @@ body {
 .aboutbg {
   position: absolute;
   width: 100vw;
-  height: 938px;
+  height: auto;
   overflow: visible;
   }
 
@@ -355,7 +355,7 @@ body {
 }
 
 #aboutus {
-  left: 45.8%;
+  left: 45.8vw;
   top: 150px;
   position: absolute;
   overflow: visible;
@@ -379,7 +379,7 @@ body {
 }
 
 .welcome {
-  left: 36.7%;
+  left: 36.7vw;
   top: 250px;
   position: absolute;
   overflow: visible;
@@ -405,7 +405,7 @@ body {
 }
 
 .welcomebody {
-  left: 31.7%;
+  left: 31.7vw;
   top: 429px;
   position: absolute;
   overflow: visible;
@@ -433,7 +433,7 @@ body {
 }
 
 .speed {
-  left: 7.2%;
+  left: 7.2vw;
   top: 703px;
   position: absolute;
   overflow: visible;
@@ -457,7 +457,7 @@ body {
 }
 
 .smart {
-  left: 35.7%;
+  left: 35.7vw;
   top: 703px;
   position: absolute;
   overflow: visible;
@@ -481,7 +481,7 @@ body {
 }
 
 .synergy {
-  left: 64.8%;
+  left: 64.8vw;
   top: 703px;
   position: absolute;
   overflow: visible;
