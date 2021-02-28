@@ -330,12 +330,15 @@ body {
   overflow: visible;
 }
 
+#chainabout {
+  position: absolute;
+  left: 0%;
+  top: 19.6%;
+}
 .aboutbg {
   position: absolute;
   width: 100vw;
   height: 938px;
-  left: 0%;
-  top: 19.6%;
   overflow: visible;
   }
 
