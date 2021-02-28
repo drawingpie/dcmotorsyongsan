@@ -308,11 +308,11 @@
 				var scroll = getCurrentScroll();
 				if (scroll >= rollHeader) {
 					$('.header').addClass('scroll').css("background-color", "#fff");
-					$('.navi ul li a').addClass('scroll').css("color", "#0D0D0D");
+					$('.navi .menu a').addClass('scroll').css("color", "#0D0D0D");
 					$('#yongsan').addClass('scroll').css("color", "#0D0D0D");
 				} else {
 					$('.header').removeClass('scroll').css("background-color", "transparent");
-					$('.navi ul li a').removeClass('scroll').css("color", "#fff");
+					$('.navi .menu a').removeClass('scroll').css("color", "#fff");
 					$('#yongsan').addClass('scroll').css("color", "#fff");
 				}
 			});
