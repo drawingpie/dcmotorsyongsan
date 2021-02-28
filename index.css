@@ -330,17 +330,14 @@ body {
   overflow: visible;
 }
 
-#chainabout {
+.aboutbg {
   position: absolute;
   width: 100vw;
   height: 938px;
   left: 0%;
   top: 19.6%;
   overflow: visible;
-  background: url('image/aboutbg.png');
-  background-size: cover;
-  background-position: center;
-}
+  }
 
 @media screen and (max-width: 480px) {
   #chainabout {
