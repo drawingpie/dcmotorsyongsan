@@ -354,7 +354,7 @@ body {
   }
 }
 .aboutinner {
-  
+
 }
 #aboutus {
   left: 45.8vw;
@@ -723,9 +723,9 @@ body {
   top: 269px;
   position: absolute;
   overflow: visible;
-  width: 379px;
+  width: 400px;
   height: 348px;
-  line-height: 46px;
+  line-height: 50px;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 900;
@@ -753,7 +753,7 @@ body {
 .txt-car-info {
   left: 15.9%;
   top: 400px;
-  width: 314px;
+  width: 380px;
   position: absolute;
   overflow: visible;
   text-align: left;
@@ -1088,11 +1088,9 @@ body {
 }
 
 .slide-text03 {
-  left: 27%;
+  left: 23%;
   top: -3px;
-  padding-right: 50px;
   position: relative;
-  text-align: center;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 700;
