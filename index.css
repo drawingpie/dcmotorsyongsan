@@ -63,7 +63,7 @@ body {
 .youtubevideowrapperdiv video {
   position: absolute;
   top: 5px;
-  left: 0%;
+  left: 0.8%;
   width: 100%;
   height: auto;
 }
