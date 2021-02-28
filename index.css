@@ -158,7 +158,8 @@ body {
 
 @media screen and (max-width: 480px) {
 
-  .header, .header.scroll, .header .navi {
+  .header, .header.scroll, .header .navi,
+  .header.scroll .navi, .menu .dclogo, .danigologo {
     display: none;
   }
 }
