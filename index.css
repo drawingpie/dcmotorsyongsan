@@ -289,8 +289,8 @@ body {
   font-weight: 500;
   font-size: 1.313vw;
   outline: none;
-  left: 61.8%;
-  top: 22px;
+  left: 88%;
+  top: 17.192px;
   position: absolute;
 }
 
@@ -319,15 +319,6 @@ body {
   font-size: 13px;
   color: #F2F2F2;
   letter-spacing: 1px;
-}
-
-.danigologo {
-  position: absolute;
-  width: 96.677px;
-  height: 52.344px;
-  left: 88%;
-  top: 17.192px;
-  overflow: visible;
 }
 
 #chainabout {
