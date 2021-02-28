@@ -33,10 +33,14 @@ html {
 body {
   margin: 0;
   position: relative;
-  max-width: 1920px;
-  height: 4900px;
+  max-width: 100%;
+  height: auto;
   overflow: hidden auto;
 }
+
+@media screen and (min-width: 1760px){
+  body {zoom: 0.8;}
+  }
 
 @media screen and (max-width: 480px) {
   html, body {
@@ -322,10 +326,11 @@ body {
 }
 
 #chainabout {
-  position: absolute;
-  left: 0%;
-  top: 19.6%;
-}
+  position: relative;
+  left: 0vw;
+  top: 50vw;
+  }
+
 .aboutbg {
   position: absolute;
   width: 100vw;
