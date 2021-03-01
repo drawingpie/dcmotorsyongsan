@@ -301,7 +301,7 @@ body {
   top: 25px;
   overflow: visible;
 }
-.dclogob {
+#dclogo {
   position: absolute;
   width: 159.16px;
   height: 32px;
@@ -1577,12 +1577,12 @@ body {
 #service {
   overflow: visible;
   position: absolute;
-  width: 100%;
+  width: 100vw;
   height: 938px;
-  left: 0%;
-  top: 3743px;
-  background-color: #F2F2F2;
-}
+  left: 0vw;
+  top: 195vw;
+  background-color: #DCE8FE;
+  }
 
 @media screen and (max-width: 480px) {
   #service {
@@ -1627,7 +1627,7 @@ body {
 }
 
 .line01 {
-  border-bottom: 1px solid #D9D9D9;
+  border-bottom: 1px solid #F2F2F2;
   overflow: visible;
   position: absolute;
   width: 1388px;
@@ -1650,7 +1650,7 @@ body {
 }
 
 .line02 {
-  border-bottom: 1px solid #D9D9D9;
+  border-bottom: 1px solid #F2F2F2;
   overflow: visible;
   position: absolute;
   width: 1388px;
@@ -1678,7 +1678,7 @@ body {
 
 @media screen and (max-width: 480px) {
   .line01_1 {
-    border-bottom: 1px solid #D9D9D9;
+    border-bottom: 1px solid #F2F2F2;
     overflow: visible;
     position: absolute;
     width: 83.75%;
@@ -1691,7 +1691,7 @@ body {
 
 @media screen and (max-width: 480px) {
   .line02_1 {
-    border-bottom: 1px solid #D9D9D9;
+    border-bottom: 1px solid #F2F2F2;
     overflow: visible;
     position: absolute;
     width: 83.75%;
@@ -1706,7 +1706,7 @@ label {
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 1.25vw;
+  font-size: 1vw;
   display: block;
 }
 
@@ -1732,7 +1732,7 @@ label:after {
 input[type=text], input[type=email], textarea {
   width: 100%;
   padding: 20px;
-  border: 1px solid #ccc;
+  border: 1px solid #F2F2F2;
   border-radius: 0px;
   box-sizing: border-box;
   margin-top: 6px;
@@ -1771,7 +1771,7 @@ input[type=text], input[type=email], textarea {
   color: white;
   padding: 12px 20px;
   border: none;
-  border-radius: 0px;
+  border-radius: 12px;
   cursor: pointer;
   width: 252px;
   height: 56px;
