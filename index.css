@@ -538,7 +538,7 @@ body {
 
 .swiper-container {
   width: 100%;
-  height: 938px;
+  height: 100vw;
   left: 0%;
   top: 0px;
   position: relative;
@@ -1134,7 +1134,7 @@ body {
   position: absolute;
   overflow: visible;
   width: 100vw;
-  height: 938px;
+  height: 100vw;
   left: 0%;
   top: 0px;
   background-color: #fff;
@@ -1578,7 +1578,7 @@ body {
   overflow: visible;
   position: absolute;
   width: 100vw;
-  height: 938px;
+  height: 100vw;
   left: 0vw;
   top: 195vw;
   background-color: #F2F2F2;
