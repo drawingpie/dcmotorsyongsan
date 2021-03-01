@@ -1732,7 +1732,7 @@ label:after {
 input[type=text], input[type=email], textarea {
   width: 100%;
   padding: 20px;
-  border: 1px solid #F2F2F2;
+  border: 1px solid #D9D9D9;
   border-radius: 0px;
   box-sizing: border-box;
   margin-top: 6px;
@@ -1747,7 +1747,7 @@ input[type=text], input[type=email], textarea {
   input[type=text], input[type=email], textarea {
     width: 83.75vw !important;
     height: 50px;
-    border: 1px solid #ccc;
+    border: 1px solid #D9D9D9;
     border-radius: 0px;
     box-sizing: border-box;
     margin-bottom: 37px;
