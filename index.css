@@ -301,7 +301,14 @@ body {
   top: 25px;
   overflow: visible;
 }
-
+#dclogo {
+  position: absolute;
+  width: 159.16px;
+  height: 32px;
+  left: 18%;
+  top: 25px;
+  overflow: hidden;
+}
 #chainabout {
   position: relative;
   left: 0vw;
