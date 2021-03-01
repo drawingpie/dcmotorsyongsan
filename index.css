@@ -1913,7 +1913,7 @@ input[type=text], input[type=email], textarea {
   top: 76px;
   position: absolute;
   overflow: visible;
-  width: 800px;
+  width: 950px;
   text-align: left;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
@@ -1945,7 +1945,7 @@ input[type=text], input[type=email], textarea {
   top: 105px;
   position: absolute;
   overflow: visible;
-  width: 541px;
+  width: 550px;
   text-align: left;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
