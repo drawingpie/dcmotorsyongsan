@@ -155,7 +155,7 @@ body {
 @media screen and (max-width: 480px) {
 
   .header, .header.scroll, .header .navi,
-  .header.scroll .navi, .menu .dclogo, .danigologo {
+  .header.scroll .navi, .menu .dclogo, #dclogo {
     display: none;
   }
 }
@@ -260,9 +260,9 @@ body {
     display: block;
     cursor: pointer;
     position: absolute;
-    transform: scale(0.5);
-    top: 17px;
-    left: 8%;
+    transform: scale(0.7);
+    top: 14px;
+    left: 3%;
     overflow: visible;
     z-index: 9;
   }
