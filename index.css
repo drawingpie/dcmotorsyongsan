@@ -990,9 +990,9 @@ body {
 }
 
 .gallery-thumbs .smallimg {
-  left: 70vw;
+  left: 17vw;
   top: -0.52vw;
-  width: 50vw;
+  width: 12vw;
   position: relative;
   z-index: 99;
   cursor: pointer;
@@ -1048,7 +1048,7 @@ body {
 }
 
 .slide-text01 {
-  left: 30vw;
+  left: 6.5vw;
   top: -0.16vw;
   padding-right: 50px;
   position: relative;
@@ -1061,8 +1061,8 @@ body {
 }
 
 .slide-text02 {
-  left: 35vw;
-  top: -0.16vw;
+  left: 7.5vw;
+  top: -0.4vw;
   padding-right: 50px;
   position: relative;
   text-align: center;
@@ -1074,7 +1074,7 @@ body {
 }
 
 .slide-text03 {
-  left: 23vw;
+  left: 5.5vw;
   top: -0.16vw;
   position: relative;
   font-family: 'Noto Sans KR', sans-serif;
@@ -1276,7 +1276,7 @@ body {
 
 #tel {
   left: 53.3vw;
-  top: 2.66vw;
+  top: 26.09vw;
   position: absolute;
   overflow: visible;
   width: 5vw;
