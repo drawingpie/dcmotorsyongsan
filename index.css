@@ -491,10 +491,10 @@ body {
 }
 
 #product {
-  width: 100%;
-  height: 938px;
-  left: 0%;
-  top: 1897px;
+  width: 100vw;
+  height: auto;
+  left: 0vw;
+  top: 98.8vw;
   position: absolute;
   overflow: visible;
 }
