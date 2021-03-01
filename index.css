@@ -1857,10 +1857,10 @@ input[type=text], input[type=email], textarea {
 #footer {
   position: absolute;
   overflow: visible;
-  width: 100%;
+  width: 100vw;
   height: 215px;
   left: 0%;
-  top: 4685px;
+  top: 243.5vw;
 }
 
 @media screen and (max-width: 480px) {
@@ -1996,7 +1996,6 @@ input[type=text], input[type=email], textarea {
     width: 98.89px;
     height: 27.92px;
     left: 3.7%;
-    ;
     top: 47px;
     overflow: visible;
   }
