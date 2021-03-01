@@ -829,14 +829,14 @@ body {
 }
 
 .open01::after, .open02::after, .open03::after {
-  height: 100vw;
-  left: 0vw;
-  top: 0vw;
-  width: 0vw;
+  height: 100%;
+  left: 0%;
+  top: 0%;
+  width: 0%;
 }
 
 .open01:hover:after, .open02:hover:after, .open03:hover:after {
-  width: 100vw;
+  width: 100%;
 }
 
 .mask {
