@@ -1736,9 +1736,9 @@ input[type=text], input[type=email], textarea {
   border: 0.05vw solid #D9D9D9;
   border-radius: 0vw;
   box-sizing: border-box;
-  margin-top: 6px;
-  margin-right: 60px;
-  margin-bottom: 80px;
+  margin-top: 0.31vw;
+  margin-right: 3.13vw;
+  margin-bottom: 4.17vw;
   resize: vertical;
   filter: drop-shadow(0px 1px 20px rgba(0, 0, 0, 0.071));
   outline: none;
