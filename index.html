@@ -30,7 +30,7 @@
 
 		<div class="header">
 			<div class="navi">
-				<a href='#cover'><img class="dclogo" src="logo/dclogo.png"><span id="yongsan">서울용산</span></a>
+				<a href='#cover'><img class="dclogo" src="logo/dcsylogo.png"><span id="yongsan">서울용산</span></a>
 				<div class="menu">
 					<a href="#chainabout">소개</a>
 					<a href="#product">제품</a>
@@ -50,7 +50,7 @@
 			</div>
 			<div class="mobheader">
 				<div class="openbtn"><img src="icon/Icon material-menu.svg"></div>
-				<a href='#cover'><img class="dclogomob" src="logo/moblogo.png"></a>
+				<a href='#cover'><img class="dclogomob" src="logo/dcsylogo.png"></a>
 			</div>
 			<div class="overlay"></div>
 		</div>
@@ -58,15 +58,15 @@
 		<div id="chainabout">
 			<img class="aboutbg" src="image/aboutbg.png">
 			<div class="aboutinner">
-			<div id="aboutus"><span>ABOUT US</span></div>
-			<div class="welcome" data-aos="fade-right" data-aos-duration="500"><span>저희 대리점을 방문해 주신<br>고객님을 진심으로 환영합니다.</span></div>
-			<div class="welcomebody" data-aos="fade-left"><span>저희 대리점은 2021년 2월 용산구에서 오픈하였습니다. 저희 직원 일동은 한번 고객은 영원한 고객이라는 마음으로 한번맺은 인연을 소중히 여겨 최선을 다해 모실 것을 약속드립니다.
-					앞으로도 저희 대리점 임직원 모두 최선을 다하겠습니다.</span></div>
-			<div class="speed" data-aos="fade-up"><span>Speed</span></div>
-			<div class="smart" data-aos="fade-up"><span>Smart</span></div>
-			<div class="synergy" data-aos="fade-up"><span>Synergy</span></div>
+				<div id="aboutus"><span>ABOUT US</span></div>
+				<div class="welcome" data-aos="fade-right" data-aos-duration="500"><span>저희 대리점을 방문해 주신<br>고객님을 진심으로 환영합니다.</span></div>
+				<div class="welcomebody" data-aos="fade-left"><span>저희 대리점은 2021년 2월 용산구에서 오픈하였습니다. 저희 직원 일동은 한번 고객은 영원한 고객이라는 마음으로 한번맺은 인연을 소중히 여겨 최선을 다해 모실 것을 약속드립니다.
+						앞으로도 저희 대리점 임직원 모두 최선을 다하겠습니다.</span></div>
+				<div class="speed" data-aos="fade-up"><span>Speed</span></div>
+				<div class="smart" data-aos="fade-up"><span>Smart</span></div>
+				<div class="synergy" data-aos="fade-up"><span>Synergy</span></div>
+			</div>
 		</div>
-	</div>
 
 		<div id="product">
 			<span id="products"> BEST PRODUCTS</span>
@@ -393,22 +393,21 @@
 
 		//탑버튼//
 		$(function() {
-			 $(window).scroll(function() {
-					 if ($(this).scrollTop() > 500) {
-							 $('#topbtn').fadeIn();
-					 } else {
-							 $('#topbtn').fadeOut();
-					 }
-			 });
+			$(window).scroll(function() {
+				if ($(this).scrollTop() > 500) {
+					$('#topbtn').fadeIn();
+				} else {
+					$('#topbtn').fadeOut();
+				}
+			});
 
-			 $("#topbtn").click(function() {
-					 $('html, body').animate({
-							 scrollTop : 0
-					 }, 400);
-					 return false;
-			 });
-	 });
-
+			$("#topbtn").click(function() {
+				$('html, body').animate({
+					scrollTop: 0
+				}, 400);
+				return false;
+			});
+		});
 	</script>
 
 </body>
