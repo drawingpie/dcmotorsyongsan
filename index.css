@@ -896,7 +896,7 @@ body {
 }
 
 .spec011, .spec021, .spec031 {
-  width: 50%;
+  width: 50vw;
   background: contain;
   display: block;
   margin: 20px auto;
@@ -970,8 +970,8 @@ body {
 .gallery-thumbs {
   position: absolute !important;
   left: 0vw;
-  top: 755px !important;
-  height: 183px;
+  top: 39.32vw !important;
+  height: 9.53vw;
   background-color: #D9D9D9;
   z-index: 9 !important;
 }
@@ -979,8 +979,8 @@ body {
 @media screen and (max-width: 480px) {
   .gallery-thumbs {
     left: 0vw;
-    top: 643px !important;
-    height: 119px;
+    top: 33.49vw !important;
+    height: 6.20vw;
     width: 100vw;
     background-color: #D9D9D9;
     z-index: 9 !important;
@@ -990,9 +990,9 @@ body {
 }
 
 .gallery-thumbs .smallimg {
-  left: 70%;
-  top: -10px;
-  width: 50%;
+  left: 70vw;
+  top: -0.52vw;
+  width: 50vw;
   position: relative;
   z-index: 99;
   cursor: pointer;
@@ -1048,8 +1048,8 @@ body {
 }
 
 .slide-text01 {
-  left: 30%;
-  top: -3px;
+  left: 30vw;
+  top: -0.16vw;
   padding-right: 50px;
   position: relative;
   text-align: center;
@@ -1061,8 +1061,8 @@ body {
 }
 
 .slide-text02 {
-  left: 35%;
-  top: -3px;
+  left: 35vw;
+  top: -0.16vw;
   padding-right: 50px;
   position: relative;
   text-align: center;
@@ -1074,8 +1074,8 @@ body {
 }
 
 .slide-text03 {
-  left: 23%;
-  top: -3px;
+  left: 23vw;
+  top: -0.16vw;
   position: relative;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
@@ -1115,9 +1115,9 @@ body {
   position: absolute;
   overflow: visible;
   width: 100vw;
-  height: 19.14vw;
+  height: 48.85vw;
   left: 0vw;
-  top: 147vw;
+  top: 146.56vw;
 }
 
 @media screen and (max-width: 480px) {
@@ -1136,7 +1136,7 @@ body {
   position: absolute;
   overflow: visible;
   width: 100vw;
-  height: 100vw;
+  height: 48.85vw;
   left: 0vw;
   top: 0px;
   background-color: #fff;
@@ -1154,11 +1154,11 @@ body {
 }
 
 #contacthead span {
-  left: 45.8%;
-  top: 117px;
+  left: 45.8vw;
+  top: 6.09vw;
   position: absolute;
   overflow: visible;
-  width: 159px;
+  width: 8.28vw;
   white-space: nowrap;
   text-align: center;
   font-family: 'Noto Sans KR', sans-serif;
@@ -1187,11 +1187,11 @@ body {
 }
 
 #chain {
-  left: 13.4%;
-  top: 217px;
+  left: 13.4vw;
+  top: 11.30vw;
   position: absolute;
   overflow: visible;
-  width: 1404px;
+  width: 73.13vw;
   white-space: nowrap;
   text-align: left;
   font-family: 'Noto Sans KR', sans-serif;
@@ -1243,11 +1243,11 @@ body {
 }
 
 #add {
-  left: 53.3%;
-  top: 388px;
+  left: 53.3vw;
+  top: 20.21vw;
   position: absolute;
   overflow: visible;
-  width: 96px;
+  width: 5vw;
   white-space: nowrap;
   text-align: left;
   font-family: 'Noto Sans KR', sans-serif;
@@ -1275,11 +1275,11 @@ body {
 }
 
 #tel {
-  left: 53.3%;
-  top: 510px;
+  left: 53.3vw;
+  top: 2.66vw;
   position: absolute;
   overflow: visible;
-  width: 96px;
+  width: 5vw;
   white-space: nowrap;
   text-align: left;
   font-family: 'Noto Sans KR', sans-serif;
@@ -1307,11 +1307,11 @@ body {
 }
 
 #fax {
-  left: 53.3%;
-  top: 627px;
+  left: 53.3vw;
+  top: 32.66vw;
   position: absolute;
   overflow: visible;
-  width: 96px;
+  width: 5vw;
   white-space: nowrap;
   text-align: left;
   font-family: 'Noto Sans KR', sans-serif;
@@ -1339,11 +1339,11 @@ body {
 }
 
 #hour {
-  left: 53.3%;
-  top: 746px;
+  left: 53.3vw;
+  top: 38.85vw;
   position: absolute;
   overflow: visible;
-  width: 96px;
+  width: 5vw;
   white-space: nowrap;
   text-align: left;
   font-family: 'Noto Sans KR', sans-serif;
@@ -1371,11 +1371,11 @@ body {
 }
 
 #addbody {
-  left: 60.2%;
-  top: 388px;
+  left: 60.2vw;
+  top: 20.21vw;
   position: absolute;
   overflow: visible;
-  width: 507px;
+  width: 26.41vw;
   text-align: left;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
@@ -1402,11 +1402,11 @@ body {
 }
 
 #telnumber {
-  left: 60.2%;
-  top: 510px;
+  left: 60.2vw;
+  top: 26.56vw;
   position: absolute;
   overflow: visible;
-  width: 507px;
+  width: 26.41vw;
   text-align: left;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
@@ -1433,11 +1433,11 @@ body {
 }
 
 #faxnumber {
-  left: 60.2%;
-  top: 627px;
+  left: 60.2vw;
+  top: 32.66vw;
   position: absolute;
   overflow: visible;
-  width: 507px;
+  width: 26.41vw;
   text-align: left;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
@@ -1463,11 +1463,11 @@ body {
 }
 
 #hourbody {
-  left: 60.2%;
-  top: 746px;
+  left: 60.2vw;
+  top: 38.85vw;
   position: absolute;
   overflow: visible;
-  width: 507px;
+  width: 26.41vw;
   text-align: left;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
@@ -1494,12 +1494,12 @@ body {
 }
 
 .line04 {
-  border-top: 1px solid #D9D9D9;
+  border-top: 0.05vw solid #D9D9D9;
   overflow: visible;
   position: absolute;
-  width: 637px;
-  left: 53.4%;
-  top: 475px;
+  width: 33.18vw;
+  left: 53.4vw;
+  top: 24.74vw;
 }
 
 @media screen and (max-width: 480px) {
@@ -1517,10 +1517,10 @@ body {
   border-top: 1px solid #D9D9D9;
   overflow: visible;
   position: absolute;
-  width: 637px;
-  height: 1px;
-  left: 53.4%;
-  top: 587px;
+  width: 33.18vw;
+  height: 0.05vw;
+  left: 53.4vw;
+  top: 30.57vw;
 }
 
 @media screen and (max-width: 480px) {
@@ -1533,10 +1533,10 @@ body {
   border-top: 1px solid #D9D9D9;
   overflow: visible;
   position: absolute;
-  width: 637px;
-  height: 1px;
-  left: 53.4%;
-  top: 706px;
+  width: 33.18vw;
+  height: 0.05vw;
+  left: 53.4vw;
+  top: 36.77vw;
   transform: matrix(1, 0, 0, 1, 0, 0);
 }
 
@@ -1545,7 +1545,6 @@ body {
     overflow: visible;
     position: absolute;
     width: 83.75%;
-    ;
     height: 1px;
     left: 8%;
     top: 544px;
@@ -1557,10 +1556,10 @@ body {
   border-top: 1px solid #D9D9D9;
   overflow: visible;
   position: absolute;
-  width: 637px;
-  height: 1px;
-  left: 53.4%;
-  top: 853px;
+  width: 33.18vw;
+  height: 0.05vw;
+  left: 53.4vw;
+  top: 44.43vw;
   transform: matrix(1, 0, 0, 1, 0, 0);
 }
 
@@ -1582,7 +1581,7 @@ body {
   width: 100vw;
   height: 48.85vw;
   left: 0vw;
-  top: 196vw;
+  top: 195.42vw;
   background-color: #F2F2F2;
   }
 
@@ -1598,8 +1597,8 @@ body {
 }
 
 #service span {
-  left: 47%;
-  top: 104px;
+  left: 47vw;
+  top: 5.42vw;
   position: absolute;
   overflow: visible;
   white-space: nowrap;
@@ -1632,10 +1631,10 @@ body {
   border-bottom: 1px solid #D9D9D9;
   overflow: visible;
   position: absolute;
-  width: 1388px;
-  height: 1px;
-  left: 13.8%;
-  top: 360px;
+  width: 72.29vw;
+  height: 0.05vw;
+  left: 13.8vw;
+  top: 18.75vw;
   transform: matrix(1, 0, 0, 1, 0, 0);
 }
 
@@ -1655,10 +1654,10 @@ body {
   border-bottom: 1px solid #D9D9D9;
   overflow: visible;
   position: absolute;
-  width: 1388px;
-  height: 1px;
-  left: 13.8%;
-  top: 530px;
+  width: 72.29vw;
+  height: 0.05vw;
+  left: 13.8vw;
+  top: 27.60vw;
   transform: matrix(1, 0, 0, 1, 0, 0);
 }
 
@@ -1734,8 +1733,8 @@ label:after {
 input[type=text], input[type=email], textarea {
   width: 100vw;
   padding: 20px;
-  border: 1px solid #D9D9D9;
-  border-radius: 0px;
+  border: 0.05vw solid #D9D9D9;
+  border-radius: 0vw;
   box-sizing: border-box;
   margin-top: 6px;
   margin-right: 60px;
@@ -1775,8 +1774,8 @@ input[type=text], input[type=email], textarea {
   border: none;
   border-radius: 12px;
   cursor: pointer;
-  width: 252px;
-  height: 56px;
+  width: 13.13vw;
+  height: 2.92vw;
   overflow: visible;
   text-align: center;
   font-family: 'Noto Sans KR', sans-serif;
@@ -1784,8 +1783,8 @@ input[type=text], input[type=email], textarea {
   font-weight: 500;
   font-size: 1.313vw;
   outline: none;
-  left: 39%;
-  top: 600px;
+  left: 39vw;
+  top: 31.25vw;
   position: absolute;
 }
 
@@ -1813,8 +1812,8 @@ input[type=text], input[type=email], textarea {
 }
 
 .container {
-  left: 13.7%;
-  top: 220px;
+  left: 13.7vw;
+  top: 11.46vw;
   position: absolute;
   overflow: visible;
 }
@@ -1860,9 +1859,9 @@ input[type=text], input[type=email], textarea {
   position: absolute;
   overflow: visible;
   width: 100vw;
-  height: 10vw;
+  height: 11.20vw;
   left: 0vw;
-  top: 243.5vw;
+  top: 244.27vw;
 }
 
 @media screen and (max-width: 480px) {
@@ -1899,11 +1898,11 @@ input[type=text], input[type=email], textarea {
 
 #footercontents01 {
   opacity: 0.32;
-  left: 28.9%;
-  top: 76px;
+  left: 28.9vw;
+  top: 28.96vw;
   position: absolute;
   overflow: visible;
-  width: 950px;
+  width: 49.53vw;
   text-align: left;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
@@ -1931,11 +1930,11 @@ input[type=text], input[type=email], textarea {
 
 #Copyright {
   opacity: 0.32;
-  left: 28.9%;
-  top: 105px;
+  left: 28.9vw;
+  top: 5.47vw;
   position: absolute;
   overflow: visible;
-  width: 550px;
+  width: 28.65vw;
   text-align: left;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
@@ -1963,10 +1962,10 @@ input[type=text], input[type=email], textarea {
 
 #topbtn {
   position: absolute;
-  width: 82px;
-  height: 81px;
-  left: 88.2%;
-  top: 60px;
+  width: 4.27vw;
+  height: 4.22vw;
+  left: 88.2vw;
+  top: 3.13vw;
   overflow: visible;
 }
 
@@ -1984,10 +1983,10 @@ input[type=text], input[type=email], textarea {
 
 #footerlogo {
   position: absolute;
-  width: 205.019px;
-  height: 50.754px;
-  left: 15.7%;
-  top: 76px;
+  width: 10.68vw;
+  height: 2.64vw;
+  left: 15.7vw;
+  top: 3.96vw;
   overflow: visible;
 }
 
