@@ -1112,10 +1112,10 @@ body {
 #contact {
   position: absolute;
   overflow: visible;
-  width: 100%;
-  height: 942px;
-  left: 0%;
-  top: 2812px;
+  width: 100vw;
+  height: 19.14vw;
+  left: 0vw;
+  top: 147vw;
 }
 
 @media screen and (max-width: 480px) {
@@ -1133,8 +1133,8 @@ body {
 #contactbg {
   position: absolute;
   overflow: visible;
-  width: 100%;
-  height: 858px;
+  width: 100vw;
+  height: 938px;
   left: 0%;
   top: 0px;
   background-color: #fff;
@@ -1222,9 +1222,9 @@ body {
 
 #map iframe {
   position: absolute;
-  width: 702px;
+  width: 36.56vw;
   height: 532px;
-  left: 13.4%;
+  left: 13.4vw;
   top: 321px;
   overflow: visible;
 }
