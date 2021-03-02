@@ -340,12 +340,12 @@ body {
 }
 @media screen and (max-width: 767px) {
  #chainabout {
-    width: 100vw;
-    height: 100vw;
-    top: 760px;
-    left: 0vw;
-    position: relative;
-    overflow: hidden;
+   width: 100vw;
+   height: 760px;
+   top: 760px;
+   left: 0vw;
+   position: relative;
+   overflow: hidden;
   }
 }
 @media screen and (max-width: 767px) {
@@ -356,10 +356,9 @@ body {
 @media screen and (max-width: 767px) {
   .aboutbgmob {
     display: block;
-   position: absolute;
-   width: auto;
-   height: 760px;
-   overflow: visible;
+    position: relative;
+    width: 760px;
+    height: 760px;
   }
 }
 #aboutus {
@@ -381,8 +380,7 @@ body {
   #aboutus {
     top: 78px;
     left: 50%;
-    width: 104px;
-    margin-left: -52px;
+    transform: translateX(-50%);
     font-size: 0.94rem;
   }
 }
