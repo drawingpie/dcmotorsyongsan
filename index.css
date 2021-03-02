@@ -335,17 +335,17 @@ body {
   height: auto;
   overflow: visible;
 }
-.aboutbg {
+.aboutbgmob{
   display: none;
 }
 @media screen and (max-width: 767px) {
  #chainabout {
-    width: 100vw;
-    height: 100vw;
-    top: 99.09vw;
-    left: 0vw;
-    position: relative;
-    overflow: hidden;
+   width: 100vw;
+   height: 100vw;
+   top: 99.09vw;
+   left: 50.3vw;
+   position: relative;
+   overflow: hidden;
   }
 }
 @media screen and (max-width: 767px) {
