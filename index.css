@@ -380,7 +380,8 @@ body {
   #aboutus {
     top: 78px;
     left: 50%;
-    transform: translateX(-50%);
+    width: 104px;
+    margin-left: -52px;
     font-size: 0.94rem;
   }
 }
