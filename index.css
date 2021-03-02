@@ -67,13 +67,13 @@ body {
   height: 56.25vw;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .youtubevideowrapperdiv video {
-    top: 0px;
-    left: -210%;
-    height: 1080px;
+    top: 0vw;
+    left: -100vw;
+    height: 140.81vw;
     width: auto;
-  }
+    }
 
   .youtubevideowrapperdiv {
     overflow-x: hidden;
@@ -152,7 +152,7 @@ body {
   z-index: 9999;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
 
   .header, .header.scroll, .header .navi,
   .header.scroll .navi, .menu .dclogo, #dclogo {
@@ -165,35 +165,36 @@ body {
   display: none;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   #sidebar {
     display: block;
-    width: 400px;
+    width:90vw;
     position: fixed;
     top: 0;
-    left: 100%;
-    height: 100%;
+    left: 100vw;
+    height: 100vw;
     z-index: 999;
     transition: all 0.3s;
     background: #F2F2F2;
-    padding-top: 200px;
+    padding-top: 26.08vw;
+
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   #sidebar a {
     z-index: 999;
     color: #0D0D0D;
-    padding: 5%;
+    padding: 5vw;
     text-decoration: none;
     text-align: center;
     display: block;
-    font-size: 1.04vw;
+    font-size: 3vw;
     font-family: 'Noto Sans KR', sans-serif;
     font-style: normal;
     font-weight: 700;
-    margin-right: 60%;
-    margin-left: 10%;
+    margin-right: 55vw;
+    margin-left: 10vw;
   }
 
   #sidebar a:active {
@@ -201,26 +202,26 @@ body {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   #sidebar.active {
-    left: 26%;
+    left: 26vw;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   #sidebar .closebtn {
     display: block;
     position: absolute;
-    top: 2%;
-    left: 5%;
+    top: 2vw;
+    left: 5vw;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .overlay {
     position: fixed;
     width: 100vw;
-    height: 100%;
+    height: 100vw;
     background: rgba(0, 0, 0, 0.7);
     z-index: 99;
     display: none;
@@ -231,7 +232,7 @@ body {
   display: none;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .mobheader {
     display: block;
     position: fixed;
@@ -244,7 +245,7 @@ body {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .openbtn {
     display: block;
     cursor: pointer;
@@ -255,7 +256,7 @@ body {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .dclogomob {
     display: block;
     cursor: pointer;
@@ -326,17 +327,17 @@ body {
   overflow: visible;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .aboutbg {
     display: none;
   }
 
   #chainabout {
+
     width: 100vw;
-    height: 760px;
-    top: 760px;
+    height: 99.09vw;
+    top: 99.09vw;
     left: 0vw;
-    background: url('image/aboutbgmob.png');
     position: relative;
     overflow: hidden;
   }
