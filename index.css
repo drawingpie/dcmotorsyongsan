@@ -1089,6 +1089,16 @@ body {
   color: #0D0D0D;
   white-space:nowrap;
 }
+
+@media screen and (max-width: 896px) {
+  .slide-text01 {
+    left: 18.5vw;
+  }
+  .slide-text03 {
+    left: 17.5vw;
+  }
+}
+
 @media screen and (max-width: 480px) {
   .slide-text01 {
     left: 30%;
