@@ -1660,7 +1660,11 @@ body {
   left: 13.8vw;
   top: 28vw;
 }
-
+@media screen and (max-width: 1024px) {
+  .line01, .line02 {
+    display: none;
+  }
+}
 @media screen and (max-width: 480px) {
   .line02 {
     overflow: visible;
