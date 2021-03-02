@@ -1052,41 +1052,43 @@ body {
 }
 
 .slide-text01 {
-  left: 7.3vw;
-  top: -0.16vw;
-  position: relative;
+  left: 19.5vw;
+  top: 7.5vw;
+  position: absolute;
   text-align: center;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 0.94vw;
   color: #0D0D0D;
+  white-space:nowrap;
 }
 
 .slide-text02 {
-  left: 7.5vw;
-  top: -0.4vw;
-  position: relative;
+  left: 21vw;
+  top: 7.5vw;
+  position: absolute;
   text-align: center;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 0.94vw;
   color: #0D0D0D;
+  white-space:nowrap;
 }
 
 .slide-text03 {
-  left: 6.5vw;
-  top: -0.16vw;
-  position: relative;
+  left: 18.5vw;
+  top: 7.5vw;
+  position: absolute;
   text-align: center;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 0.94vw;
   color: #0D0D0D;
+  white-space:nowrap;
 }
-
 @media screen and (max-width: 480px) {
   .slide-text01 {
     left: 30%;
