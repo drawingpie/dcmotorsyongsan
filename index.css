@@ -1831,8 +1831,17 @@ input[type=text], input[type=email], textarea {
 }
 
 .line {
+  left: -1px;
   display: flex;
   float: right;
+  position:absolute;
+}
+.row {
+  left: 0px;
+  top: 9.5vw;
+  display: block;
+  float: right;
+  position:absolute;
 }
 
 @media screen and (max-width: 480px) {
