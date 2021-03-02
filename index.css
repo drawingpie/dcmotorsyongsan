@@ -68,12 +68,20 @@ body {
 }
 
 @media screen and (max-width: 767px) {
+  .youtubevideowrapperdiv16-9blind {
+    position: absolute;
+    top: -90vw;
+    left: -19.56vw;
+    height: 250.33vw;
+    width: 140.81vw;
+    overflow: visible;
+}
   .youtubevideowrapperdiv video {
     top: 0vw;
-    left: -100vw;
-    height: 140.81vw;
-    width: auto;
-    }
+    left: 0px;
+    height: 250.33vw;
+    width: 140.81vw;
+  }
 
   .youtubevideowrapperdiv {
     overflow-x: hidden;
