@@ -335,30 +335,34 @@ body {
   height: auto;
   overflow: visible;
 }
-
+.aboutbg {
+  display: none;
+}
 @media screen and (max-width: 767px) {
-  .aboutbg {
-    display: none;
-  }
-.aboutbgmob {
-    display: block;
+ #chainabout {
     width: 100vw;
-    height: 99.09vw;
-    top: 99.09vw;
-    left: 0vw;
-    position: absolute;
-  }
-  #chainabout {
-
-    width: 100vw;
-    height: 99.09vw;
+    height: 100vw;
     top: 99.09vw;
     left: 0vw;
     position: relative;
     overflow: hidden;
   }
 }
+@media screen and (max-width: 767px) {
+  .aboutbg {
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  .aboutbgmob {
+    position: absolute;
+    width: 100vw;
+    height: auto;
+    overflow: visible;
+    left: 0vw;
+  }
 
+}
 .aboutinner {}
 
 #aboutus {
