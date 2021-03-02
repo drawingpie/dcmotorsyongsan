@@ -340,12 +340,12 @@ body {
 }
 @media screen and (max-width: 767px) {
  #chainabout {
-   width: 100vw;
-   height: 100vw;
-   top: 99.09vw;
-   left: 50.3vw;
-   position: relative;
-   overflow: hidden;
+    width: 100vw;
+    height: 100vw;
+    top: 760px;
+    left: 0vw;
+    position: relative;
+    overflow: hidden;
   }
 }
 @media screen and (max-width: 767px) {
@@ -355,16 +355,13 @@ body {
 }
 @media screen and (max-width: 767px) {
   .aboutbgmob {
+    display: block;
     position: absolute;
     width: 100vw;
     height: auto;
     overflow: visible;
-    left: 0vw;
   }
-
 }
-.aboutinner {}
-
 #aboutus {
   left: 45.8vw;
   top: 7.81vw;
