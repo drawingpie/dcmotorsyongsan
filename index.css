@@ -1935,6 +1935,7 @@ input[type=text], input[type=email], textarea {
   font-weight: 500;
   font-size: 0.83vw;
   color: rgba(242, 242, 242, 1);
+  white-space:nowrap;
 }
 
 @media screen and (max-width: 480px) {
