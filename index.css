@@ -780,7 +780,7 @@ body {
 
 .txt-car-info button {
   color: #0D0D0D;
-  border: 2px solid #0D0D0D;
+  border: 0.10vw solid #0D0D0D;
   position: absolute;
   width: 13.13vw;
   height: 2.92vw;
@@ -1052,7 +1052,7 @@ body {
 }
 
 .slide-text01 {
-  left: 6.5vw;
+  left: 7.3vw;
   top: -0.16vw;
   padding-right: 2.60vw;
   position: relative;
