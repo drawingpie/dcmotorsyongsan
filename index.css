@@ -565,6 +565,7 @@ body {
 .gallery-top .swiper-slide {
   background-image: url("image/productbg.png");
   background-repeat: no-repeat;
+  background-size: cover;
   width: 100vw;
   height: 48.85vw;
   left: 0vw;
