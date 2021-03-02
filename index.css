@@ -1732,7 +1732,7 @@ label:after {
 
 input[type=text], input[type=email], textarea {
   width: 100vw;
-  padding: 20px;
+  padding: 1.04vw;
   border: 0.05vw solid #D9D9D9;
   border-radius: 0vw;
   box-sizing: border-box;
