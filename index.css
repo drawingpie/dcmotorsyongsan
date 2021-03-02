@@ -376,7 +376,7 @@ body {
   color: rgba(242, 242, 242, 1);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   #aboutus {
     top: 78px;
     left: 50%;
@@ -400,7 +400,7 @@ body {
   color: rgba(242, 242, 242, 1);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .welcome {
     font-size: 22px;
     top: 153px;
@@ -428,7 +428,7 @@ body {
   color: rgba(242, 242, 242, 1);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .welcomebody {
     font-size: 14px;
     top: 255px;
@@ -453,7 +453,7 @@ body {
   color: rgba(242, 242, 242, 0.4);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .speed {
     font-size: 69px;
     top: 411px;
@@ -477,7 +477,7 @@ body {
   color: rgba(242, 242, 242, 0.4);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .smart {
     font-size: 69px;
     top: 519px;
@@ -501,7 +501,7 @@ body {
   color: rgba(242, 242, 242, 0.4);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .synergy {
     font-size: 69px;
     top: 627px;
@@ -520,7 +520,7 @@ body {
   overflow: visible;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   #product {
     width: 100vw;
     height: 760px;
@@ -547,7 +547,7 @@ body {
   z-index: 9;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   #products {
     display: block;
     font-size: 18px;
@@ -567,7 +567,7 @@ body {
   z-index: -99;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .swiper-container {
     width: 100vw;
     height: 760px;
@@ -591,7 +591,7 @@ body {
   overflow: visible !important;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .gallery-top .swiper-slide {
     background-image: url("image/productbgmob.png");
     background-repeat: no-repeat;
@@ -614,7 +614,7 @@ body {
   z-index: 9;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .gallery-top .bigimg {
     width: 60%;
     height: auto;
@@ -635,7 +635,7 @@ body {
   top: 0vw;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .gallery-top {
     height: 654px;
     width: 100vw;
@@ -659,7 +659,7 @@ body {
   z-index: 9 !important;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .swiper-button-prev {
     position: absolute !important;
     width: auto;
@@ -688,7 +688,7 @@ body {
   z-index: 9 !important;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .swiper-button-next {
     position: absolute !important;
     width: auto;
@@ -710,7 +710,7 @@ body {
   transition: 0.3s ease;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
 
   .swiper-button-prev:hover,
   .swiper-button-next:hover {
@@ -740,7 +740,7 @@ body {
   z-index: 9;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .type01 {
     top: 160px;
     position: absolute;
@@ -771,7 +771,7 @@ body {
   z-index: 9;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .txt-car-info {
     left: 8%;
     top: 433px;
@@ -815,7 +815,7 @@ body {
   z-index: 99;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .txt-car-info button {
     color: #0D0D0D;
     border: 2px solid #0D0D0D;
@@ -892,7 +892,7 @@ body {
   display: none;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .modlacontent01, .modlacontent02, .modlacontent03 {
     background-color: #fff;
     position: absolute;
@@ -907,13 +907,13 @@ body {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .spec01, .spec02, .spec03 {
     display: none;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .spec01mob, .spec02mob, .spec03mob {
     display: block;
   }
@@ -924,7 +924,7 @@ body {
   margin: 2vw 11vw;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .spec011 {
     width: 70%;
     display: flex;
@@ -935,7 +935,7 @@ body {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .spec021, .spec031 {
     width: 70%;
     background: cover;
@@ -960,7 +960,7 @@ body {
   color: #0D0D0D;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .modlacontent01 span {
     text-align: center;
     display: block;
@@ -998,7 +998,7 @@ body {
   z-index: 9 !important;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .gallery-thumbs {
     left: 0vw;
     top: 33.49vw !important;
@@ -1020,7 +1020,7 @@ body {
   cursor: pointer;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .gallery-thumbs .smallimg {
     left: 30%;
     top: 12px;
@@ -1032,7 +1032,7 @@ body {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .gallery-thumbs .swiper-slide {
     padding-right: 17px;
   }
@@ -1128,7 +1128,7 @@ body {
     left: 17.5vw;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .slide-text02 {
     left: 45%;
     top: 7px;
@@ -1137,7 +1137,7 @@ body {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .slide-text03 {
     left: 15%;
     top: 10px;
@@ -1155,7 +1155,7 @@ body {
   top: 146.56vw;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   #contact {
     height: 760px;
     width: 100vw;
@@ -1177,7 +1177,7 @@ body {
   background-color: #fff;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   #contactbg {
     height: 760px;
     width: 100vw;
@@ -1203,7 +1203,7 @@ body {
   color: rgba(13, 13, 13, 1);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   #contacthead span {
     left: 50%;
     transform: translateX(-50%);
@@ -1238,7 +1238,7 @@ body {
   padding-bottom: 1.46vw;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   #chain {
     left: 8%;
     top: 99px;
@@ -1266,7 +1266,7 @@ body {
   overflow: visible;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   #map iframe {
     position: absolute;
     width: 83.75%;
@@ -1292,7 +1292,7 @@ body {
   color: rgba(13, 13, 13, 1);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   #add {
     left: 8%;
     top: 395px;
@@ -1324,7 +1324,7 @@ body {
   color: rgba(13, 13, 13, 1);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   #tel {
     left: 8%;
     top: 494px;
@@ -1356,7 +1356,7 @@ body {
   color: rgba(13, 13, 13, 1);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   #fax {
     left: 8%;
     top: 566px;
@@ -1388,7 +1388,7 @@ body {
   color: rgba(13, 13, 13, 1);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   #hour {
     left: 8%;
     top: 638px;
@@ -1419,7 +1419,7 @@ body {
   color: rgba(13, 13, 13, 1);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   #addbody {
     left: 34%;
     top: 395px;
@@ -1450,7 +1450,7 @@ body {
   color: rgba(13, 13, 13, 1);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   #telnumber {
     left: 34%;
     top: 494px;
@@ -1481,7 +1481,7 @@ body {
   color: rgba(13, 13, 13, 1);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   #faxnumber {
     left: 34%;
     top: 566px;
@@ -1511,7 +1511,7 @@ body {
   color: rgba(13, 13, 13, 1);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   #hourbody {
     left: 34%;
     top: 638px;
@@ -1537,7 +1537,7 @@ body {
   top: 24.74vw;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .line04 {
     overflow: visible;
     position: absolute;
@@ -1558,7 +1558,7 @@ body {
   top: 30.57vw;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .line05 {
     display: none;
   }
@@ -1575,7 +1575,7 @@ body {
   transform: matrix(1, 0, 0, 1, 0, 0);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .line06 {
     overflow: visible;
     position: absolute;
@@ -1598,7 +1598,7 @@ body {
   transform: matrix(1, 0, 0, 1, 0, 0);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .line07 {
     overflow: visible;
     position: absolute;
@@ -1620,7 +1620,7 @@ body {
   background-color: #F2F2F2;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   #service {
     height: 760px;
     width: 100vw;
@@ -1645,7 +1645,7 @@ body {
   color: rgba(0, 0, 0, 1);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   #service span {
     left: 50%;
     transform: translateX(-50%);
@@ -1671,7 +1671,7 @@ body {
   top: 19.5vw;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .line01 {
     overflow: visible;
     position: absolute;
@@ -1696,7 +1696,7 @@ body {
     display: none;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .line02 {
     overflow: visible;
     position: absolute;
@@ -1712,7 +1712,7 @@ body {
   display: none;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .line01_1 {
     border-bottom: 1px solid #D9D9D9;
     overflow: visible;
@@ -1725,7 +1725,7 @@ body {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .line02_1 {
     border-bottom: 1px solid #D9D9D9;
     overflow: visible;
@@ -1746,7 +1746,7 @@ label {
   display: block;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   label {
     font-family: 'Noto Sans KR', sans-serif;
     font-style: normal;
@@ -1780,7 +1780,7 @@ input[type=text], input[type=email], textarea {
   font-size: 0.7vw;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   input[type=text], input[type=email], textarea {
     width: 83.75vw !important;
     height: 50px;
@@ -1795,7 +1795,7 @@ input[type=text], input[type=email], textarea {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   textarea {
     width: 83.75vw !important;
     height: 143px !important;
@@ -1824,7 +1824,7 @@ input[type=text], input[type=email], textarea {
   position: absolute;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   #my-form-button {
     padding: 5px 0px;
     width: 83vw;
@@ -1854,7 +1854,7 @@ input[type=text], input[type=email], textarea {
   overflow: visible;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .container {
     left: 0px;
     top: 0px;
@@ -1881,7 +1881,7 @@ input[type=text], input[type=email], textarea {
   position: absolute;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .line {
     display: block;
     left: 38px;
@@ -1891,7 +1891,7 @@ input[type=text], input[type=email], textarea {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .row {
     display: inline;
     left: 38px;
@@ -1910,7 +1910,7 @@ input[type=text], input[type=email], textarea {
   top: 244.27vw;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   #footer {
     position: absolute;
     overflow: visible;
@@ -1931,7 +1931,7 @@ input[type=text], input[type=email], textarea {
   background: #0D0D0D;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   #footerbg {
     position: absolute;
     overflow: visible;
@@ -1957,7 +1957,7 @@ input[type=text], input[type=email], textarea {
   color: rgba(242, 242, 242, 1);
   }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   #footercontents01 {
     opacity: 0.32;
     left: 8%;
@@ -1983,7 +1983,7 @@ input[type=text], input[type=email], textarea {
   overflow: visible;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   #topbtn {
     position: absolute;
     width: 30px;
@@ -2004,7 +2004,7 @@ input[type=text], input[type=email], textarea {
   overflow: visible;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   #footerlogo {
     transform: scale(0.6);
     position: absolute;
