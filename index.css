@@ -132,7 +132,7 @@ body {
   font-weight: 700;
   font-size: 1.25rem;
   text-align: center;
-  padding-bottom: 18px;
+  padding-bottom: 21px;
   padding-left: 30px;
   padding-right: 30px;
   margin-left: 50px;
@@ -301,6 +301,7 @@ body {
   top: 1.30vw;
   overflow: visible;
 }
+
 .dclogob {
   position: absolute;
   width: 8.29vw;
@@ -309,6 +310,7 @@ body {
   top: 1.30vw;
   overflow: hidden;
 }
+
 #chainabout {
   position: relative;
   left: 0vw;
@@ -864,6 +866,10 @@ body {
   overflow: auto;
 }
 
+.spec01, .spec02, .spec03 {
+  width: 50vw;
+}
+
 .spec01mob, .spec02mob, .spec03mob {
   display: none;
 }
@@ -896,10 +902,8 @@ body {
 }
 
 .spec011, .spec021, .spec031 {
-  width: 50vw;
-  background: contain;
-  display: block;
-  margin: 20px auto;
+  width: 30vw;
+  margin: 2vw 11vw;
 }
 
 @media screen and (max-width: 480px) {
@@ -1583,7 +1587,7 @@ body {
   left: 0vw;
   top: 195.42vw;
   background-color: #F2F2F2;
-  }
+}
 
 @media screen and (max-width: 480px) {
   #service {
@@ -1834,14 +1838,15 @@ input[type=text], input[type=email], textarea {
   left: -1px;
   display: flex;
   float: right;
-  position:absolute;
+  position: absolute;
 }
+
 .row {
   left: 0px;
   top: 9.5vw;
   display: block;
   float: right;
-  position:absolute;
+  position: absolute;
 }
 
 @media screen and (max-width: 480px) {
