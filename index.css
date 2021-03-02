@@ -1905,7 +1905,7 @@ input[type=text], input[type=email], textarea {
   position: absolute;
   overflow: visible;
   width: 100vw;
-  height: 11.20vw;
+  height: 14vw;
   left: 0vw;
   top: 0vw;
   background: #0D0D0D;
@@ -1935,8 +1935,7 @@ input[type=text], input[type=email], textarea {
   font-weight: 500;
   font-size: 0.83vw;
   color: rgba(242, 242, 242, 1);
-  white-space:nowrap;
-}
+  }
 
 @media screen and (max-width: 480px) {
   #footercontents01 {
@@ -1946,38 +1945,6 @@ input[type=text], input[type=email], textarea {
     position: absolute;
     overflow: visible;
     width: 290px;
-    text-align: left;
-    font-family: 'Noto Sans KR', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 9px;
-    color: rgba(242, 242, 242, 1);
-  }
-}
-
-#Copyright {
-  opacity: 0.32;
-  left: 28.9vw;
-  top: 5.47vw;
-  position: absolute;
-  overflow: visible;
-  width: 50vw;
-  text-align: left;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 0.83vw;
-  color: rgba(242, 242, 242, 1);
-}
-
-@media screen and (max-width: 480px) {
-  #Copyright {
-    opacity: 0.32;
-    left: 8%;
-    top: 127px;
-    position: absolute;
-    overflow: visible;
-    width: 262px;
     text-align: left;
     font-family: 'Noto Sans KR', sans-serif;
     font-style: normal;
