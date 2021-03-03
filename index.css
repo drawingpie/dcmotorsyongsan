@@ -967,11 +967,20 @@ body {
 }
 
 @media screen and (max-width: 767px) {
-  .gallery-thumbs {
-    left: 0vw;
-    top: 40.063rem !important;
-    height: 7.438rem;
-  }
+  .gallery-thumbs .smallimg {
+    width: 110px;
+    height: auto;
+    position:  initial;
+   }
+}
+@media screen and (max-width: 767px) {
+  .gallery-thumbs .swiper-slide {
+    top: 1vw;
+    left: 19%;
+    width: 90px;
+    margin-left: -45px;
+    padding-right: 40px;
+   }
 }
 
 .gallery-thumbs .smallimg {
@@ -1080,25 +1089,24 @@ body {
 
 @media screen and (max-width: 767px) {
  .slide-text01 {
-    left: 17.5vw;
+    left: 5vw;
     top:85px;
     white-space: nowrap;
     font-size: 1.46vw;
   }
   .slide-text02 {
-    left: 19.5vw;
+    left: 7vw;
     top:85px;
     white-space: nowrap;
     font-size: 1.46vw;
   }
   .slide-text03 {
-    left: 16.5vw;
+    left: 3vw;
     top:85px;
     white-space: nowrap;
     font-size: 1.46vw;
   }
 }
-
 
 
 #contact {
