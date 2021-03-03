@@ -800,6 +800,7 @@ body {
   .txt-car-info button {
     width: 17rem;
     height: 2.063rem;
+    left: 0.45rem;
     top: 6.25rem;
     font-size: 0.875rem;
   }
@@ -970,11 +971,6 @@ body {
     left: 0vw;
     top: 40.063rem !important;
     height: 7.438rem;
-    width: 100vw;
-    background-color: #D9D9D9;
-    z-index: 9 !important;
-    position: relative;
-    overflow: visible !important;
   }
 }
 
@@ -989,18 +985,12 @@ body {
 
 @media screen and (max-width: 767px) {
   .gallery-thumbs .smallimg {
-    left:8.5vw;
-    width: 24.8vw;
-    position: relative;
-  }
-}
-
-
-@media screen and (max-width: 767px) {
-  .gallery-thumbs .swiper-slide {
-    padding-right: 1.063rem;
-    top: -0.6rem;
-  }
+    margin-left:16vw;
+    width: 110px;
+    height: auto;
+    top: 1vw;
+    position: sticky;
+   }
 }
 
 .smallimg:hover {
@@ -1086,25 +1076,25 @@ body {
 
 @media screen and (max-width: 767px) {
  .slide-text01 {
-    left: 16.5vw;
-    top:14.5vw;
+    left: 17.5vw;
+    top:85px;
     white-space: nowrap;
     font-size: 1.46vw;
   }
   .slide-text02 {
-    left: 19vw;
-    top:14.5vw;
+    left: 19.5vw;
+    top:85px;
     white-space: nowrap;
     font-size: 1.46vw;
   }
   .slide-text03 {
-    left: 15.5vw;
-    top:14.5vw;
+    left: 16.5vw;
+    top:85px;
     white-space: nowrap;
     font-size: 1.46vw;
-
   }
 }
+
 
 
 #contact {
