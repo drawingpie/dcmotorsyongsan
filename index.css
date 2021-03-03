@@ -990,16 +990,15 @@ body {
 
 @media screen and (max-width: 767px) {
   .gallery-thumbs .smallimg {
-    left: 12vw;
-    top: 0rem;
-    width: 20vw;
-    position: relative;
+    left: 50%;
+    top: -0.07vw;
+    width: 20.34vw;
   }
 }
 
 @media screen and (max-width: 767px) {
   .gallery-thumbs .swiper-slide {
-    padding-right: 1.063rem;
+    padding-right: 2.22vw;
   }
 }
 
@@ -1085,26 +1084,27 @@ body {
 }
 
 @media screen and (max-width: 767px) {
-  .slide-text01 {
+ .slide-text01 {
     left: 16.5vw;
-    top: 6rem;
+    top:12.52vw;
     white-space: nowrap;
-    font-size: 0.7rem;
+    font-size: 1.46vw;
+
   }
   .slide-text02 {
     left: 19vw;
-    top: 6rem;
+    top:12.52vw;
     white-space: nowrap;
-    font-size: 0.7rem;
+    font-size: 1.46vw;
   }
   .slide-text03 {
     left: 15.5vw;
-    top: 6rem;
+    top:12.52vw;
     white-space: nowrap;
-    font-size: 0.7rem;
+    font-size: 1.46vw;
+
   }
 }
-
 
 #contact {
   position: absolute;
