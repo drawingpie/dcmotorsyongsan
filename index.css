@@ -1355,6 +1355,7 @@ body {
     overflow: visible;
     line-height: 27px !important;
     font-size: 1.125rem;
+    width: 39.11vw;
   }
 }
 
@@ -1378,7 +1379,7 @@ body {
     top: 30.875rem;
     position: absolute;
     overflow: visible;
-
+    width: 39.11vw;
     font-size: 1.125rem;
 
   }
@@ -1405,6 +1406,7 @@ body {
     position: absolute;
     overflow: visible;
     font-size: 1.125rem;
+    width: 39.11vw;
    }
 }
 
@@ -1430,6 +1432,7 @@ body {
     overflow: visible;
     line-height: 1.688rem!important;
     font-size: 1.125rem;
+    width: 55vw;
 
   }
 }
@@ -1777,7 +1780,7 @@ input[type=text], input[type=email], textarea {
     left: 8vw;
     top: 5.688rem;
     font-size: 0.563rem;
-    white-space:nowrap;
+    width: 17.75rem;
  }
 }
 
@@ -1793,7 +1796,7 @@ input[type=text], input[type=email], textarea {
 @media screen and (max-width: 767px) {
   #topbtn {
     position: absolute;
-    width: 3.91vw;
+    width: 1.875rem;
     height: 1.813rem;
     left: 83.5vw;
     top: 1.563rem;
@@ -1813,7 +1816,7 @@ input[type=text], input[type=email], textarea {
 
 @media screen and (max-width: 767px) {
   #footerlogo {
-    width: 12.89vw;
+    width: 6.188rem;
     height: 1.745rem;
     left:8vw;
     top: 2.938rem;
