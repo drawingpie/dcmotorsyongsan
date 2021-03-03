@@ -347,8 +347,7 @@ body {
 @media screen and (max-width: 767px) {
   .aboutbgmob {
     display: block;
-    position: relative;
-    width: 100vw;
+    width: 47.938rem;
     height: 47.5rem;
   }
 }
@@ -1621,8 +1620,8 @@ input[type=text], input[type=email], textarea {
 @media screen and (max-width: 767px) {
   input[type=text], input[type=email], textarea {
     width: 89.90vw !important;
-    height: 6.52vw;
-    margin-bottom:4.82vw;
+    height: 3.125rem;
+    margin-bottom:2.313rem;
     left: 4.95vw!important;
   }
 }
@@ -1706,17 +1705,14 @@ input[type=text], input[type=email], textarea {
   .line {
     display: block;
     left: 4.95vw;
-    top: 4.625rem;
+    top: 5.625rem;
   }
 }
 
 @media screen and (max-width: 767px) {
   .row {
-    display: inline;
     left: 4.95vw;
     top: 25.563rem;
-    position: absolute;
-    overflow: visible;
   }
 }
 
