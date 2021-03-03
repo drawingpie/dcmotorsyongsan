@@ -39,12 +39,6 @@ body {
 }
 
 @media screen and (max-width: 767px) {
-  html, body {
-    position: relative;
-    width: 100vw;
-    height: 100vw;
-  }
-
   html {
     scroll-behavior: smooth;
   }
@@ -70,18 +64,16 @@ body {
 @media screen and (max-width: 767px) {
   .youtubevideowrapperdiv16-9blind {
     position: absolute;
-    width: 1920px;
+    width: 250.33vw;
     height: 1080px;
     top: -0vw;
     left: -100vw;
-    overflow: visible;
+    overflow-x: hidden;
 }
   .youtubevideowrapperdiv video {
-    position: absolute;
-    top: 0vw;
-    left: 0vw;
     width: 1920px;
     height: 1080px;
+    overflow-x: hidden;
   }
 
   .youtubevideowrapperdiv {
@@ -181,7 +173,7 @@ body {
     position: fixed;
     top: 0;
     left: 100vw;
-    height: 100vw;
+    height: 100%;
     z-index: 999;
     transition: all 0.3s;
     background: #F2F2F2;
@@ -341,10 +333,9 @@ body {
 @media screen and (max-width: 767px) {
  #chainabout {
    width: 100vw;
-   height: 760px;
-   top: 760px;
-   left: 0vw;
-   position: relative;
+   height: 47.5rem;
+   top: 47.5rem;
+   left:0rem;
    overflow: hidden;
   }
 }
@@ -357,8 +348,8 @@ body {
   .aboutbgmob {
     display: block;
     position: relative;
-    width: 760px;
-    height: 760px;
+    width: 100vw;
+    height: 47.5rem;
   }
 }
 #aboutus {
@@ -378,11 +369,11 @@ body {
 
 @media screen and (max-width: 767px) {
   #aboutus {
-    top: 78px;
-    left: 50%;
+    top: 4.875rem;
+    left: 50vw;
     width: 104px;
     margin-left: -52px;
-    font-size: 0.94rem;
+    font-size: 1.125rem;
   }
 }
 
@@ -524,12 +515,10 @@ body {
 @media screen and (max-width: 767px) {
   #product {
     width: 100vw;
-    height: 760px;
-    top: 1520px;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
-    text-align: center;
+    height: 47.5rem;
+    top: 95rem;
+    left:0rem;
+    overflow: hidden;
   }
 }
 
@@ -550,11 +539,11 @@ body {
 
 @media screen and (max-width: 767px) {
   #products {
-    display: block;
-    font-size: 18px;
-    left: 50%;
-    transform: translateX(-50%);
-    top: 78px;
+    top: 4.875rem;
+    left: 50vw;
+    width: 9rem;
+    margin-left: -4.5rem;
+    font-size: 1.125rem;
   }
 }
 
@@ -596,6 +585,7 @@ body {
   .gallery-top .swiper-slide {
     background-image: url("image/productbgmob.png");
     background-repeat: no-repeat;
+    background-size: cover;
     width: 100vw;
     height: 760px;
     left: 0vw;
@@ -617,10 +607,10 @@ body {
 
 @media screen and (max-width: 767px) {
   .gallery-top .bigimg {
-    width: 60%;
+    width: 60vw;
     height: auto;
-    left: 22.7%;
-    top: 250px;
+    left: 30vw;
+    top: 15.625rem;
     position: absolute;
     overflow: visible;
     z-index: 9;
@@ -665,8 +655,8 @@ body {
     position: absolute !important;
     width: auto;
     height: auto;
-    left: 5.4% !important;
-    top: 298px !important;
+    left: 4.95vw !important;
+    top: 18.625rem !important;
     overflow: visible;
     background-repeat: no-repeat;
     outline: none;
@@ -694,8 +684,8 @@ body {
     position: absolute !important;
     width: auto;
     height: auto;
-    left: 90% !important;
-    top: 298px !important;
+    left: 91vw !important;
+    top: 18.625rem !important;
     overflow: visible;
     background-repeat: no-repeat;
     outline: none;
@@ -743,17 +733,14 @@ body {
 
 @media screen and (max-width: 767px) {
   .type01 {
-    top: 160px;
-    position: absolute;
-    line-height: 33px;
-    font-family: 'Noto Sans KR', sans-serif;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 24px;
-    color: rgba(13, 13, 13, 1);
-    z-index: 9;
-    left: 70%;
-    transform: translateX(-70%);
+    top: 10rem;
+    left: 50vw;
+    line-height: 2.063rem;
+    font-size: 1.5rem;
+    margin-left: -6.5rem;
+    width: 13rem;
+    white-space: nowrap;
+    text-align: center;
   }
 }
 
@@ -774,18 +761,13 @@ body {
 
 @media screen and (max-width: 767px) {
   .txt-car-info {
-    left: 8%;
-    top: 433px;
-    position: absolute;
-    overflow: visible;
-    width: 285px;
-    line-height: 28px;
-    font-family: 'Noto Sans KR', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 17px;
-    color: rgba(13, 13, 13, 1);
-    z-index: 9;
+    left: 30.90vw;
+    top: 27.063rem;
+    width: 17.813rem;
+    line-height: 1.75rem;
+    font-size: 1.063rem;
+    text-align: center;
+
   }
 }
 
@@ -818,21 +800,10 @@ body {
 
 @media screen and (max-width: 767px) {
   .txt-car-info button {
-    color: #0D0D0D;
-    border: 2px solid #0D0D0D;
-    position: absolute;
-    width: 128px;
-    height: 33px;
-    top: 100px;
-    overflow: visible;
-    cursor: pointer;
-    text-align: center;
-    font-family: 'Noto Sans KR', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    background-color: transparent;
-    z-index: 99;
+    width: 17rem;
+    height: 2.063rem;
+    top: 6.25rem;
+    font-size: 0.875rem;
   }
 }
 
@@ -872,7 +843,11 @@ body {
   overflow: hidden;
   background-color: rgba(0, 0, 0, 0.7);
 }
-
+@media screen and (max-width: 767px) {
+  .mask {
+    height: 100%;
+  }
+}
 .modlacontent01, .modlacontent02, .modlacontent03 {
   background-color: #fff;
   position: absolute;
@@ -895,16 +870,10 @@ body {
 
 @media screen and (max-width: 767px) {
   .modlacontent01, .modlacontent02, .modlacontent03 {
-    background-color: #fff;
     position: absolute;
-    width: 315px;
-    height: 600px;
-    display: none;
-    z-index: 9999;
-    left: 50%;
-    transform: translateX(-50%);
-    top: 0px;
-    overflow: auto;
+    width: 70.14vw;
+    height: 37.5rem;
+    left: 15vw;
   }
 }
 
@@ -917,6 +886,9 @@ body {
 @media screen and (max-width: 767px) {
   .spec01mob, .spec02mob, .spec03mob {
     display: block;
+    left: 50vw;
+    width: 50vw;
+    margin:auto;
   }
 }
 
@@ -927,23 +899,21 @@ body {
 
 @media screen and (max-width: 767px) {
   .spec011 {
-    width: 70%;
-    display: flex;
-    top: 50px;
+    width: 40vw;
+    left: 5vw;
+    top:30vw;
     position: relative;
-    border: 0.5px solid #D9D9D9;
-    margin-bottom: -50px;
+    border:0.031rem solid #D9D9D9;
+    margin: 0rem 5rem;
   }
 }
 
 @media screen and (max-width: 767px) {
   .spec021, .spec031 {
-    width: 70%;
-    background: cover;
-    display: block;
+    width: 40vw;
     position: relative;
-    margin-bottom: 10px;
-    top: -30px;
+    left: 4vw;
+    top: 9vw;
   }
 }
 
@@ -964,12 +934,11 @@ body {
 @media screen and (max-width: 767px) {
   .modlacontent01 span {
     text-align: center;
-    display: block;
-    margin: auto;
-    top: 60px;
+    left: 5vw;
+    top: 28vw;
     position: relative;
     white-space: nowrap;
-    font-size: 12px;
+    font-size: 0.75rem;
   }
 }
 
@@ -1002,8 +971,8 @@ body {
 @media screen and (max-width: 767px) {
   .gallery-thumbs {
     left: 0vw;
-    top: 33.49vw !important;
-    height: 6.20vw;
+    top: 40.063rem !important;
+    height: 7.438rem;
     width: 100vw;
     background-color: #D9D9D9;
     z-index: 9 !important;
@@ -1023,19 +992,16 @@ body {
 
 @media screen and (max-width: 767px) {
   .gallery-thumbs .smallimg {
-    left: 30%;
-    top: 12px;
-    width: 110%;
+    left: 12vw;
+    top: 0rem;
+    width: 20vw;
     position: relative;
-    z-index: 99;
-    cursor: pointer;
-    display: flex;
   }
 }
 
 @media screen and (max-width: 767px) {
   .gallery-thumbs .swiper-slide {
-    padding-right: 17px;
+    padding-right: 1.063rem;
   }
 }
 
@@ -1110,38 +1076,32 @@ body {
 }
 
 @media screen and (max-width: 896px) {
-  .slide-text01 {
-    left: 18.5vw;
-  }
-  .slide-text03 {
-    left: 17.5vw;
-  }
+  .slide-text01 {left: 18.5vw;}
+  .slide-text03 {left: 17.5vw;}
 }
 
 @media screen and (max-width: 896px) {
-  .slide-text01 {
-    left: 18.5vw;
-  }
-  .slide-text02 {
-    left: 20vw;
-  }
-  .slide-text03 {
-    left: 17.5vw;
-  }
-}
-@media screen and (max-width: 767px) {
-  .slide-text02 {
-    left: 45%;
-    top: 7px;
-    white-space: nowrap;
-    font-size: 0.7rem;
-  }
+  .slide-text01 {left: 18.5vw;}
+  .slide-text02 {left: 20vw;}
+  .slide-text03 {left: 17.5vw;}
 }
 
 @media screen and (max-width: 767px) {
+  .slide-text01 {
+    left: 16.5vw;
+    top: 6rem;
+    white-space: nowrap;
+    font-size: 0.7rem;
+  }
+  .slide-text02 {
+    left: 19vw;
+    top: 6rem;
+    white-space: nowrap;
+    font-size: 0.7rem;
+  }
   .slide-text03 {
-    left: 15%;
-    top: 10px;
+    left: 15.5vw;
+    top: 6rem;
     white-space: nowrap;
     font-size: 0.7rem;
   }
