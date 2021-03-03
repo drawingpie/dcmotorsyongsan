@@ -989,15 +989,17 @@ body {
 
 @media screen and (max-width: 767px) {
   .gallery-thumbs .smallimg {
-    left: 50%;
-    top: -0.07vw;
-    width: 20.34vw;
+    left:8.5vw;
+    width: 24.8vw;
+    position: relative;
   }
 }
 
+
 @media screen and (max-width: 767px) {
   .gallery-thumbs .swiper-slide {
-    padding-right: 2.22vw;
+    padding-right: 1.063rem;
+    top: -0.6rem;
   }
 }
 
@@ -1085,23 +1087,25 @@ body {
 @media screen and (max-width: 767px) {
  .slide-text01 {
     left: 16.5vw;
-    top:12.52vw;
+    top:14.5vw;
     white-space: nowrap;
     font-size: 1.46vw;
   }
   .slide-text02 {
     left: 19vw;
-    top:12.52vw;
+    top:14.5vw;
     white-space: nowrap;
     font-size: 1.46vw;
   }
   .slide-text03 {
     left: 15.5vw;
-    top:12.52vw;
+    top:14.5vw;
     white-space: nowrap;
     font-size: 1.46vw;
+
   }
 }
+
 
 #contact {
   position: absolute;
