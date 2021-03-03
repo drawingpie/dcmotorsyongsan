@@ -595,8 +595,8 @@ body {
 }
 
 .gallery-top .bigimg {
-  max-width: 39.32vw;
-  max-height: 26.04vw;
+  width: 39.32vw;
+  height: auto;
   left: 38.9vw;
   top: 10.42vw;
   position: absolute;
@@ -606,13 +606,11 @@ body {
 
 @media screen and (max-width: 767px) {
   .gallery-top .bigimg {
-    width: 60vw;
+    left: 50vw;
     height: auto;
-    left: 30vw;
     top: 15.625rem;
-    position: absolute;
-    overflow: visible;
-    z-index: 9;
+    width: 16.625rem;
+    margin-left: -8.313rem;
   }
 }
 
@@ -627,7 +625,7 @@ body {
 
 @media screen and (max-width: 767px) {
   .gallery-top {
-    height: 654px;
+    height: 40.875rem;
     width: 100vw;
     position: absolute !important;
     overflow: visible;
@@ -760,9 +758,10 @@ body {
 
 @media screen and (max-width: 767px) {
   .txt-car-info {
-    left: 30.90vw;
+    left: 50vw;
     top: 27.063rem;
     width: 17.813rem;
+    margin-left: -8.906rem;
     line-height: 1.75rem;
     font-size: 1.063rem;
     text-align: center;
