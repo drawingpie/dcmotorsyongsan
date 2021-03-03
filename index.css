@@ -1107,6 +1107,7 @@ body {
   }
 }
 
+
 #contact {
   position: absolute;
   overflow: visible;
@@ -1118,12 +1119,10 @@ body {
 
 @media screen and (max-width: 767px) {
   #contact {
-    height: 760px;
+    height: 47.5rem;
     width: 100vw;
-    top: 2280px;
+    top: 142.5rem;
     position: absolute;
-    left: 50%;
-    transform: translate(-50%);
     text-align: center;
   }
 }
@@ -1140,12 +1139,12 @@ body {
 
 @media screen and (max-width: 767px) {
   #contactbg {
-    height: 760px;
+    height: 47.5rem;
     width: 100vw;
     position: absolute !important;
     overflow: visible;
-    left: 0px;
-    top: 0px;
+    left: 0rem;
+    top: 0rem;
   }
 }
 
@@ -1168,16 +1167,16 @@ body {
   #contacthead span {
     left: 50%;
     transform: translateX(-50%);
-    top: 31px;
+    top: 1.938rem;
     position: absolute;
     overflow: visible;
-    width: 98px;
+    width: 6.125rem;
     white-space: nowrap;
     text-align: center;
     font-family: 'Noto Sans KR', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 1.125rem;
     color: rgba(13, 13, 13, 1);
   }
 }
@@ -1201,20 +1200,11 @@ body {
 
 @media screen and (max-width: 767px) {
   #chain {
-    left: 8%;
-    top: 99px;
-    position: absolute;
-    overflow: visible;
-    width: 83.75%;
-    white-space: nowrap;
-    text-align: left;
-    font-family: 'Noto Sans KR', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    color: rgba(13, 13, 13, 1);
-    border-bottom: 2px solid #0D0D0D;
-    padding-bottom: 5px;
+    left: 8vw;
+    top: 6.188rem;
+    width: 83.75vw;
+    font-size: 1.5rem;
+    padding-bottom: 0.65vw;
   }
 }
 
@@ -1231,9 +1221,9 @@ body {
   #map iframe {
     position: absolute;
     width: 83.75%;
-    height: 215px;
-    left: 8%;
-    top: 160px;
+    height: 13.438rem;
+    left: 8vw;
+    top: 10rem;
     overflow: visible;
   }
 }
@@ -1255,18 +1245,12 @@ body {
 
 @media screen and (max-width: 767px) {
   #add {
-    left: 8%;
-    top: 395px;
+    left: 8vw;
+    top: 24.688rem;
     position: absolute;
     overflow: visible;
-    width: 50px;
-    white-space: nowrap;
-    text-align: left;
-    font-family: 'Noto Sans KR', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    color: rgba(13, 13, 13, 1);
+    width: 6.52vw;
+    font-size: 1.125rem;
   }
 }
 
@@ -1287,18 +1271,13 @@ body {
 
 @media screen and (max-width: 767px) {
   #tel {
-    left: 8%;
-    top: 494px;
+    left: 8vw;
+    top: 30.875rem;
     position: absolute;
     overflow: visible;
-    width: 50px;
-    white-space: nowrap;
-    text-align: left;
-    font-family: 'Noto Sans KR', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    color: rgba(13, 13, 13, 1);
+    width: 5vw;
+    font-size: 1.125rem;
+
   }
 }
 
@@ -1319,18 +1298,13 @@ body {
 
 @media screen and (max-width: 767px) {
   #fax {
-    left: 8%;
-    top: 566px;
+    left: 8vw;
+    top: 35.375rem;
     position: absolute;
     overflow: visible;
-    width: 50px;
-    white-space: nowrap;
-    text-align: left;
-    font-family: 'Noto Sans KR', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    color: rgba(13, 13, 13, 1);
+    width: 5vw;
+    font-size: 1.125rem;
+
   }
 }
 
@@ -1351,18 +1325,12 @@ body {
 
 @media screen and (max-width: 767px) {
   #hour {
-    left: 8%;
-    top: 638px;
+    left: 8vw;
+    top: 39.875rem;
     position: absolute;
     overflow: visible;
-    width: 75px;
-    white-space: nowrap;
-    text-align: left;
-    font-family: 'Noto Sans KR', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    color: rgba(13, 13, 13, 1);
+    width: 9.78vw;
+    font-size: 1.125rem;
   }
 }
 
@@ -1382,18 +1350,12 @@ body {
 
 @media screen and (max-width: 767px) {
   #addbody {
-    left: 34%;
+    left: 34vw;
     top: 395px;
     position: absolute;
     overflow: visible;
-    width: 180px !important;
     line-height: 27px !important;
-    text-align: left;
-    font-family: 'Noto Sans KR', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    color: rgba(13, 13, 13, 1);
+    font-size: 1.125rem;
   }
 }
 
@@ -1413,18 +1375,13 @@ body {
 
 @media screen and (max-width: 767px) {
   #telnumber {
-    left: 34%;
-    top: 494px;
+    left: 34vw;
+    top: 30.875rem;
     position: absolute;
     overflow: visible;
-    width: 190px;
-    white-space: nowrap;
-    text-align: left;
-    font-family: 'Noto Sans KR', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    color: rgba(13, 13, 13, 1);
+
+    font-size: 1.125rem;
+
   }
 }
 
@@ -1444,18 +1401,12 @@ body {
 
 @media screen and (max-width: 767px) {
   #faxnumber {
-    left: 34%;
-    top: 566px;
+    left: 34vw;
+    top: 35.375rem;
     position: absolute;
     overflow: visible;
-    width: 507px;
-    text-align: left;
-    font-family: 'Noto Sans KR', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    color: rgba(13, 13, 13, 1);
-  }
+    font-size: 1.125rem;
+   }
 }
 
 #hourbody {
@@ -1474,18 +1425,13 @@ body {
 
 @media screen and (max-width: 767px) {
   #hourbody {
-    left: 34%;
-    top: 638px;
+    left: 34vw;
+    top: 39.875rem;
     position: absolute;
     overflow: visible;
-    width: 191px;
-    line-height: 27px !important;
-    text-align: left;
-    font-family: 'Noto Sans KR', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    color: rgba(13, 13, 13, 1);
+    line-height: 1.688rem!important;
+    font-size: 1.125rem;
+
   }
 }
 
@@ -1500,12 +1446,9 @@ body {
 
 @media screen and (max-width: 767px) {
   .line04 {
-    overflow: visible;
-    position: absolute;
-    width: 83.75%;
-    height: 1px;
-    left: 8%;
-    top: 471px;
+    width: 83.75vw;
+    left: 8vw;
+    top: 29.438rem;
   }
 }
 
@@ -1538,13 +1481,10 @@ body {
 
 @media screen and (max-width: 767px) {
   .line06 {
-    overflow: visible;
-    position: absolute;
-    width: 83.75%;
-    height: 1px;
-    left: 8%;
-    top: 544px;
-    transform: matrix(1, 0, 0, 1, 0, 0);
+    width: 83.75vw;
+    left: 8vw;
+    top: 34rem;
+
   }
 }
 
@@ -1561,13 +1501,9 @@ body {
 
 @media screen and (max-width: 767px) {
   .line07 {
-    overflow: visible;
-    position: absolute;
-    width: 83.75%;
-    height: 1px;
-    left: 8%;
-    top: 616px;
-    transform: matrix(1, 0, 0, 1, 0, 0);
+    width: 83.75vw;
+    left: 8vw;
+    top: 38.5rem;
   }
 }
 
@@ -1583,12 +1519,13 @@ body {
 
 @media screen and (max-width: 767px) {
   #service {
-    height: 760px;
+    height: 47.5rem;
     width: 100vw;
     position: absolute !important;
     overflow: visible;
-    left: 0px;
-    top: 3040px;
+    left: 0vw;
+    top: 190rem;
+
   }
 }
 
@@ -1610,16 +1547,9 @@ body {
   #service span {
     left: 50%;
     transform: translateX(-50%);
-    top: 31px;
-    position: absolute;
-    overflow: visible;
-    white-space: nowrap;
-    text-align: center;
-    font-family: 'Noto Sans KR', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    color: rgba(0, 0, 0, 1);
+    top: 1.938rem;
+    font-size: 1.125rem;
+
   }
 }
 
@@ -1632,18 +1562,6 @@ body {
   top: 19.5vw;
 }
 
-@media screen and (max-width: 767px) {
-  .line01 {
-    overflow: visible;
-    position: absolute;
-    width: 83.75%;
-    height: 1px;
-    left: 8%;
-    top: 173px;
-    transform: matrix(1, 0, 0, 1, 0, 0);
-  }
-}
-
 .line02 {
   border-bottom: 1px solid #D9D9D9;
   overflow: visible;
@@ -1652,51 +1570,15 @@ body {
   left: 13.8vw;
   top: 28vw;
 }
+
 @media screen and (max-width: 1024px) {
   .line01, .line02 {
     display: none;
   }
 }
-@media screen and (max-width: 767px) {
-  .line02 {
-    overflow: visible;
-    position: absolute;
-    width: 83.75%;
-    height: 1px;
-    left: 8%;
-    top: 285px;
-    transform: matrix(1, 0, 0, 1, 0, 0);
-  }
-}
 
 .line01_1.line02_1 {
   display: none;
-}
-
-@media screen and (max-width: 767px) {
-  .line01_1 {
-    border-bottom: 1px solid #D9D9D9;
-    overflow: visible;
-    position: absolute;
-    width: 83.75%;
-    height: 1px;
-    left: 8%;
-    top: 396px;
-    transform: matrix(1, 0, 0, 1, 0, 0);
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .line02_1 {
-    border-bottom: 1px solid #D9D9D9;
-    overflow: visible;
-    position: absolute;
-    width: 83.75%;
-    height: 1px;
-    left: 8%;
-    top: 507px;
-    transform: matrix(1, 0, 0, 1, 0, 0);
-  }
 }
 
 label {
@@ -1709,14 +1591,9 @@ label {
 
 @media screen and (max-width: 767px) {
   label {
-    font-family: 'Noto Sans KR', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    display: block;
+    font-size: 0.875rem;
+    left: 38px;
     overflow: visible;
-    left: 52%;
-    transform: translateX(-52%);
     text-align: left;
   }
 }
@@ -1743,22 +1620,16 @@ input[type=text], input[type=email], textarea {
 
 @media screen and (max-width: 767px) {
   input[type=text], input[type=email], textarea {
-    width: 83.75vw !important;
-    height: 50px;
-    border: 1px solid #D9D9D9;
-    border-radius: 0px;
-    box-sizing: border-box;
-    margin-bottom: 37px;
-    filter: drop-shadow(0px 1px 20px rgba(0, 0, 0, 0.071));
-    outline: none;
-    left: 62%;
-    transform: translateX(-62%);
+    width: 89.90vw !important;
+    height: 6.52vw;
+    margin-bottom:4.82vw;
+    left: 4.95vw!important;
   }
 }
 
 @media screen and (max-width: 767px) {
   textarea {
-    width: 83.75vw !important;
+    width: 89.90vw !important;
     height: 143px !important;
     padding: 20px;
   }
@@ -1788,18 +1659,11 @@ input[type=text], input[type=email], textarea {
 @media screen and (max-width: 767px) {
   #my-form-button {
     padding: 5px 0px;
-    width: 83vw;
-    height: 28px;
-    overflow: visible;
-    text-align: center;
-    font-family: 'Noto Sans KR', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    outline: none;
-    left: 50%;
-    transform: translateX(-50%);
-    top: 713px;
+    width: 89.90vw;
+    height: 1.75rem;
+    left: 4.95vw;
+    font-size: 0.75rem;
+    top:44.563rem;
     position: absolute;
   }
 }
@@ -1817,13 +1681,9 @@ input[type=text], input[type=email], textarea {
 
 @media screen and (max-width: 767px) {
   .container {
-    left: 0px;
-    top: 0px;
+    left: 0vw;
+    top: 0rem;
     position: absolute;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
-    text-align: center;
   }
 }
 
@@ -1845,18 +1705,16 @@ input[type=text], input[type=email], textarea {
 @media screen and (max-width: 767px) {
   .line {
     display: block;
-    left: 38px;
-    top: 74px;
-    position: absolute;
-    overflow: visible;
+    left: 4.95vw;
+    top: 4.625rem;
   }
 }
 
 @media screen and (max-width: 767px) {
   .row {
     display: inline;
-    left: 38px;
-    top: 409px;
+    left: 4.95vw;
+    top: 25.563rem;
     position: absolute;
     overflow: visible;
   }
@@ -1876,9 +1734,9 @@ input[type=text], input[type=email], textarea {
     position: absolute;
     overflow: visible;
     width: 100vw;
-    height: 192px;
-    left: 0px;
-    top: 3800px;
+    height: 12rem;
+    left: 0vw;
+    top: 237.5rem;
   }
 }
 
@@ -1897,9 +1755,9 @@ input[type=text], input[type=email], textarea {
     position: absolute;
     overflow: visible;
     width: 100vw;
-    height: 192px;
-    left: 0px;
-    top: 0px;
+    height: 12rem;
+    left: 0vw;
+    top: 0rem;
   }
 }
 
@@ -1920,19 +1778,11 @@ input[type=text], input[type=email], textarea {
 
 @media screen and (max-width: 767px) {
   #footercontents01 {
-    opacity: 0.32;
-    left: 8%;
-    top: 91px;
-    position: absolute;
-    overflow: visible;
-    width: 290px;
-    text-align: left;
-    font-family: 'Noto Sans KR', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 9px;
-    color: rgba(242, 242, 242, 1);
-  }
+    left: 8vw;
+    top: 5.688rem;
+    font-size: 0.563rem;
+    white-space:nowrap;
+ }
 }
 
 #topbtn {
@@ -1947,12 +1797,12 @@ input[type=text], input[type=email], textarea {
 @media screen and (max-width: 767px) {
   #topbtn {
     position: absolute;
-    width: 30px;
-    height: 29px;
-    left: 83.5%;
-    top: 25px;
+    width: 3.91vw;
+    height: 1.813rem;
+    left: 83.5vw;
+    top: 1.563rem;
     overflow: visible;
-    transform: scale(0.5);
+
   }
 }
 
@@ -1967,12 +1817,9 @@ input[type=text], input[type=email], textarea {
 
 @media screen and (max-width: 767px) {
   #footerlogo {
-    transform: scale(0.6);
-    position: absolute;
-    width: 98.89px;
-    height: 27.92px;
-    left: 3.7%;
-    top: 47px;
-    overflow: visible;
-  }
+    width: 12.89vw;
+    height: 1.745rem;
+    left:8vw;
+    top: 2.938rem;
+   }
 }
