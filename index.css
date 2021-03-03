@@ -883,9 +883,9 @@ body {
 
 @media screen and (max-width: 767px) {
   .spec01mob, .spec02mob, .spec03mob {
-    display: block;
-    left: 50vw;
-    width: 50vw;
+    display:block;
+    width: 315px;
+    left:0px;
     margin:auto;
   }
 }
@@ -897,25 +897,25 @@ body {
 
 @media screen and (max-width: 767px) {
   .spec011 {
-    width: 40vw;
-    left: 5vw;
-    top:30vw;
-    position: relative;
+    width: 50vw;
+    left: 40vw;
+    margin-left: -25vw;
+    top: 7rem;
     border:0.031rem solid #D9D9D9;
-    margin: 0rem 5rem;
+    position: relative;
   }
 }
 
 @media screen and (max-width: 767px) {
   .spec021, .spec031 {
-    width: 40vw;
+    width: 50vw;
     position: relative;
     left: 4vw;
-    top: 9vw;
+    top: 0vw;
   }
 }
 
-.modlacontent01 span, .modlacontent02 span, .modlacontent03 span {
+.modlacontent01 span {
   text-align: center;
   display: block;
   margin: auto;
@@ -931,15 +931,14 @@ body {
 
 @media screen and (max-width: 767px) {
   .modlacontent01 span {
-    text-align: center;
-    left: 5vw;
-    top: 28vw;
+    left: 21vw;
+    top: 115px;
+    padding-top: 20px;
     position: relative;
     white-space: nowrap;
     font-size: 0.75rem;
   }
 }
-
 /*닫기버튼
 .close {
   position: fixed;
