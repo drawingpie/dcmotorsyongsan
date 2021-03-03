@@ -988,8 +988,12 @@ body {
     margin-left:16vw;
     width: 110px;
     height: auto;
-    top: 1vw;
     position: sticky;
+   }
+}
+@media screen and (max-width: 767px) {
+  .gallery-thumbs .swiper-slide {
+    top: 1vw;
    }
 }
 
