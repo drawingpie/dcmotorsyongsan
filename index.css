@@ -972,22 +972,6 @@ body {
     height: 119px;
   }
 }
-@media screen and (max-width: 767px) {
-  .gallery-thumbs .smallimg {
-    width: 110px;
-    height: auto;
-    position:  initial;
-   }
-}
-@media screen and (max-width: 767px) {
-  .gallery-thumbs .swiper-slide {
-    top: 1vw;
-    left: 19%;
-    width: 90px;
-    margin-left: -45px;
-    padding-right: 40px;
-   }
-}
 
 .gallery-thumbs .smallimg {
   left: 17vw;
