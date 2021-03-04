@@ -184,18 +184,19 @@ body {
 
 @media screen and (max-width: 767px) {
   #sidebar a {
+    width: 6.25rem;
     z-index: 999;
     color: #0D0D0D;
-    padding: 5vw;
     text-decoration: none;
     text-align: center;
     display: block;
-    font-size: 3vw;
+    font-size: 1.438rem;
     font-family: 'Noto Sans KR', sans-serif;
     font-style: normal;
     font-weight: 700;
-    margin-right: 55vw;
-    margin-left: 10vw;
+    margin-top: 3.125rem;
+    margin-right: 57vw;
+    margin-left: 20vw;
   }
 
   #sidebar a:active {
