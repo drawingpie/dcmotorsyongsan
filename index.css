@@ -984,15 +984,16 @@ body {
 
 @media screen and (max-width: 767px) {
   .gallery-thumbs .smallimg {
-    margin-left:16vw;
-    width: 110px;
+    margin-left: -50px;
+    width: 100px;
     height: auto;
-    position: sticky;
+    position: relative;
+    left: 100%;
    }
 }
 @media screen and (max-width: 767px) {
   .gallery-thumbs .swiper-slide {
-    top: 1vw;
+    top: 3vw;
    }
 }
 
