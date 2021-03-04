@@ -966,7 +966,12 @@ body {
   background-color: #D9D9D9;
   z-index: 9 !important;
 }
-
+@media screen and (max-width: 767px) {
+  .gallery-thumbs {
+    top: 40.063rem !important;
+    height: 119px;
+  }
+}
 @media screen and (max-width: 767px) {
   .gallery-thumbs .smallimg {
     width: 110px;
