@@ -69,7 +69,8 @@ body {
     top: -0vw;
     left: -100vw;
     overflow-x: hidden;
-}
+  }
+
   .youtubevideowrapperdiv video {
     width: 1920px;
     height: 1080px;
@@ -169,7 +170,7 @@ body {
 @media screen and (max-width: 767px) {
   #sidebar {
     display: block;
-    width:90vw;
+    width: 90vw;
     position: fixed;
     top: 0;
     left: 100vw;
@@ -178,7 +179,6 @@ body {
     transition: all 0.3s;
     background: #F2F2F2;
     padding-top: 26.08vw;
-
   }
 }
 
@@ -328,23 +328,27 @@ body {
   height: auto;
   overflow: visible;
 }
-.aboutbgmob{
+
+.aboutbgmob {
   display: none;
 }
+
 @media screen and (max-width: 767px) {
- #chainabout {
-   width: 100vw;
-   height: 47.5rem;
-   top: 47.5rem;
-   left:0rem;
-   overflow: hidden;
+  #chainabout {
+    width: 100vw;
+    height: 47.5rem;
+    top: 47.5rem;
+    left: 0rem;
+    overflow: hidden;
   }
 }
+
 @media screen and (max-width: 767px) {
   .aboutbg {
     display: none;
   }
 }
+
 @media screen and (max-width: 767px) {
   .aboutbgmob {
     display: block;
@@ -352,6 +356,7 @@ body {
     height: 47.5rem;
   }
 }
+
 #aboutus {
   left: 45.8vw;
   top: 7.81vw;
@@ -517,7 +522,7 @@ body {
     width: 100vw;
     height: 47.5rem;
     top: 95rem;
-    left:0rem;
+    left: 0rem;
     overflow: hidden;
   }
 }
@@ -766,7 +771,6 @@ body {
     line-height: 1.75rem;
     font-size: 1.063rem;
     text-align: center;
-
   }
 }
 
@@ -843,11 +847,13 @@ body {
   overflow: hidden;
   background-color: rgba(0, 0, 0, 0.7);
 }
+
 @media screen and (max-width: 767px) {
   .mask {
     height: 100%;
   }
 }
+
 .modlacontent01, .modlacontent02, .modlacontent03 {
   background-color: #fff;
   position: absolute;
@@ -885,10 +891,10 @@ body {
 
 @media screen and (max-width: 767px) {
   .spec01mob, .spec02mob, .spec03mob {
-    display:block;
+    display: block;
     width: 315px;
-    left:0px;
-    margin:auto;
+    left: 0px;
+    margin: auto;
   }
 }
 
@@ -903,7 +909,7 @@ body {
     left: 40vw;
     margin-left: -25vw;
     top: 7rem;
-    border:0.031rem solid #D9D9D9;
+    border: 0.031rem solid #D9D9D9;
     position: relative;
   }
 }
@@ -941,6 +947,7 @@ body {
     font-size: 0.75rem;
   }
 }
+
 /*닫기버튼
 .close {
   position: fixed;
@@ -966,6 +973,7 @@ body {
   background-color: #D9D9D9;
   z-index: 9 !important;
 }
+
 @media screen and (max-width: 767px) {
   .gallery-thumbs {
     top: 40.063rem !important;
@@ -989,12 +997,13 @@ body {
     height: auto;
     position: relative;
     left: 100%;
-   }
+  }
 }
+
 @media screen and (max-width: 767px) {
   .gallery-thumbs .swiper-slide {
     top: 3vw;
-   }
+  }
 }
 
 .smallimg:hover {
@@ -1027,20 +1036,21 @@ body {
     transform: rotate(1deg)
   }
 }
+
 .gallery-thumbs span {
-   margin-left: -118px;
-   width: 236px;
-   top: 7.5vw;
-   left: 93%;
-   position: absolute;
-   text-align: center;
-   font-family: 'Noto Sans KR', sans-serif;
-   font-style: normal;
-   font-weight: 700;
-   font-size: 0.94vw;
-   color: #0D0D0D;
-   white-space:nowrap;
-  }
+  margin-left: -118px;
+  width: 236px;
+  top: 7.5vw;
+  left: 93%;
+  position: absolute;
+  text-align: center;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.94vw;
+  color: #0D0D0D;
+  white-space: nowrap;
+}
 
 @media screen and (max-width: 767px) {
   .gallery-thumbs span {
@@ -1050,7 +1060,7 @@ body {
     left: 100%;
     white-space: nowrap;
     font-size: 0.688rem;
-   }
+  }
 }
 
 #contact {
@@ -1222,7 +1232,6 @@ body {
     overflow: visible;
     width: 5vw;
     font-size: 1.125rem;
-
   }
 }
 
@@ -1249,7 +1258,6 @@ body {
     overflow: visible;
     width: 5vw;
     font-size: 1.125rem;
-
   }
 }
 
@@ -1305,6 +1313,15 @@ body {
   }
 }
 
+@media screen and (max-width: 767px) {
+  .addbody_detail {
+    font-size: 0.7rem;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+  }
+}
+
 #telnumber {
   left: 60.2vw;
   top: 26.56vw;
@@ -1327,7 +1344,6 @@ body {
     overflow: visible;
     width: 39.11vw;
     font-size: 1.125rem;
-
   }
 }
 
@@ -1353,7 +1369,7 @@ body {
     overflow: visible;
     font-size: 1.125rem;
     width: 39.11vw;
-   }
+  }
 }
 
 #hourbody {
@@ -1376,10 +1392,9 @@ body {
     top: 39.875rem;
     position: absolute;
     overflow: visible;
-    line-height: 1.688rem!important;
+    line-height: 1.688rem !important;
     font-size: 1.125rem;
     width: 55vw;
-
   }
 }
 
@@ -1432,7 +1447,6 @@ body {
     width: 83.75vw;
     left: 8vw;
     top: 34rem;
-
   }
 }
 
@@ -1473,7 +1487,6 @@ body {
     overflow: visible;
     left: 0vw;
     top: 190rem;
-
   }
 }
 
@@ -1497,7 +1510,6 @@ body {
     transform: translateX(-50%);
     top: 1.938rem;
     font-size: 1.125rem;
-
   }
 }
 
@@ -1570,8 +1582,8 @@ input[type=text], input[type=email], textarea {
   input[type=text], input[type=email], textarea {
     width: 89.90vw !important;
     height: 3.125rem;
-    margin-bottom:2.313rem;
-    left: 4.95vw!important;
+    margin-bottom: 2.313rem;
+    left: 4.95vw !important;
     font-size: 0.313rem;
   }
 }
@@ -1612,7 +1624,7 @@ input[type=text], input[type=email], textarea {
     height: 1.75rem;
     left: 4.95vw;
     font-size: 0.75rem;
-    top:44.563rem;
+    top: 44.563rem;
     position: absolute;
   }
 }
@@ -1720,7 +1732,7 @@ input[type=text], input[type=email], textarea {
   font-weight: 500;
   font-size: 0.83vw;
   color: rgba(242, 242, 242, 1);
-  }
+}
 
 @media screen and (max-width: 767px) {
   #footercontents01 {
@@ -1728,7 +1740,7 @@ input[type=text], input[type=email], textarea {
     top: 5.688rem;
     font-size: 0.563rem;
     width: 17.75rem;
- }
+  }
 }
 
 #topbtn {
@@ -1748,7 +1760,6 @@ input[type=text], input[type=email], textarea {
     left: 83.5vw;
     top: 1.563rem;
     overflow: visible;
-
   }
 }
 
@@ -1765,7 +1776,7 @@ input[type=text], input[type=email], textarea {
   #footerlogo {
     width: 6.188rem;
     height: 1.745rem;
-    left:8vw;
+    left: 8vw;
     top: 2.938rem;
-   }
+  }
 }
