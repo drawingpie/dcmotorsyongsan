@@ -1079,26 +1079,25 @@ body {
 }
 
 @media screen and (max-width: 767px) {
- .slide-text01 {
-    left: 5vw;
-    top:85px;
+ span .slide-text01 {
+    left: 18.5px;
+    top:65px;
     white-space: nowrap;
-    font-size: 1.46vw;
+    font-size: 0.688rem;
   }
-  .slide-text02 {
-    left: 7vw;
-    top:85px;
+ span .slide-text02 {
+    left: 19.5vw;
+    top:65px;
     white-space: nowrap;
-    font-size: 1.46vw;
+    font-size: 0.688rem;
   }
-  .slide-text03 {
-    left: 3vw;
-    top:85px;
+ span .slide-text03 {
+    left: 17.5vw;
+    top:65px;
     white-space: nowrap;
-    font-size: 1.46vw;
+    font-size: 0.688rem;
   }
 }
-
 
 #contact {
   position: absolute;
