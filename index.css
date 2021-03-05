@@ -1364,7 +1364,7 @@ body {
 }
 
 .line04 {
-  border-top: 0.05vw solid #D9D9D9;
+  border-top: 1px solid #D9D9D9;
   overflow: visible;
   position: absolute;
   width: 33.18vw;
