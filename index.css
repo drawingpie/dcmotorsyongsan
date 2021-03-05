@@ -1,17 +1,3 @@
-.browsehappy {
-  vertical-align: middle;
-  text-align: center;
-  padding: 4px 0;
-  font-size: 13px;
-  background: #fb4637;
-  color: #fff;
-}
-
-.browsehappy>a {
-  color: #fff;
-  text-decoration: underline;
-}
-
 @font-face {
   font-family: 'Noto Sans KR';
   font-style: normal;
