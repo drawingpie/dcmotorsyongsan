@@ -61,7 +61,7 @@ body {
   height: 56.25vw;
 }
 
-@media (orientation: portrait) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .video-container {
     position: absolute;
     width: 100%;
