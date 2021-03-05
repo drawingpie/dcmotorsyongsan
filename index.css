@@ -61,23 +61,25 @@ body {
   height: 56.25vw;
 }
 
-@media screen and (max-width: 767px) {
-  .videowrap16-9blind {
+@media (orientation: portrait) and (max-width: 767px) {
+  .video-container {
+    position: absolute;
+    width: 100%;
+    height: 760px;
+  }
+
+  #dcvideo {
     position: absolute;
     width: 100vw;
     height: 760px;
-    top: 0vw;
-    left: -0vw;
-  }
-
-  .videowrap16-9blind video {
-    width: auto;
-    height: 760px;
-    top: 0vw;
-    left: -150vw;
+    object-fit: cover;
   }
 
   .videowrap {
+    position: absolute;
+    top: 0px;
+    width: 100vw;
+    height: 760px;
     overflow-x: hidden;
   }
 }
