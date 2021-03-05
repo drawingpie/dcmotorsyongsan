@@ -53,7 +53,7 @@ body {
   overflow: visible;
 }
 
-#dcvideo video {
+.videowrap16-9blind video {
   position: absolute;
   top: 0vw;
   left: 0vw;
@@ -72,7 +72,7 @@ body {
     overflow-x: hidden;
   }
 
-  .videowrap video {
+  .videowrap16-9blind video {
     width: 1920px;
     height: 1080px;
     overflow-x: hidden;
