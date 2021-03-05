@@ -64,24 +64,24 @@ body {
 @media screen and (max-width: 767px) {
   .videowrap16-9blind {
     position: absolute;
-    width: 1920px;
-    height: 1080px;
-    top: -100px;
-    left: 50%;
-    margin-left: -960px;
-    overflow-x: hidden;
+    width: 100vw;
+    height: 760px;
+    top: 0vw;
+    left: -0vw;
   }
 
   .videowrap16-9blind video {
-    width: 1920px;
-    height: 1080px;
-    overflow-x: hidden;
+    width: auto;
+    height: 760px;
+    top: 0vw;
+    left: -150vw;
   }
 
   .videowrap {
     overflow-x: hidden;
   }
 }
+
 .header {
   position: fixed;
   top: 0;
