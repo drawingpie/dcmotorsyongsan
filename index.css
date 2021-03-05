@@ -44,7 +44,7 @@ body {
   }
 }
 
-.youtubevideowrapperdiv16-9blind {
+.videowrap16-9blind {
   position: absolute;
   width: 100vw;
   height: 56.25vw;
@@ -53,7 +53,7 @@ body {
   overflow: visible;
 }
 
-.youtubevideowrapperdiv video {
+#dcvideo video {
   position: absolute;
   top: 0vw;
   left: 0vw;
