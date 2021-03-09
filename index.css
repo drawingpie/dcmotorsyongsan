@@ -294,8 +294,8 @@ body {
 
 .dclogo {
   position: absolute;
-  width: 8.29vw;
-  height: 1.67vw;
+  width: 6.31vw;
+  height: 2.03vw;
   left: 18vw;
   top: 1.30vw;
   overflow: visible;
@@ -1722,10 +1722,10 @@ input[type=text], input[type=email], textarea {
 
 #footerlogo {
   position: absolute;
-  width: 10.68vw;
-  height: 2.64vw;
-  left: 15.7vw;
-  top: 3.96vw;
+  width: 5.01vw;
+  height: 2.67vw;
+  left: 22.56vw;
+  top: 4.2vw;
   overflow: visible;
 }
 

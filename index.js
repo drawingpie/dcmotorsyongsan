@@ -68,12 +68,9 @@ $(function() {
     if (scroll >= rollHeader) {
       $('.header').addClass('scroll').css("background-color", "#fff");
       $('.navi .menu a').addClass('scroll').css("color", "#0D0D0D");
-      $('.dclogob').addClass('scroll').css("display", "block");
-      $('#dclogo').removeClass('scroll').css("display", "none");
     } else {
       $('.header').removeClass('scroll').css("background-color", "transparent");
       $('.navi .menu a').removeClass('scroll').css("color", "#fff");
-      $('.dclogob').removeClass('scroll').css("display", "none");
     }
   });
 
