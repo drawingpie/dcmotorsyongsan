@@ -297,17 +297,8 @@ body {
   width: 6.31vw;
   height: 2.03vw;
   left: 18vw;
-  top: 1.30vw;
+  top: 1.04vw;
   overflow: visible;
-}
-
-.dclogob {
-  position: absolute;
-  width: 8.29vw;
-  height: 1.67vw;
-  left: 18vw;
-  top: 1.30vw;
-  overflow: hidden;
 }
 
 #chainabout {
