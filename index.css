@@ -1587,6 +1587,9 @@ input[type=text], input[type=email], textarea {
     font-size: 0.75rem;
     top: 44.563rem;
   }
+  #my-form-button:active {
+    background-color: #67A9E5;
+  }
 }
 
 .container {
