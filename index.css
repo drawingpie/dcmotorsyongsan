@@ -370,11 +370,12 @@ body {
 }
 
 .welcome {
-  left: 33.5vw;
-  top: 13.02vw;
+  left: 50vw;
+  top: 15.68vw;
   position: absolute;
   overflow: visible;
-  width: 32.29vw;
+  width: 36.77vw;
+  margin-left: -18.385vw;
   line-height: 3.07vw;
   text-align: center;
   font-family: 'Noto Sans KR', sans-serif;
@@ -396,14 +397,15 @@ body {
 }
 
 .welcomebody {
-  left: 31.7vw;
-  top: 22.34vw;
+  left: 50vw;
+  top: 24.95vw;
   position: absolute;
   overflow: visible;
-  width: 36.51vw;
+  width: 43.49vw;
   height: 9.53vw;
   line-height: 2.34vw;
   margin-top: -10px;
+  margin-left: -21.695vw;
   text-align: center;
   font-family: 'Noto Sans KR', sans-serif;
   font-style: normal;
