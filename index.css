@@ -1528,7 +1528,11 @@ input[type=text], input[type=email], textarea {
   resize: vertical;
   filter: drop-shadow(0px 1px 20px rgba(0, 0, 0, 0.071));
   outline: none;
-  font-size: 0.7vw;
+  font-size: 1.2vw;
+}
+
+::placeholder {
+  font-size: 0.5em;
 }
 
 @media screen and (max-width: 767px) {
@@ -1537,7 +1541,7 @@ input[type=text], input[type=email], textarea {
     height: 3.125rem;
     margin-bottom: 2.313rem;
     left: 4.95vw !important;
-    font-size: 0.5rem;
+    font-size: 1rem;
   }
 }
 
@@ -1545,7 +1549,7 @@ input[type=text], input[type=email], textarea {
   textarea {
     width: 89.90vw !important;
     height: 143px !important;
-    padding: 20px;
+    padding: 7px;
   }
 }
 
