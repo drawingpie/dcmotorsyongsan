@@ -1,13 +1,3 @@
-//반응형마우스오버 후 효과 제거//
-$('#my-form-button').on({
-  'touchstart': function() {
-    $(this).addClass('fake-active');
-  },
-  'touchend': function() {
-    $(this).removeClass('fake-active');
-  }
-});
-
 //슬라이드//
 var galleryThumbs = new Swiper('.gallery-thumbs', {
   spaceBetween: 10,
