@@ -83,10 +83,8 @@ body {
   top: 0;
   left: 0vw;
   width: 100vw;
-  /*스크롤 전 헤더 배경색*/
   z-index: 999;
   height: 4.17vw;
-  /*메뉴영역 세로사이즈*/
   overflow: hidden;
   line-height: 4.17vw;
   -webkit-transition: height 0.3s;
@@ -97,15 +95,12 @@ body {
 
 .header.scroll {
   height: 4.17vw;
-  /*스크롤 후 헤더 사이즈(세로)*/
   line-height: 4.17vw;
-  /*스크롤 후 헤더 배경색*/
   z-index: 9999;
 }
 
 .header .navi {
   width: 100vw;
-  /*메뉴영역 가로사이즈*/
   margin: 0 auto;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
@@ -143,7 +138,6 @@ body {
   border-bottom: 5px solid #99C8F2;
 }
 
-/*스크롤 전*/
 .header .scroll .navi .menu a {
   height: 4.17vw;
   overflow: visible;
