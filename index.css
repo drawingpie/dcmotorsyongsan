@@ -1574,6 +1574,10 @@ input[type=text], input[type=email], textarea {
   position: absolute;
 }
 
+#my-form-button:hover {
+  background-color: #67A9E5;
+}
+
 @media screen and (max-width: 767px) {
   #my-form-button {
     padding: 5px 0px;
@@ -1585,8 +1589,10 @@ input[type=text], input[type=email], textarea {
   }
 }
 
-#my-form-button:active {
-  background-color: #67A9E5;
+@media screen and (max-width: 767px) {
+  #my-form-button:active {
+    background-color: #67A9E5 !important;
+  }
 }
 
 .container {
