@@ -1581,7 +1581,7 @@ input[type=text], input[type=email], textarea {
   }
 }
 
-#my-form-button:hover {
+#my-form-button:active {
   background-color: #67A9E5;
 }
 
