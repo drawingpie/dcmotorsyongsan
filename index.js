@@ -1,3 +1,6 @@
+//반응형마우스오버 후 효과 제거//
+$(document).on("touchstart", function(){ });
+
 //슬라이드//
 var galleryThumbs = new Swiper('.gallery-thumbs', {
   spaceBetween: 10,

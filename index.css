@@ -1589,12 +1589,6 @@ input[type=text], input[type=email], textarea {
   }
 }
 
-@media screen and (max-width: 767px) {
-  #my-form-button:active {
-    background-color: #67A9E5 !important;
-  }
-}
-
 .container {
   left: 13.7vw;
   top: 11.46vw;
