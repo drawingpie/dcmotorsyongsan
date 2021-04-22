@@ -1162,14 +1162,17 @@ body {
     font-size: 1rem;
   }
 }
+
 .mobile {
   display: none;
 }
+
 @media screen and (max-width: 767px) {
   .mobile {
     display: block;
   }
 }
+
 #tel {
   left: 53.3vw;
   top: 26.09vw;
