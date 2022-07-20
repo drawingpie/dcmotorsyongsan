@@ -989,10 +989,10 @@ body {
   }
   .gallery-thumbs .smallimg1 {
     margin-left: -50px;
-    width: 100px;
+    width: 90px;
     height: auto;
-    left: 100%;
-    top: 0.1vw
+    left: 25vw;
+    top: -1vw;
   }
 }
 
