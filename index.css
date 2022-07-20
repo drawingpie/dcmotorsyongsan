@@ -594,15 +594,22 @@ body {
   z-index: 9;
 }
 @media screen and (max-width: 767px) {
-  .gallery-top .bigimg,
-  .gallery-top .bigimg1 {
+  .gallery-top .bigimg {
     left: 50vw;
     height: auto;
     top: 15.625rem;
     width: 16.625rem;
     margin-left: -8.313rem;
   }
+  .gallery-top .bigimg1 {
+    left: 50vw;
+    height: auto;
+    top: 15.625rem;
+    width: 14rem;
+    margin-left: -8.313rem;
+  }
 }
+
 
 .gallery-top {
   height: 35.16vw;
