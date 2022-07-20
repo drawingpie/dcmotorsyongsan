@@ -887,7 +887,9 @@ body {
   }
 }
 
-.modlacontent01 span {
+.modlacontent01 span,
+.modlacontent02 span,
+.modlacontent03 span {
   text-align: center;
   display: block;
   margin: auto;
