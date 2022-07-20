@@ -989,7 +989,7 @@ body {
   }
 }
 
-.smallimg:hover {
+.smallimg:hover, .smallimg1:hover {
   animation: shake-right .7s cubic-bezier(.455, .03, .515, .955) both
 }
 
