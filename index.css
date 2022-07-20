@@ -981,6 +981,13 @@ body {
     height: auto;
     left: 100%;
   }
+  .gallery-thumbs .smallimg1 {
+    margin-left: -50px;
+    width: 100px;
+    height: auto;
+    left: 100%;
+    top: 0.1vw
+  }
 }
 
 @media screen and (max-width: 767px) {
