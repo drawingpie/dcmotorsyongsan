@@ -890,15 +890,12 @@ body {
     /* border: 0.031rem solid #D9D9D9; */
     position: relative;
   }
-}
-
-@media screen and (max-width: 767px) {
   .spec021, .spec031 {
     width: 300px;
     transform: translateX(-50%);
     left: 34vw;
     position: relative;
-    top: 5rem;
+    top: 30rem;
     margin-bottom: 3.125rem;
   }
 }
@@ -920,7 +917,9 @@ body {
 }
 
 @media screen and (max-width: 767px) {
-  .modlacontent01 span {
+  .modlacontent01 span,
+  .modlacontent02 span,
+  .modlacontent03 span {
     margin-left: -100px;
     width: 200px;
     left: 45vw;
