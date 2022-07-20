@@ -950,15 +950,23 @@ body {
 
 .gallery-thumbs .smallimg {
   left: 18.5vw;
+  top: 1vw;
+  width: 9vw;
+  position: relative;
+  z-index: 99;
+  cursor: pointer;
+}
+.gallery-thumbs .smallimg1 {
+  left: 18.5vw;
   top: 0.5vw;
   width: 9vw;
   position: relative;
   z-index: 99;
   cursor: pointer;
 }
-
 @media screen and (max-width: 767px) {
-  .gallery-thumbs .smallimg {
+  .gallery-thumbs .smallimg,
+  .gallery-thumbs .smallimg1 {
     margin-left: -50px;
     width: 100px;
     height: auto;
