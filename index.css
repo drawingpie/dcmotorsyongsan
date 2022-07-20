@@ -895,7 +895,7 @@ body {
     transform: translateX(-50%);
     left: 34vw;
     position: relative;
-    top: 30rem;
+    top: 35rem;
     margin-bottom: 3.125rem;
   }
 }
@@ -923,7 +923,7 @@ body {
     margin-left: -100px;
     width: 200px;
     left: 45vw;
-    top: 30rem;
+    top: 34rem;
     position: relative;
     white-space: nowrap;
     font-size: 0.75rem;
