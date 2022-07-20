@@ -584,9 +584,18 @@ body {
   overflow: visible;
   z-index: 9;
 }
-
+.gallery-top .bigimg1 {
+  width: 32vw;
+  height: auto;
+  left: 42vw;
+  top: 10.42vw;
+  position: absolute;
+  overflow: visible;
+  z-index: 9;
+}
 @media screen and (max-width: 767px) {
-  .gallery-top .bigimg {
+  .gallery-top .bigimg,
+  .gallery-top .bigimg1 {
     left: 50vw;
     height: auto;
     top: 15.625rem;
