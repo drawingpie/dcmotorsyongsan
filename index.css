@@ -917,7 +917,15 @@ body {
 }
 
 @media screen and (max-width: 767px) {
-  .modlacontent01 span,
+  .modlacontent01 span {
+    margin-left: -100px;
+    width: 200px;
+    left: 45vw;
+    top: 28rem;
+    position: relative;
+    white-space: nowrap;
+    font-size: 0.75rem;
+  }
   .modlacontent02 span,
   .modlacontent03 span {
     margin-left: -100px;
