@@ -887,15 +887,22 @@ body {
     width: 300px;
     left: 45vw;
     top: 26.5rem;
-    /* border: 0.031rem solid #D9D9D9; */
     position: relative;
   }
-  .spec021, .spec031 {
+  .spec021 {
     width: 300px;
     transform: translateX(-50%);
     left: 34vw;
     position: relative;
     top: 35rem;
+    margin-bottom: 3.125rem;
+  }
+  .spec031 {
+    width: 300px;
+    transform: translateX(-50%);
+    left: 34vw;
+    position: relative;
+    top: 30rem;
     margin-bottom: 3.125rem;
   }
 }
@@ -917,24 +924,24 @@ body {
 }
 
 @media screen and (max-width: 767px) {
-  .modlacontent01 span {
-    margin-left: -100px;
-    width: 200px;
-    left: 45vw;
-    top: 27rem;
-    position: relative;
-    white-space: nowrap;
-    font-size: 0.75rem;
-  }
+  .modlacontent01 span,
   .modlacontent02 span,
   .modlacontent03 span {
     margin-left: -100px;
     width: 200px;
     left: 45vw;
-    top: 34rem;
     position: relative;
     white-space: nowrap;
     font-size: 0.75rem;
+  }
+  .modlacontent01 span {
+    top: 27rem;
+  }
+  .modlacontent02 span {
+    top: 30rem;
+  }
+  .modlacontent03 span {
+    top: 30rem;
   }
 }
 
