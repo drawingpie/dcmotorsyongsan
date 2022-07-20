@@ -950,7 +950,7 @@ body {
 
 .gallery-thumbs .smallimg {
   left: 17vw;
-  top: 2vw;
+  top: 0vw;
   width: 10vw;
   position: relative;
   z-index: 99;
