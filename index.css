@@ -981,8 +981,7 @@ body {
   cursor: pointer;
 }
 @media screen and (max-width: 767px) {
-  .gallery-thumbs .smallimg,
-  .gallery-thumbs .smallimg1 {
+  .gallery-thumbs .smallimg {
     margin-left: -50px;
     width: 100px;
     height: auto;
